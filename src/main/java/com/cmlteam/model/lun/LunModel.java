@@ -4,7 +4,7 @@ import openchat.api.messenger.json.AbstractJson;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.Map;
+import java.util.List;
 
 /**
  * @author vgorin
@@ -15,5 +15,5 @@ import java.util.Map;
 @XmlRootElement
 public class LunModel extends AbstractJson {
 	@XmlElement
-	public Map<Long, Building> buildings;
+	public List<Building> buildings;
 }
