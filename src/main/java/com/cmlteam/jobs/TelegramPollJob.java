@@ -1,5 +1,7 @@
 package com.cmlteam.jobs;
 
+import com.cmlteam.model.lun.Building;
+import com.cmlteam.util.LunUtil;
 import com.cmlteam.util.PropertyUtil;
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.TelegramBotAdapter;
@@ -8,10 +10,13 @@ import com.pengrad.telegrambot.model.Update;
 import com.pengrad.telegrambot.request.GetUpdates;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.response.GetUpdatesResponse;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -19,6 +24,8 @@ import java.util.List;
  */
 @Component
 public class TelegramPollJob {
+
+    private static Logger log = LoggerFactory.getLogger(TelegramPollJob.class);
 
     private TelegramBot bot;
     private static int offset = -1;
@@ -39,8 +46,34 @@ public class TelegramPollJob {
             String text = message.text();
             System.out.println(text);
             long chatId = message.chat().id();
-            bot.execute(new SendMessage(chatId, "Heya!"));
+            if (text.contains(" ") || text.contains(",")) {
+                try {
+                    Building building = LunUtil.getClosestBuilding(text);
+                    if (building != null) {
+                        String result = String.format(
+                                "Результат перевірки %s за адресою %s:\nВстановив рейтинг: %s",
+                                building.name,
+                                building.address,
+                                "9/10");
+                        if (false) {
+
+                        }
+                        bot.execute(new SendMessage(chatId, result));
+                    } else {
+                        shitHappens(chatId);
+                    }
+                } catch (IOException e) {
+                    log.warn("", e);
+                    shitHappens(chatId);
+                }
+            } else {
+                bot.execute(new SendMessage(chatId, "Введите адресс объекта"));
+            }
         }
+    }
+
+    private void shitHappens(long chatId) {
+        bot.execute(new SendMessage(chatId, "Введите адресс объекта еще раз"));
     }
 
 }
