@@ -32,10 +32,8 @@ public class Building extends AbstractJson {
 	public City city;
 	@XmlElement
 	public String address;
-/*
 	@XmlElement
 	public List<Point> polygon;
-*/
 	@XmlElement
 	public String analytics;
 }
