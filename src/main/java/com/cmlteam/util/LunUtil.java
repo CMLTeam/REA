@@ -37,7 +37,7 @@ public class LunUtil {
 	}
 
 	public static Building getClosestBuilding(String address) throws IOException {
-		GeocodingResult result = AddressUtil.resolveAddress(address);
+		GeocodingResult result = AddressUtil.geocodeAddress(address);
 		if(result != null) {
 			LatLng latLng = result.geometry.location;
 			return GeoUtil.getClosestBuilding(MODEL, latLng);
