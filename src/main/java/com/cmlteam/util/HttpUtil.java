@@ -3,6 +3,8 @@ package com.cmlteam.util;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -11,13 +13,17 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 public class HttpUtil {
-    public static String ajax(String url, String body, Header... headers) throws IOException {
+    public static String ajax(String url, String body, Header... headers) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost(url);
         if (headers != null && headers.length > 0) {
@@ -27,7 +33,7 @@ public class HttpUtil {
         return execReturnString(httpClient, httpPost);
     }
 
-    public static String fetchPlainText(String url, Header... headers) throws IOException {
+    public static String fetchPlainText(String url, Header... headers) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet(url);
         if (headers != null && headers.length > 0) {
@@ -36,17 +42,29 @@ public class HttpUtil {
         return execReturnString(httpClient, httpGet);
     }
 
-    public static String fetchPlainTextPost(String url, Map<String,String> params, Header... headers) throws IOException {
+    public static String fetchPlainTextViaPost(String url, Map<String, String> params, Header... headers) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost(url);
-//        httpPost.
+        List<NameValuePair> postParameters;
+        postParameters = new ArrayList<>();
+
+        for (Map.Entry<String, String> entry : params.entrySet()) {
+            postParameters.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
+        }
+
+        try {
+            httpPost.setEntity(new UrlEncodedFormEntity(postParameters));
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        }
         if (headers != null && headers.length > 0) {
             httpPost.setHeaders(headers);
         }
+
         return execReturnString(httpClient, httpPost);
     }
 
-    private static String execReturnString(CloseableHttpClient httpClient, HttpRequestBase httpReq) throws IOException {
+    private static String execReturnString(CloseableHttpClient httpClient, HttpRequestBase httpReq) {
         try (CloseableHttpResponse response = httpClient.execute(httpReq)) {
             if (response.getStatusLine().getStatusCode() == 200) {
                 HttpEntity entity = response.getEntity();
@@ -56,8 +74,10 @@ public class HttpUtil {
                     EntityUtils.consume(entity);
                 }
             } else {
-                throw new IOException(response.getStatusLine().getReasonPhrase());
+                throw new RuntimeException(response.getStatusLine().getReasonPhrase());
             }
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
         }
     }
 }
