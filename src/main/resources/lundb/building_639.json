@@ -1,0 +1,76 @@
+{
+  "id": 639,
+  "name": "Кловский спуск, 7",
+  "type": "new_building",
+  "pricesUpdateTime": "26.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "3": {},
+      "4": {},
+      "5": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/2986-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/2986-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "2 кв. 2012 — 2 очередь"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "Кловский спуск, 7",
+  "subway": {
+    "color": "green",
+    "text": "Кловская — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/жк-кловский-спуск-7а-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-кловский-спуск-7а-киев#developer_offers",
+    "urlConstruction": "\/жк-кловский-спуск-7а-киев\/ход-строительства",
+    "urlPlans": "\/жк-кловский-спуск-7а-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">55&nbsp;180<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 202,
+    "name": "Жилстрой",
+    "site": "http:\/\/www.zhytlobud.com\/buildings\/kiev\/klovsky7\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.zhytlobud.com%2Fbuildings%2Fkiev%2Fklovsky7%2F",
+    "rank": 1,
+    "companyUrl": "\/ск-жилстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

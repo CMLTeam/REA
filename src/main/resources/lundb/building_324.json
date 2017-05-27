@@ -1,0 +1,80 @@
+{
+  "id": 324,
+  "name": "ЖК Ревуцкого, 9",
+  "type": "new_building",
+  "pricesUpdateTime": "25.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу УкрСиббанка на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5087-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5087-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "4 кв. 2014 — 1 секция"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Ревуцкого, 9",
+  "subway": {
+    "color": "green",
+    "text": "Харьковская — <i class=\"material-icons\">directions_bus<\/i> 10 мин"
+  },
+  "url": "\/жк-ул-ревуцкого-9-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-ревуцкого-9-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-ревуцкого-9-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-ревуцкого-9-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">21&nbsp;400<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 154,
+    "name": "Познякижилстрой",
+    "site": "http:\/\/revutskogo9.com.ua",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Frevutskogo9.com.ua",
+    "rank": 18,
+    "companyUrl": "\/познякижилстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "Последние квартиры",
+  "labelColor": "#fbc02d",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

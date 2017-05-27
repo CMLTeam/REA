@@ -1,0 +1,79 @@
+{
+  "id": 323,
+  "name": "бул. Леси Украинки, 7б",
+  "type": "new_building",
+  "pricesUpdateTime": "29.03.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/2918-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/2918-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "бул. Леси Украинки, 7б",
+  "subway": {
+    "color": "green",
+    "text": "Кловская — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/жк-бульвар-леси-украинки-7б-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-бульвар-леси-украинки-7б-киев#developer_offers",
+    "urlConstruction": "\/жк-бульвар-леси-украинки-7б-киев\/ход-строительства",
+    "urlPlans": "\/жк-бульвар-леси-украинки-7б-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">46&nbsp;050<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 154,
+    "name": "Познякижилстрой",
+    "site": "http:\/\/pjs.com.ua\/ru\/projects\/bul-lesi-ukrainki-7-b.html",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fpjs.com.ua%2Fru%2Fprojects%2Fbul-lesi-ukrainki-7-b.html",
+    "rank": 18,
+    "companyUrl": "\/познякижилстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

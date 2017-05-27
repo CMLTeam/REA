@@ -1,0 +1,67 @@
+{
+  "id": 3136,
+  "name": "ул. Редутная, 67",
+  "type": "new_building",
+  "pricesUpdateTime": "05.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3496-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3496-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Редутная, 67",
+  "subway": {
+    "color": "green",
+    "text": "Печерская — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-ул-редутная-67-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жк-ул-редутная-67-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": 481,
+    "name": "Азмонолит-Груп-Л",
+    "site": "",
+    "redirect_site": "",
+    "rank": 0,
+    "companyUrl": "\/азмонолит-груп-л"
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,106 @@
+{
+  "id": 562,
+  "name": "ЖК РиверСтоун",
+  "type": "new_building",
+  "pricesUpdateTime": "18.04.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "10": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5692-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5692-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "ready",
+    "text": "3 кв. 2016 — 2 очередь (дома 5, 6)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Днепровская набережная, 14, 14а, 14б",
+  "subway": {
+    "color": "green",
+    "text": "Осокорки — <i class=\"material-icons\">directions_walk<\/i> 13 мин"
+  },
+  "url": "\/жк-риверстоун-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-риверстоун-киев#developer_offers",
+    "urlConstruction": "\/жк-риверстоун-киев\/ход-строительства",
+    "urlPlans": "\/жк-риверстоун-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">33&nbsp;645<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 20,
+    "name": "UDP",
+    "site": "https:\/\/riverstone.com.ua\/?utm_source=lun.ua&utm_medium=referral&utm_campaign=lun",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Friverstone.com.ua%2F%3Futm_source%3Dlun.ua%26utm_medium%3Dreferral%26utm_campaign%3Dlun",
+    "rank": 24,
+    "companyUrl": "\/udp"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

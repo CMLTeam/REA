@@ -1,0 +1,102 @@
+{
+  "id": 2367,
+  "name": "ЖК Кассиопея",
+  "type": "new_building",
+  "pricesUpdateTime": "24.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "5": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {}
+      ],
+      "3": [
+        {}
+      ],
+      "5": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4224-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4224-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — 2 дом (секция 1)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул.  Евгена Маланюка (Сагайдака), 101а",
+  "subway": {
+    "color": "red",
+    "text": "Левобережная — <i class=\"material-icons\">directions_walk<\/i> 20 мин"
+  },
+  "url": "\/жк-кассиопея-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-кассиопея-киев#developer_offers",
+    "urlConstruction": "\/жк-кассиопея-киев\/ход-строительства",
+    "urlPlans": "\/жк-кассиопея-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">17&nbsp;798<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 118,
+    "name": "Банк «Аркада»",
+    "site": "http:\/\/arkada.ua\/ua\/2\/5\/12942\/12944\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Farkada.ua%2Fua%2F2%2F5%2F12942%2F12944%2F",
+    "rank": 20,
+    "companyUrl": "\/банк-аркада"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

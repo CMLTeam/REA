@@ -1,0 +1,105 @@
+{
+  "id": 2834,
+  "name": "ЖК Освіти",
+  "type": "new_building",
+  "pricesUpdateTime": "21.04.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "4": [
+        {}
+      ],
+      "10": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4978-728x546.png",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4978-360x360.png"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — ул. просвещения, 16"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Просвещения, 16, 16а",
+  "subway": {
+    "color": "red",
+    "text": "Вокзальная — <i class=\"material-icons\">directions_bus<\/i> 25 мин"
+  },
+  "url": "\/жк-освіти-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-освіти-киев#developer_offers",
+    "urlConstruction": "\/жк-освіти-киев\/ход-строительства",
+    "urlPlans": "\/жк-освіти-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">20&nbsp;230<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/kmb.ua\/ru\/objects\/18-zhk-osviti-16-16-a\/1-type",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkmb.ua%2Fru%2Fobjects%2F18-zhk-osviti-16-16-a%2F1-type",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

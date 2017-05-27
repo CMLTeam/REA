@@ -1,0 +1,81 @@
+{
+  "id": 4263,
+  "name": "ул. Горловская, 215а, 215б, 215в",
+  "type": "new_building",
+  "pricesUpdateTime": "21.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4915-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4915-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Горловская, 215а, 215б, 215в",
+  "subway": {
+    "color": "green",
+    "text": "Вырлица — <i class=\"material-icons\">directions_walk<\/i> 11 мин"
+  },
+  "url": "\/ул-горловская-215-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-горловская-215-киев#developer_offers",
+    "urlConstruction": "\/ул-горловская-215-киев\/ход-строительства",
+    "urlPlans": "\/ул-горловская-215-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">16&nbsp;220<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/kmb.ua\/ru\/objects\/5-zhk-vul-gorlivska-215-a-b-v\/1-type",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkmb.ua%2Fru%2Fobjects%2F5-zhk-vul-gorlivska-215-a-b-v%2F1-type",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

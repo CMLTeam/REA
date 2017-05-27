@@ -1,0 +1,79 @@
+{
+  "id": 3557,
+  "name": "ул. Лейпцигская, 13",
+  "type": "new_building",
+  "pricesUpdateTime": "21.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5134-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5134-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Лейпцигская, 13",
+  "subway": {
+    "color": "green",
+    "text": "Печерская — <i class=\"material-icons\">directions_walk<\/i> 15 мин"
+  },
+  "url": "\/жк-ул-лейпцигская-13-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-лейпцигская-13-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-лейпцигская-13-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-лейпцигская-13-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">39&nbsp;106<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/kmb.ua\/ru\/objects\/1-zhk-vul-lejptsizka-13\/1-type",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkmb.ua%2Fru%2Fobjects%2F1-zhk-vul-lejptsizka-13%2F1-type",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

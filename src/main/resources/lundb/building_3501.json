@@ -1,0 +1,76 @@
+{
+  "id": 3501,
+  "name": "ЖК Кристер Град",
+  "type": "new_building",
+  "pricesUpdateTime": "21.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/11547-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/11547-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 3 дом"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "ул. Межевая \/ просп. Правды \/ ул. Маршала Гречко",
+  "subway": false,
+  "url": "\/жк-кристер-град-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-кристер-град-киев#developer_offers",
+    "urlConstruction": "\/жк-кристер-град-киев\/ход-строительства",
+    "urlPlans": "\/жк-кристер-град-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">13&nbsp;585<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 160,
+    "name": "ДСК-ЖИТЛОБУД",
+    "site": "http:\/\/dbkzhytlobud.com.ua\/ua\/object\/1",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fdbkzhytlobud.com.ua%2Fua%2Fobject%2F1",
+    "rank": 9,
+    "companyUrl": "\/дск-житлобуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,109 @@
+{
+  "id": 4868,
+  "name": "Жилой район Rybalsky",
+  "type": "new_building",
+  "pricesUpdateTime": "26.05.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "9": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "4": [
+        {},
+        {}
+      ],
+      "9": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/15599-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/15599-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 1 очередь (дом 3)"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "Набережно-Рыбальская дорога, 3, 9",
+  "subway": {
+    "color": "blue",
+    "text": "Петровка — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-rybalsky-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-rybalsky-киев#developer_offers",
+    "urlConstruction": "\/жк-rybalsky-киев\/ход-строительства",
+    "urlPlans": "\/жк-rybalsky-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">31&nbsp;190<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/rybalsky.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Frybalsky.com.ua%2F",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

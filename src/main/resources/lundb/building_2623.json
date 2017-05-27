@@ -1,0 +1,79 @@
+{
+  "id": 2623,
+  "name": "ЖК Бруклин",
+  "type": "new_building",
+  "pricesUpdateTime": "20.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3306-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3306-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Ямская, 52",
+  "subway": {
+    "color": "blue",
+    "text": "Дворец Украина — <i class=\"material-icons\">directions_walk<\/i> 10 мин"
+  },
+  "url": "\/жк-brooklyn-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-brooklyn-киев#developer_offers",
+    "urlConstruction": "\/жк-brooklyn-киев\/ход-строительства",
+    "urlPlans": "\/жк-brooklyn-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">43&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 371,
+    "name": "Kiev Development Group",
+    "site": "https:\/\/brooklyn.kdgroup.org\/uk\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fbrooklyn.kdgroup.org%2Fuk%2F",
+    "rank": 3,
+    "companyUrl": "\/kiev-development-group"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

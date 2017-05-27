@@ -1,0 +1,81 @@
+{
+  "id": 3222,
+  "name": "ЖК Наш будинок",
+  "type": "new_building",
+  "pricesUpdateTime": "19.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4619-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4619-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "4 кв. 2016 — 5 секция"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 8,
+    "name": "Святошинский"
+  },
+  "address": "просп. Победы, 71а",
+  "subway": {
+    "color": "red",
+    "text": "Нивки — <i class=\"material-icons\">directions_walk<\/i> 3 мин"
+  },
+  "url": "\/жк-просп-победы-71а-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-просп-победы-71а-киев#developer_offers",
+    "urlConstruction": "\/жк-просп-победы-71а-киев\/ход-строительства",
+    "urlPlans": "\/жк-просп-победы-71а-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">22&nbsp;300<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 556,
+    "name": "bUd development",
+    "site": "http:\/\/www.nash-budynok.com\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.nash-budynok.com%2F",
+    "rank": 24,
+    "companyUrl": "\/bud-development"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

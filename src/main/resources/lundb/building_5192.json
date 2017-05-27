@@ -1,0 +1,74 @@
+{
+  "id": 5192,
+  "name": "Жилой дом-2, Выгуровщина-20",
+  "type": "new_building",
+  "pricesUpdateTime": "25.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16148-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16148-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 3,
+    "name": "Деснянский"
+  },
+  "address": "ул. Николая Закревского, 101б",
+  "subway": false,
+  "url": "\/жилой-дом-2-выгуровщина-20-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жилой-дом-2-выгуровщина-20-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "Цена не указана",
+  "developers": {
+    "companyId": 528,
+    "name": "Столица",
+    "site": "",
+    "redirect_site": "",
+    "rank": 1,
+    "companyUrl": "\/столица"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

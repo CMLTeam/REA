@@ -1,0 +1,81 @@
+{
+  "id": 4866,
+  "name": "ЖК А52",
+  "type": "new_building",
+  "pricesUpdateTime": "13.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5745-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5745-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Сечевых Стрельцов (Артема), 52а, 52д",
+  "subway": {
+    "color": "green",
+    "text": "Лукьяновская — <i class=\"material-icons\">directions_walk<\/i> 19 мин"
+  },
+  "url": "\/жк-а52-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-а52-киев#developer_offers",
+    "urlConstruction": "\/жк-а52-киев\/ход-строительства",
+    "urlPlans": "\/жк-а52-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">31&nbsp;510<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 529,
+    "name": "DIM",
+    "site": "http:\/\/a52.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fa52.com.ua%2F",
+    "rank": 18,
+    "companyUrl": "\/dim"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

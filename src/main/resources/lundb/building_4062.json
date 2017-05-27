@@ -1,0 +1,67 @@
+{
+  "id": 4062,
+  "name": "ЖК Signature",
+  "type": "new_building",
+  "pricesUpdateTime": "28.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16284-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16284-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Мечникова, 11а",
+  "subway": {
+    "color": "green",
+    "text": "Кловская — <i class=\"material-icons\">directions_walk<\/i> 4 мин"
+  },
+  "url": "\/ул-signature-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/ул-signature-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/signature.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fsignature.ua%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

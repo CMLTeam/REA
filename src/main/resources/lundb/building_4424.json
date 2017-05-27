@@ -1,0 +1,116 @@
+{
+  "id": 4424,
+  "name": "ЖК Пектораль",
+  "type": "new_building",
+  "pricesUpdateTime": "26.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4937-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4937-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2019 — 1 секция"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 8,
+    "name": "Святошинский"
+  },
+  "address": "бул. Кольцова, 7а",
+  "subway": false,
+  "url": "\/жк-пектораль-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-пектораль-киев#developer_offers",
+    "urlConstruction": "\/жк-пектораль-киев\/ход-строительства",
+    "urlPlans": "\/жк-пектораль-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">14&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 294,
+    "name": "УКРБУД",
+    "site": "http:\/\/jk-pektoral.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fjk-pektoral.com.ua%2F",
+    "rank": 30,
+    "companyUrl": "\/укрбуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

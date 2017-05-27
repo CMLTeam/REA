@@ -1,0 +1,81 @@
+{
+  "id": 2721,
+  "name": "ЖК Дом на Клименко",
+  "type": "new_building",
+  "pricesUpdateTime": "27.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4593-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4593-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Клименко, 8б",
+  "subway": {
+    "color": "red",
+    "text": "Вокзальная — <i class=\"material-icons\">directions_bus<\/i> 25 мин"
+  },
+  "url": "\/жк-дом-на-клименко-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-дом-на-клименко-киев#developer_offers",
+    "urlConstruction": "\/жк-дом-на-клименко-киев\/ход-строительства",
+    "urlPlans": "\/жк-дом-на-клименко-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">22&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 494,
+    "name": "NCD",
+    "site": "http:\/\/domklimenko.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fdomklimenko.com.ua%2F",
+    "rank": 1,
+    "companyUrl": "\/new-city-developers"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 1865,
+  "name": "ЖК Сырецкий Бояр",
+  "type": "new_building",
+  "pricesUpdateTime": "28.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4163-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4163-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Рижская, 73г",
+  "subway": {
+    "color": "green",
+    "text": "Сырец — <i class=\"material-icons\">directions_walk<\/i> 9 мин"
+  },
+  "url": "\/жк-дом-рижской-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-дом-рижской-киев#developer_offers",
+    "urlConstruction": "\/жк-дом-рижской-киев\/ход-строительства",
+    "urlPlans": "\/жк-дом-рижской-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">17&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 160,
+    "name": "ДСК-ЖИТЛОБУД",
+    "site": "http:\/\/dbkzhytlobud.com.ua\/ua\/object\/2",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fdbkzhytlobud.com.ua%2Fua%2Fobject%2F2",
+    "rank": 9,
+    "companyUrl": "\/дск-житлобуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

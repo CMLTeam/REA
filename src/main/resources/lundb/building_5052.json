@@ -1,0 +1,67 @@
+{
+  "id": 5052,
+  "name": "ЖК Файна Таун",
+  "type": "new_building",
+  "pricesUpdateTime": "19.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4021-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4021-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2018 — 1 очередь"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Салютная, 2б",
+  "subway": {
+    "color": "red",
+    "text": "Нивки — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/жк-файна-таун-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": 62,
+    "name": "К.А.Н. Девелопмент",
+    "site": "http:\/\/faynatown.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Ffaynatown.com.ua%2F",
+    "rank": 26,
+    "companyUrl": "\/кан-девелопмент"
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

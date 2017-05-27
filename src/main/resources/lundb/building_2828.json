@@ -1,0 +1,109 @@
+{
+  "id": 2828,
+  "name": "ЖК Позняки-4а",
+  "type": "new_building",
+  "pricesUpdateTime": "22.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "4": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5727-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5727-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "2 кв. 2016 — 5 очередь  (ул. драгоманова, 2)"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "Позняки-4а, ул. Драгоманова, 2а, 2б, 4а, ул. Елены Пчелки, 6а, 8",
+  "subway": {
+    "color": "green",
+    "text": "Харьковская — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-микрорайон-позняки-4а-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-микрорайон-позняки-4а-киев#developer_offers",
+    "urlConstruction": "\/жк-микрорайон-позняки-4а-киев\/ход-строительства",
+    "urlPlans": "\/жк-микрорайон-позняки-4а-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">16&nbsp;698<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/kmb.ua\/ru\/objects\/11-zhk-mkr-poznyaki-4-a\/1-type",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkmb.ua%2Fru%2Fobjects%2F11-zhk-mkr-poznyaki-4-a%2F1-type",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

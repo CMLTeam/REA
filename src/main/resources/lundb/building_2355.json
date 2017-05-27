@@ -1,0 +1,99 @@
+{
+  "id": 2355,
+  "name": "ЖК Старокиевский",
+  "type": "new_building",
+  "pricesUpdateTime": "28.04.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4248-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4248-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "2 кв. 2017 — 4 секция"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Старокиевская, 10",
+  "subway": {
+    "color": "red",
+    "text": "Политехнический институт — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/жк-старокиевский-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-старокиевский-киев#developer_offers",
+    "urlConstruction": "\/жк-старокиевский-киев\/ход-строительства",
+    "urlPlans": "\/жк-старокиевский-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">30&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 294,
+    "name": "УКРБУД",
+    "site": "http:\/\/starokyivskyy.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fstarokyivskyy.com.ua%2F",
+    "rank": 30,
+    "companyUrl": "\/укрбуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,137 @@
+{
+  "id": 4464,
+  "name": "ЖК Династия",
+  "type": "new_building",
+  "pricesUpdateTime": "17.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5386-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5386-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — 1 дом (секция 1)"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Липковского, 37г",
+  "subway": {
+    "color": "red",
+    "text": "Вокзальная — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-династия-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-династия-киев#developer_offers",
+    "urlConstruction": "\/жк-династия-киев\/ход-строительства",
+    "urlPlans": "\/жк-династия-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">20&nbsp;900<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 102,
+    "name": "Ковальская Недвижимость",
+    "site": "http:\/\/dynastija.com.ua",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fdynastija.com.ua",
+    "rank": 23,
+    "companyUrl": "\/промышленно-строительная-группа-ковальськая"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

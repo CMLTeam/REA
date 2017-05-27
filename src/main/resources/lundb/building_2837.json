@@ -1,0 +1,77 @@
+{
+  "id": 2837,
+  "name": "ЖК Skyline",
+  "type": "new_building",
+  "pricesUpdateTime": "24.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу межбанка на 26.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5466-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5466-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Евгения Коновальца (Щорса), 26а",
+  "subway": {
+    "color": "green",
+    "text": "Печерская — <i class=\"material-icons\">directions_walk<\/i> 9 мин"
+  },
+  "url": "\/жк-skyline-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-skyline-киев#developer_offers",
+    "urlConstruction": "\/жк-skyline-киев\/ход-строительства",
+    "urlPlans": "\/жк-skyline-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">62&nbsp;270<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 489,
+    "name": "Amstar Europe LLC",
+    "site": "http:\/\/skyline-kyiv.com\/ru\/?utm_source=lun.ua&utm_medium=referral&utm_campaign=lun",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fskyline-kyiv.com%2Fru%2F%3Futm_source%3Dlun.ua%26utm_medium%3Dreferral%26utm_campaign%3Dlun",
+    "rank": 1,
+    "companyUrl": "\/amstar-europe-llc"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

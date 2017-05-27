@@ -1,0 +1,77 @@
+{
+  "id": 3454,
+  "name": "Клубный дом «Гоголевская, 47»",
+  "type": "new_building",
+  "pricesUpdateTime": "18.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5004-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5004-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Гоголевская, 47",
+  "subway": {
+    "color": "green",
+    "text": "Лукьяновская — <i class=\"material-icons\">directions_walk<\/i> 18 мин"
+  },
+  "url": "\/жк-гоголевская-47-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-гоголевская-47-киев#developer_offers",
+    "urlConstruction": "\/жк-гоголевская-47-киев\/ход-строительства",
+    "urlPlans": "\/жк-гоголевская-47-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">47&nbsp;300<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 124,
+    "name": "Реалити",
+    "site": "http:\/\/gogolivska47.com.ua\/uk",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fgogolivska47.com.ua%2Fuk",
+    "rank": 1,
+    "companyUrl": "\/реалити"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 3987,
+  "name": "ЖК Эко Таун",
+  "type": "new_building",
+  "pricesUpdateTime": "11.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3681-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3681-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2016 — 2 секция"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "ул. Стеценко, 30",
+  "subway": false,
+  "url": "\/жк-эко-таун-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жк-эко-таун-киев\/ход-строительства",
+    "urlPlans": "\/жк-эко-таун-киев\/планировки"
+  },
+  "prices": [],
+  "price": "Все квартиры проданы",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/ecotown.kiev.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fecotown.kiev.ua%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "all_sold",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

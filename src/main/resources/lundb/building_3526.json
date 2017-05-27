@@ -1,0 +1,73 @@
+{
+  "id": 3526,
+  "name": "Андреевский спуск, 30-34в",
+  "type": "new_building",
+  "pricesUpdateTime": "28.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "4": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3631-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3631-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "Андреевский спуск, 30-34в",
+  "subway": {
+    "color": "blue",
+    "text": "Контрактовая площадь — <i class=\"material-icons\">directions_walk<\/i> 11 мин"
+  },
+  "url": "\/жк-андреевский-спуск-30-34в-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-андреевский-спуск-30-34в-киев#developer_offers",
+    "urlConstruction": "\/",
+    "urlPlans": "\/жк-андреевский-спуск-30-34в-киев\/планировки"
+  },
+  "prices": [
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">176&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

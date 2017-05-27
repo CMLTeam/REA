@@ -1,0 +1,77 @@
+{
+  "id": 2628,
+  "name": "ЖК Stoletof",
+  "type": "new_building",
+  "pricesUpdateTime": "18.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3313-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3313-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Столетова, 56",
+  "subway": {
+    "color": "blue",
+    "text": "Демеевская — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-stoletof-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-stoletof-киев#developer_offers",
+    "urlConstruction": "\/жк-stoletof-киев\/ход-строительства",
+    "urlPlans": "\/жк-stoletof-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">33&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "https:\/\/stoletof.com\/?utm_source",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fstoletof.com%2F%3Futm_source",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

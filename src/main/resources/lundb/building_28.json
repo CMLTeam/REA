@@ -1,0 +1,94 @@
+{
+  "id": 28,
+  "name": "ЖК 4 сезона",
+  "type": "new_building",
+  "pricesUpdateTime": "19.04.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5434-728x546.png",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5434-360x360.png"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "ready",
+    "text": "1 кв. 2017 — 2 дом "
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Михаила Максимовича (Трутенко), 3г",
+  "subway": {
+    "color": "blue",
+    "text": "Васильковская — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/жк-4-сезона-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-4-сезона-киев#developer_offers",
+    "urlConstruction": "\/жк-4-сезона-киев\/ход-строительства",
+    "urlPlans": "\/жк-4-сезона-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">17&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 75,
+    "name": "УМК",
+    "site": "https:\/\/www.4sezona.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fwww.4sezona.com.ua%2F",
+    "rank": 0,
+    "companyUrl": "\/ооо-умк"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

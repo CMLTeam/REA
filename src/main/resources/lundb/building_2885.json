@@ -1,0 +1,133 @@
+{
+  "id": 2885,
+  "name": "ЖК SOHO residence",
+  "type": "new_building",
+  "pricesUpdateTime": "25.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "9": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "4": [
+        {},
+        {},
+        {}
+      ],
+      "9": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4822-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4822-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 2 очередь (секция 7)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Демеевская, 13",
+  "subway": {
+    "color": "blue",
+    "text": "Демеевская — <i class=\"material-icons\">directions_walk<\/i> 9 мин"
+  },
+  "url": "\/жк-soho-residence-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-soho-residence-киев#developer_offers",
+    "urlConstruction": "\/жк-soho-residence-киев\/ход-строительства",
+    "urlPlans": "\/жк-soho-residence-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">23&nbsp;250<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 328,
+    "name": "GEOS",
+    "site": "http:\/\/jk-soho.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fjk-soho.com.ua%2F",
+    "rank": 28,
+    "companyUrl": "\/geos"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

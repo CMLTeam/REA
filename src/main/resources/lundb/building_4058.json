@@ -1,0 +1,96 @@
+{
+  "id": 4058,
+  "name": "ЖК Галактика",
+  "type": "new_building",
+  "pricesUpdateTime": "13.04.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5742-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5742-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул. Евгения Сверстюка (Марины Расковой), 4",
+  "subway": {
+    "color": "red",
+    "text": "Левобережная — <i class=\"material-icons\">directions_walk<\/i> 11 мин"
+  },
+  "url": "\/жк-галактика-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-галактика-киев#developer_offers",
+    "urlConstruction": "\/жк-галактика-киев\/ход-строительства",
+    "urlPlans": "\/жк-галактика-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">17&nbsp;280<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 59,
+    "name": "Stolitsa Group",
+    "site": "http:\/\/www.galactika.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.galactika.com.ua%2F",
+    "rank": 25,
+    "companyUrl": "\/stolitsa-group"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

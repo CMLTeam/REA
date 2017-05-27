@@ -1,0 +1,77 @@
+{
+  "id": 822,
+  "name": "ЖК Новодарницкий",
+  "type": "new_building",
+  "pricesUpdateTime": "26.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4388-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4388-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — секция а"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Ильича, 17",
+  "subway": {
+    "color": "green",
+    "text": "Харьковская — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-ул-ильича-17-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-ильича-17-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-ильича-17-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-ильича-17-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">17&nbsp;990<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 135,
+    "name": "Житлоинвестбуд-УКБ",
+    "site": "http:\/\/www.novodarnickiy.kiev.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.novodarnickiy.kiev.ua%2F",
+    "rank": 10,
+    "companyUrl": "\/житлоинвестбуд-укб"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

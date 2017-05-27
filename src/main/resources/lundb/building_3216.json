@@ -1,0 +1,77 @@
+{
+  "id": 3216,
+  "name": "ЖК Голосеевский квартал",
+  "type": "new_building",
+  "pricesUpdateTime": "26.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "9": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4240-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4240-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "4 кв. 2016 —  ул. академика вильямса, 6в, 6г"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Академика Вильямса, 8в",
+  "subway": {
+    "color": "blue",
+    "text": "Васильковская — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-голосеевский-квартал-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-голосеевский-квартал-киев#developer_offers",
+    "urlConstruction": "\/жк-голосеевский-квартал-киев\/ход-строительства",
+    "urlPlans": "\/жк-голосеевский-квартал-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">23&nbsp;030<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/moykvartal.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fmoykvartal.com.ua%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3033,
+  "name": "ул. Казимира Малевича (Боженко), 75-77",
+  "type": "new_building",
+  "pricesUpdateTime": "28.08.2015",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16741-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16741-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Казимира Малевича (Боженко), 75-77",
+  "subway": {
+    "color": "blue",
+    "text": "Дворец Украина — <i class=\"material-icons\">directions_walk<\/i> 6 мин"
+  },
+  "url": "\/жк-ул-боженко-75-77-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жк-ул-боженко-75-77-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

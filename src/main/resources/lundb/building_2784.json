@@ -1,0 +1,143 @@
+{
+  "id": 2784,
+  "name": "ЖК Шевченковский",
+  "type": "new_building",
+  "pricesUpdateTime": "26.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "9": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {}
+      ],
+      "4": [
+        {},
+        {},
+        {}
+      ],
+      "5": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "6": [
+        {}
+      ],
+      "9": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4936-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4936-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2018 — 1 секция"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Златоустовская, 27",
+  "subway": {
+    "color": "red",
+    "text": "Вокзальная — <i class=\"material-icons\">directions_walk<\/i> 19 мин"
+  },
+  "url": "\/жк-шевченковский-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-шевченковский-киев#developer_offers",
+    "urlConstruction": "\/жк-шевченковский-киев\/ход-строительства",
+    "urlPlans": "\/жк-шевченковский-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">27&nbsp;700<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 294,
+    "name": "УКРБУД",
+    "site": "http:\/\/shevchenkivskyy.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fshevchenkivskyy.com.ua%2F",
+    "rank": 30,
+    "companyUrl": "\/укрбуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

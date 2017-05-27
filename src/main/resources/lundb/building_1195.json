@@ -1,0 +1,72 @@
+{
+  "id": 1195,
+  "name": "ЖК Венеция",
+  "type": "new_building",
+  "pricesUpdateTime": "25.10.2016",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3141-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3141-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2017 — ул. конева, 10\/1 (2 очередь)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Ломоносова \/ ул. Конева \/ ул. Вильямса",
+  "subway": {
+    "color": "blue",
+    "text": "Ипподром — <i class=\"material-icons\">directions_walk<\/i> 15 мин"
+  },
+  "url": "\/жк-венеция-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жк-венеция-киев\/ход-строительства",
+    "urlPlans": "\/жк-венеция-киев\/планировки"
+  },
+  "prices": [],
+  "price": "Цена не указана",
+  "developers": {
+    "companyId": 66,
+    "name": "Лико-Холдинг",
+    "site": "http:\/\/venezia-kiev.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fvenezia-kiev.com.ua%2F",
+    "rank": 11,
+    "companyUrl": "\/тов-тмо-лико-холдинг"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

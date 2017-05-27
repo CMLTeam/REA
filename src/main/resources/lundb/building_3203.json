@@ -1,0 +1,79 @@
+{
+  "id": 3203,
+  "name": "ЖК Саксаганский",
+  "type": "new_building",
+  "pricesUpdateTime": "19.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3509-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3509-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Саксаганского, 70а",
+  "subway": {
+    "color": "red",
+    "text": "Университет — <i class=\"material-icons\">directions_walk<\/i> 13 мин"
+  },
+  "url": "\/жк-ул-саксаганского-70а-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-саксаганского-70а-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-саксаганского-70а-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-саксаганского-70а-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">55&nbsp;260<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/sgflat.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fsgflat.com.ua%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

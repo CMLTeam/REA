@@ -1,0 +1,77 @@
+{
+  "id": 5085,
+  "name": "Клубный дом «M31 Park House»",
+  "type": "new_building",
+  "pricesUpdateTime": "19.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4046-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4046-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "пер. Мичурина, 31",
+  "subway": {
+    "color": "green",
+    "text": "Дружбы народов — <i class=\"material-icons\">directions_walk<\/i> 14 мин"
+  },
+  "url": "\/клубный-дом-m31-park-house-киев",
+  "infoLinks": {
+    "urlPrice": "\/клубный-дом-m31-park-house-киев#developer_offers",
+    "urlConstruction": "\/клубный-дом-m31-park-house-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">50&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 729,
+    "name": "KyivBudDevelopment",
+    "site": "http:\/\/www.m31parkhouse.com\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.m31parkhouse.com%2F",
+    "rank": 1,
+    "companyUrl": "\/kyivbuddevelopment"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 4579,
+  "name": "ЖК Акцент",
+  "type": "new_building",
+  "pricesUpdateTime": "20.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3783-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3783-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "просп. Академика Глушкова, 9б",
+  "subway": {
+    "color": "blue",
+    "text": "Ипподром — <i class=\"material-icons\">directions_walk<\/i> 12 мин"
+  },
+  "url": "\/жк-акцент-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-акцент-киев#developer_offers",
+    "urlConstruction": "\/жк-акцент-киев\/ход-строительства",
+    "urlPlans": "\/жк-акцент-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">15&nbsp;800<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 160,
+    "name": "ДСК-ЖИТЛОБУД",
+    "site": "http:\/\/dbkzhytlobud.com.ua\/ua\/object\/3",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fdbkzhytlobud.com.ua%2Fua%2Fobject%2F3",
+    "rank": 9,
+    "companyUrl": "\/дск-житлобуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 5022,
+  "name": "ул. Кудряшова, 14а",
+  "type": "new_building",
+  "pricesUpdateTime": "23.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4008-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4008-360x360.jpg"
+  },
+  "state": {
+    "stateType": "in_design",
+    "constant": "in_design",
+    "text": "в проекте"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Кудряшова, 14а",
+  "subway": {
+    "color": "red",
+    "text": "Вокзальная — <i class=\"material-icons\">directions_walk<\/i> 18 мин"
+  },
+  "url": "\/ул-кудряшова-14а-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/kmb.ua\/ru\/objects\/409-zhk-vul-kudryashova-14-a\/1-type",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkmb.ua%2Fru%2Fobjects%2F409-zhk-vul-kudryashova-14-a%2F1-type",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

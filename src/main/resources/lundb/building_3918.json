@@ -1,0 +1,77 @@
+{
+  "id": 3918,
+  "name": "ЖК Delmar",
+  "type": "new_building",
+  "pricesUpdateTime": "25.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4151-728x546.png",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4151-360x360.png"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Драгомирова, 4б",
+  "subway": {
+    "color": "green",
+    "text": "Дружбы народов — <i class=\"material-icons\">directions_walk<\/i> 11 мин"
+  },
+  "url": "\/жк-delmar-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-delmar-киев#developer_offers",
+    "urlConstruction": "\/жк-delmar-киев\/ход-строительства",
+    "urlPlans": "\/жк-delmar-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">34&nbsp;210<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 545,
+    "name": "Delmar",
+    "site": "http:\/\/delmar-kiev.com\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fdelmar-kiev.com%2F",
+    "rank": 1,
+    "companyUrl": "\/delmar"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

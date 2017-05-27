@@ -1,0 +1,76 @@
+{
+  "id": 3992,
+  "name": "ул. Краковская, 27а",
+  "type": "new_building",
+  "pricesUpdateTime": "16.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3685-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3685-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул. Краковская, 27а",
+  "subway": {
+    "color": "red",
+    "text": "Черниговская — <i class=\"material-icons\">directions_walk<\/i> 2 мин"
+  },
+  "url": "\/ул-краковская-27а-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-краковская-27а-киев#developer_offers",
+    "urlConstruction": "\/ул-краковская-27а-киев\/ход-строительства",
+    "urlPlans": "\/ул-краковская-27а-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">20&nbsp;580<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 100,
+    "name": "Житло-Инвест",
+    "site": "http:\/\/investbud.kiev.ua\/vul-krakivska-27-a-bud-1",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Finvestbud.kiev.ua%2Fvul-krakivska-27-a-bud-1",
+    "rank": 10,
+    "companyUrl": "\/финансовая-компания-житло-инвест"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

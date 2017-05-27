@@ -1,0 +1,72 @@
+{
+  "id": 1906,
+  "name": "ЖК Курортный",
+  "type": "new_building",
+  "pricesUpdateTime": "26.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4515-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4515-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 5,
+    "name": "Оболонский"
+  },
+  "address": "Пуща-Водица, ул. Федора Максименко (Краснофлотская), 24а",
+  "subway": false,
+  "url": "\/жк-курортный-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-курортный-киев#developer_offers",
+    "urlConstruction": "\/жк-курортный-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">18&nbsp;920<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/kyrortniy.krc.in.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fkyrortniy.krc.in.ua%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,75 @@
+{
+  "id": 4250,
+  "name": "ул. Панельная, 2",
+  "type": "new_building",
+  "pricesUpdateTime": "19.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4870-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4870-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул. Панельная, 2",
+  "subway": {
+    "color": "red",
+    "text": "Левобережная — <i class=\"material-icons\">directions_walk<\/i> 18 мин"
+  },
+  "url": "\/ул-панельная-2-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-панельная-2-киев#developer_offers",
+    "urlConstruction": "\/ул-панельная-2-киев\/ход-строительства",
+    "urlPlans": "\/ул-панельная-2-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">20&nbsp;330<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/kmb.ua\/ru\/objects\/14-zhk-vul-panelna-2\/1-type",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkmb.ua%2Fru%2Fobjects%2F14-zhk-vul-panelna-2%2F1-type",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

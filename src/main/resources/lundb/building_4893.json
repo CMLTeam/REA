@@ -1,0 +1,67 @@
+{
+  "id": 4893,
+  "name": "ул. Успешная, 9\/3",
+  "type": "new_building",
+  "pricesUpdateTime": "01.11.2016",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/images\/default_building.png",
+    "main_thumb": "\/images\/default_building.png"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "строится"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Успешная, 9\/3",
+  "subway": {
+    "color": "blue",
+    "text": "Ипподром — <i class=\"material-icons\">directions_walk<\/i> 17 мин"
+  },
+  "url": "\/ул-успешная-9-3-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/ул-успешная-9-3-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

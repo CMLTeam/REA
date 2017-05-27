@@ -1,0 +1,67 @@
+{
+  "id": 4446,
+  "name": "ул. Драгоманова, 10",
+  "type": "new_building",
+  "pricesUpdateTime": "11.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16299-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16299-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Драгоманова, 10",
+  "subway": {
+    "color": "green",
+    "text": "Харьковская — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/ул-драгоманова-10-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/ул-драгоманова-10-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": 486,
+    "name": "Фундамент",
+    "site": "",
+    "redirect_site": "",
+    "rank": 2,
+    "companyUrl": "\/фундамент"
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

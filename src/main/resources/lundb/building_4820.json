@@ -1,0 +1,77 @@
+{
+  "id": 4820,
+  "name": "ЖК Einstein Concept House",
+  "type": "new_building",
+  "pricesUpdateTime": "24.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5630-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5630-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Златоустовская, 24",
+  "subway": {
+    "color": "red",
+    "text": "Вокзальная — <i class=\"material-icons\">directions_walk<\/i> 18 мин"
+  },
+  "url": "\/жк-einstein-concept-house-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-einstein-concept-house-киев#developer_offers",
+    "urlConstruction": "\/жк-einstein-concept-house-киев\/ход-строительства",
+    "urlPlans": "\/жк-einstein-concept-house-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">41&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 239,
+    "name": "KDD Engineering",
+    "site": "http:\/\/einstein.house\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Feinstein.house%2F",
+    "rank": 1,
+    "companyUrl": "\/kdd-group"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

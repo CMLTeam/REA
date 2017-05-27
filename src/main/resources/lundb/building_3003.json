@@ -1,0 +1,93 @@
+{
+  "id": 3003,
+  "name": "ЖК Жуляны",
+  "type": "new_building",
+  "pricesUpdateTime": "15.05.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3439-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3439-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Добробутная, 1",
+  "subway": {
+    "color": "blue",
+    "text": "Теремки — <i class=\"material-icons\">directions_bus<\/i> 25 мин"
+  },
+  "url": "\/жк-жуляны-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-жуляны-киев#developer_offers",
+    "urlConstruction": "\/жк-жуляны-киев\/ход-строительства",
+    "urlPlans": "\/жк-жуляны-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">11&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/zhulany.kiev.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fzhulany.kiev.ua%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

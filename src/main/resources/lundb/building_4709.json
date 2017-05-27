@@ -1,0 +1,67 @@
+{
+  "id": 4709,
+  "name": "Клубный дом «Печерский»",
+  "type": "new_building",
+  "pricesUpdateTime": "25.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3851-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3851-360x360.jpg"
+  },
+  "state": {
+    "stateType": "in_design",
+    "constant": "in_design",
+    "text": "в проекте"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Менделеева, 12",
+  "subway": {
+    "color": "blue",
+    "text": "Лыбедская — <i class=\"material-icons\">directions_walk<\/i> 14 мин"
+  },
+  "url": "\/клубный-дом-печерский-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": 582,
+    "name": "Друзі Девелопмент",
+    "site": "",
+    "redirect_site": "",
+    "rank": 1,
+    "companyUrl": "\/друзи-девелопмент"
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

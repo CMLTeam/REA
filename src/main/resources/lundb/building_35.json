@@ -1,0 +1,140 @@
+{
+  "id": 35,
+  "name": "ЖК Новопечерские Липки",
+  "type": "new_building",
+  "pricesUpdateTime": "22.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "9": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "4": [
+        {},
+        {},
+        {}
+      ],
+      "5": [
+        {}
+      ],
+      "9": [
+        {},
+        {}
+      ],
+      "10": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5484-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5484-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2018 — 5 очередь (дом 69)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Михаила Драгомирова, 1, 3, 5, 12, 14, 16б, 18а, 20а",
+  "subway": {
+    "color": "green",
+    "text": "Дружбы народов — <i class=\"material-icons\">directions_walk<\/i> 12 мин"
+  },
+  "url": "\/жк-новопечерские-липки-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-новопечерские-липки-киев#developer_offers",
+    "urlConstruction": "\/жк-новопечерские-липки-киев\/ход-строительства",
+    "urlPlans": "\/жк-новопечерские-липки-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">61&nbsp;750<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 20,
+    "name": "UDP",
+    "site": "http:\/\/www.novolipki.com\/?utm_source=novostroyki.lun.ua&utm_medium=referral&utm_campaign=novostroyki.lun.ua",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.novolipki.com%2F%3Futm_source%3Dnovostroyki.lun.ua%26utm_medium%3Dreferral%26utm_campaign%3Dnovostroyki.lun.ua",
+    "rank": 24,
+    "companyUrl": "\/udp"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

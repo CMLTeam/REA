@@ -1,0 +1,81 @@
+{
+  "id": 4889,
+  "name": "ул. Драгоманова, 35\/55",
+  "type": "new_building",
+  "pricesUpdateTime": "18.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "5": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3923-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3923-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Драгоманова, 35\/55",
+  "subway": {
+    "color": "green",
+    "text": "Позняки — <i class=\"material-icons\">directions_walk<\/i> 17 мин"
+  },
+  "url": "\/ул-драгоманова-35-55-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-драгоманова-35-55-киев#developer_offers",
+    "urlConstruction": "\/ул-драгоманова-35-55-киев\/ход-строительства",
+    "urlPlans": "\/ул-драгоманова-35-55-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">22&nbsp;325<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 699,
+    "name": "City Premiere Group",
+    "site": "http:\/\/cpg.kiev.ua\/dragomanova-35-55\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fcpg.kiev.ua%2Fdragomanova-35-55%2F",
+    "rank": 1,
+    "companyUrl": "\/city-premiere-group"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

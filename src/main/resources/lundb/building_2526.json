@@ -1,0 +1,71 @@
+{
+  "id": 2526,
+  "name": "ЖК Британский квартал",
+  "type": "new_building",
+  "pricesUpdateTime": "28.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4575-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4575-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2017 — 3 очередь (дом 9)"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Дмитрия Луценко, 10",
+  "subway": {
+    "color": "blue",
+    "text": "Ипподром — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-британский-квартал-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жк-британский-квартал-киев\/ход-строительства",
+    "urlPlans": "\/жк-британский-квартал-киев\/планировки"
+  },
+  "prices": [],
+  "price": "Все квартиры проданы",
+  "developers": {
+    "companyId": 332,
+    "name": "Royal House",
+    "site": "http:\/\/britanskiy.com.ua\/bk\/index.html?utm_source=lun.ua&utm_medium=referral&utm_campaign=lun",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fbritanskiy.com.ua%2Fbk%2Findex.html%3Futm_source%3Dlun.ua%26utm_medium%3Dreferral%26utm_campaign%3Dlun",
+    "rank": 3,
+    "companyUrl": "\/royal-house"
+  },
+  "developerOffer": "all_sold",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

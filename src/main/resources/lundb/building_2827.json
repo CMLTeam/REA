@@ -1,0 +1,79 @@
+{
+  "id": 2827,
+  "name": "ЖД Ушакова, 1д",
+  "type": "new_building",
+  "pricesUpdateTime": "23.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3370-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3370-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 8,
+    "name": "Святошинский"
+  },
+  "address": "ул. Николая Ушакова, 1д",
+  "subway": {
+    "color": "red",
+    "text": "Академгородок — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-ул-ушакова-1-г-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-ушакова-1-г-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-ушакова-1-г-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-ушакова-1-г-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">25&nbsp;170<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 429,
+    "name": "Центрстрой",
+    "site": "",
+    "redirect_site": "",
+    "rank": 0,
+    "companyUrl": "\/центрстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

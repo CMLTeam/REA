@@ -1,0 +1,67 @@
+{
+  "id": 1983,
+  "name": "ул. Иоанна Павла ІІ (Патриса Лумумбы), 12",
+  "type": "new_building",
+  "pricesUpdateTime": "25.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/15323-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/15323-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2020 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Иоанна Павла ІІ (Патриса Лумумбы), 12",
+  "subway": {
+    "color": "blue",
+    "text": "Дворец Украина — <i class=\"material-icons\">directions_walk<\/i> 11 мин"
+  },
+  "url": "\/ул-иоанна-павла-2-12-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/ул-иоанна-павла-2-12-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": 154,
+    "name": "Познякижилстрой",
+    "site": "",
+    "redirect_site": "",
+    "rank": 18,
+    "companyUrl": "\/познякижилстрой"
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

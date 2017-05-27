@@ -1,0 +1,68 @@
+{
+  "id": 4126,
+  "name": "просп. Отрадный, 2 (просп. Комарова, 1)",
+  "type": "new_building",
+  "pricesUpdateTime": "28.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3729-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3729-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — 1 секция"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "просп. Отрадный, 2 (просп. Комарова, 1)",
+  "subway": {
+    "color": "red",
+    "text": "Шулявская — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/просп-комарова-1-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/просп-комарова-1-киев\/ход-строительства",
+    "urlPlans": "\/просп-комарова-1-киев\/планировки"
+  },
+  "prices": [],
+  "price": "Все квартиры проданы",
+  "developers": {
+    "companyId": 135,
+    "name": "Житлоинвестбуд-УКБ",
+    "site": "http:\/\/investbud.kiev.ua\/pros-vidradnij-ta-vul-garmatna",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Finvestbud.kiev.ua%2Fpros-vidradnij-ta-vul-garmatna",
+    "rank": 10,
+    "companyUrl": "\/житлоинвестбуд-укб"
+  },
+  "developerOffer": "all_sold",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

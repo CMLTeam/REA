@@ -1,0 +1,134 @@
+{
+  "id": 2843,
+  "name": "ЖК Gloria Park",
+  "type": "new_building",
+  "pricesUpdateTime": "23.03.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "9": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4801-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4801-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2017 — 3 очередь (секция и)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "просп. Победы, 90\/1",
+  "subway": {
+    "color": "red",
+    "text": "Нивки — <i class=\"material-icons\">directions_walk<\/i> 2 мин"
+  },
+  "url": "\/жк-gloria-park-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-gloria-park-киев#developer_offers",
+    "urlConstruction": "\/жк-gloria-park-киев\/ход-строительства",
+    "urlPlans": "\/жк-gloria-park-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">19&nbsp;740<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 328,
+    "name": "GEOS",
+    "site": "https:\/\/gloria.geos.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fgloria.geos.ua%2F",
+    "rank": 28,
+    "companyUrl": "\/geos"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

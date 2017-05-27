@@ -1,0 +1,102 @@
+{
+  "id": 1116,
+  "name": "ЖК Воссоединения, 21в",
+  "type": "new_building",
+  "pricesUpdateTime": "21.04.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "4": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4862-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4862-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "3 кв. 2016 — 2 дом (просп. соборности, 30а)"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "просп. Соборности (Воссоединения), 21в",
+  "subway": {
+    "color": "red",
+    "text": "Левобережная — <i class=\"material-icons\">directions_bus<\/i> 10 мин"
+  },
+  "url": "\/жк-пр-воссоединения-21в-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-пр-воссоединения-21в-киев#developer_offers",
+    "urlConstruction": "\/жк-пр-воссоединения-21в-киев\/ход-строительства",
+    "urlPlans": "\/жк-пр-воссоединения-21в-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">20&nbsp;090<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/kmb.ua\/ru\/objects\/3-zhk-prosp-vozz-ednannya-21-v\/1-type",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkmb.ua%2Fru%2Fobjects%2F3-zhk-prosp-vozz-ednannya-21-v%2F1-type",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

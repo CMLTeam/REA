@@ -1,0 +1,79 @@
+{
+  "id": 1175,
+  "name": "ЖК Златоуст",
+  "type": "new_building",
+  "pricesUpdateTime": "26.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3138-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3138-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Златоустовская, 47-49",
+  "subway": {
+    "color": "green",
+    "text": "Лукьяновская — <i class=\"material-icons\">directions_walk<\/i> 16 мин"
+  },
+  "url": "\/жк-златоуст-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-златоуст-киев#developer_offers",
+    "urlConstruction": "\/жк-златоуст-киев\/ход-строительства",
+    "urlPlans": "\/жк-златоуст-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">35&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 236,
+    "name": "Энергобудлизинг",
+    "site": "http:\/\/ebl.com.ua\/v-prodazhe\/9\/210\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Febl.com.ua%2Fv-prodazhe%2F9%2F210%2F",
+    "rank": 1,
+    "companyUrl": "\/энергобудлизинг"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

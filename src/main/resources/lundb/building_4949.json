@@ -1,0 +1,67 @@
+{
+  "id": 4949,
+  "name": "ЖК Crystal Towers",
+  "type": "new_building",
+  "pricesUpdateTime": "19.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3978-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3978-360x360.jpg"
+  },
+  "state": {
+    "stateType": "in_design",
+    "constant": "in_design",
+    "text": "3 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Амурская",
+  "subway": {
+    "color": "blue",
+    "text": "Васильковская — <i class=\"material-icons\">directions_walk<\/i> 7 мин"
+  },
+  "url": "\/жк-crystal-towers-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": 506,
+    "name": "ZIM Capital Group",
+    "site": "http:\/\/zim-capital.com\/project\/zhitloviy-kompleks-komfort-klasu-crystal-towers\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fzim-capital.com%2Fproject%2Fzhitloviy-kompleks-komfort-klasu-crystal-towers%2F",
+    "rank": 25,
+    "companyUrl": "\/zim-capital-group"
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

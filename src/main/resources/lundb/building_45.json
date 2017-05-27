@@ -1,0 +1,112 @@
+{
+  "id": 45,
+  "name": "ЖК Парковые озера",
+  "type": "new_building",
+  "pricesUpdateTime": "10.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу межбанка на 26.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4867-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4867-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 4 очередь (дом 11)"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул. Воскресенская, 12а, 12б, 12в, 12г, 14б, 14д, 14е, 16б, 16в, 16г",
+  "subway": {
+    "color": "red",
+    "text": "Дарница — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-парковые-озера-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-парковые-озера-киев#developer_offers",
+    "urlConstruction": "\/жк-парковые-озера-киев\/ход-строительства",
+    "urlPlans": "\/жк-парковые-озера-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">16&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 156,
+    "name": "Интергал-Буд",
+    "site": "http:\/\/www.parkovyozera.com.ua",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.parkovyozera.com.ua",
+    "rank": 29,
+    "companyUrl": "\/интергал-буд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

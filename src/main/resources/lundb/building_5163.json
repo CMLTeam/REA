@@ -1,0 +1,77 @@
+{
+  "id": 5163,
+  "name": "ЖК Бережанский",
+  "type": "new_building",
+  "pricesUpdateTime": "17.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16388-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16388-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2018 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 5,
+    "name": "Оболонский"
+  },
+  "address": "ул. Бережанская, 15",
+  "subway": {
+    "color": "blue",
+    "text": "Минская — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-бережанский-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-бережанский-киев#developer_offers",
+    "urlConstruction": "\/жк-бережанский-киев\/ход-строительства",
+    "urlPlans": "\/жк-бережанский-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">15&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 504,
+    "name": "Галжитлобуд",
+    "site": "http:\/\/galzhytlobud.com\/berezhanskaya\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fgalzhytlobud.com%2Fberezhanskaya%2F",
+    "rank": 1,
+    "companyUrl": "\/галжитлобуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

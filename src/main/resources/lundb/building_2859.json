@@ -1,0 +1,75 @@
+{
+  "id": 2859,
+  "name": "ул. Гмыри, 17",
+  "type": "new_building",
+  "pricesUpdateTime": "11.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3388-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3388-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Гмыри, 17",
+  "subway": {
+    "color": "green",
+    "text": "Позняки — <i class=\"material-icons\">directions_walk<\/i> 11 мин"
+  },
+  "url": "\/жк-ул-гмыри-17-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-гмыри-17-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-гмыри-17-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-гмыри-17-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">26&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

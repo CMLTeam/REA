@@ -1,0 +1,75 @@
+{
+  "id": 24,
+  "name": "ЖК Триумф",
+  "type": "new_building",
+  "pricesUpdateTime": "17.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "3": {},
+      "4": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4053-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4053-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Зверинецкая, 59",
+  "subway": {
+    "color": "green",
+    "text": "Выдубичи — <i class=\"material-icons\">directions_walk<\/i> 12 мин"
+  },
+  "url": "\/жк-триумф-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-триумф-киев#developer_offers",
+    "urlConstruction": "\/",
+    "urlPlans": "\/жк-триумф-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">55&nbsp;180<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 67,
+    "name": "ТММ",
+    "site": "http:\/\/tmm.ua\/sale\/sb",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Ftmm.ua%2Fsale%2Fsb",
+    "rank": 19,
+    "companyUrl": "\/тмм"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

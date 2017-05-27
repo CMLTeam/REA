@@ -1,0 +1,101 @@
+{
+  "id": 2841,
+  "name": "ЖК Демеевка",
+  "type": "new_building",
+  "pricesUpdateTime": "24.04.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу межбанка на 26.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5227-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5227-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Демеевская, 14",
+  "subway": {
+    "color": "blue",
+    "text": "Демеевская — <i class=\"material-icons\">directions_walk<\/i> 10 мин"
+  },
+  "url": "\/жк-демеевка-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-демеевка-киев#developer_offers",
+    "urlConstruction": "\/жк-демеевка-киев\/ход-строительства",
+    "urlPlans": "\/жк-демеевка-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">19&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 156,
+    "name": "Интергал-Буд",
+    "site": "http:\/\/demeevka.com\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fdemeevka.com%2F",
+    "rank": 29,
+    "companyUrl": "\/интергал-буд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

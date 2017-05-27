@@ -1,0 +1,99 @@
+{
+  "id": 4471,
+  "name": "Арт квартал «Співоче»",
+  "type": "new_building",
+  "pricesUpdateTime": "11.04.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4291-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4291-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 2 дом"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 8,
+    "name": "Святошинский"
+  },
+  "address": "ул. Стеценко",
+  "subway": false,
+  "url": "\/арт-квартал-співоче-киев",
+  "infoLinks": {
+    "urlPrice": "\/арт-квартал-співоче-киев#developer_offers",
+    "urlConstruction": "\/арт-квартал-співоче-киев\/ход-строительства",
+    "urlPlans": "\/арт-квартал-співоче-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">12&nbsp;600<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 486,
+    "name": "Фундамент",
+    "site": "http:\/\/fundament.ua\/ua\/projects\/list\/1888\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Ffundament.ua%2Fua%2Fprojects%2Flist%2F1888%2F",
+    "rank": 2,
+    "companyUrl": "\/фундамент"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

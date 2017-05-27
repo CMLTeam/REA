@@ -1,0 +1,85 @@
+{
+  "id": 278,
+  "name": "ЖК Срібна Вежа",
+  "type": "new_building",
+  "pricesUpdateTime": "17.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "9": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу межбанка на 26.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4344-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4344-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Белорусская, 36а",
+  "subway": {
+    "color": "green",
+    "text": "Лукьяновская — <i class=\"material-icons\">directions_walk<\/i> 9 мин"
+  },
+  "url": "\/жк-срібна-вежа-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-срібна-вежа-киев#developer_offers",
+    "urlConstruction": "\/жк-срібна-вежа-киев\/ход-строительства",
+    "urlPlans": "\/жк-срібна-вежа-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">32&nbsp;980<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 43,
+    "name": "Гранит",
+    "site": "http:\/\/www.sribnavezha.com.ua\/o-proekte\/o-proekte.html",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.sribnavezha.com.ua%2Fo-proekte%2Fo-proekte.html",
+    "rank": 8,
+    "companyUrl": "\/гранит"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

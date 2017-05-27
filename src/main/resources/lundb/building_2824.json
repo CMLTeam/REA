@@ -1,0 +1,67 @@
+{
+  "id": 2824,
+  "name": "ЖК Комфорт Сити",
+  "type": "new_building",
+  "pricesUpdateTime": "23.09.2015",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3366-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3366-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 дом"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Полевая, 63-65",
+  "subway": {
+    "color": "red",
+    "text": "Шулявская — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-комфорт-сити-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жк-комфорт-сити-киев\/ход-строительства",
+    "urlPlans": "\/жк-комфорт-сити-киев\/планировки"
+  },
+  "prices": [],
+  "price": "Продажи приостановлены",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/comfort-city.com\/site\/home\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fcomfort-city.com%2Fsite%2Fhome%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "frozen",
+  "hidePrice": "yes",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

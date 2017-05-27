@@ -1,0 +1,126 @@
+{
+  "id": 3989,
+  "name": "ЖК Французский квартал 2",
+  "type": "new_building",
+  "pricesUpdateTime": "19.04.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "4": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/15484-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/15484-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 1 очередь (дом 1)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Большая Васильковская, 139",
+  "subway": {
+    "color": "blue",
+    "text": "Лыбедская — <i class=\"material-icons\">directions_walk<\/i> 4 мин"
+  },
+  "url": "\/жк-французский-квартал-2-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-французский-квартал-2-киев#developer_offers",
+    "urlConstruction": "\/жк-французский-квартал-2-киев\/ход-строительства",
+    "urlPlans": "\/жк-французский-квартал-2-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">31&nbsp;445<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 556,
+    "name": "bUd development",
+    "site": "http:\/\/france2.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Ffrance2.com.ua%2F",
+    "rank": 24,
+    "companyUrl": "\/bud-development"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

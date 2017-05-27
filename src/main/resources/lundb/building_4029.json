@@ -1,0 +1,75 @@
+{
+  "id": 4029,
+  "name": "ул. Армянская, 6",
+  "type": "new_building",
+  "pricesUpdateTime": "05.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5379-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5379-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Армянская, 6а",
+  "subway": {
+    "color": "green",
+    "text": "Вырлица — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/ул-армянская-6а-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-армянская-6а-киев#developer_offers",
+    "urlConstruction": "\/ул-армянская-6а-киев\/ход-строительства",
+    "urlPlans": "\/ул-армянская-6а-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">22&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 102,
+    "name": "Ковальская Недвижимость",
+    "site": "http:\/\/build.kovalska.com\/armyanskaya\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fbuild.kovalska.com%2Farmyanskaya%2F",
+    "rank": 23,
+    "companyUrl": "\/промышленно-строительная-группа-ковальськая"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "Последние квартиры",
+  "labelColor": "#fbc02d",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,110 @@
+{
+  "id": 4319,
+  "name": "ЖК Campus",
+  "type": "new_building",
+  "pricesUpdateTime": "20.04.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "9": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4931-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4931-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — секция а"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Полевая, 38",
+  "subway": {
+    "color": "red",
+    "text": "Шулявская — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-campus-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-campus-киев#developer_offers",
+    "urlConstruction": "\/жк-campus-киев\/ход-строительства",
+    "urlPlans": "\/жк-campus-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">17&nbsp;389<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 601,
+    "name": "Standard Development",
+    "site": "http:\/\/campus-dom.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fcampus-dom.com.ua%2F",
+    "rank": 1,
+    "companyUrl": "\/standard-development"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "Продажа новой очереди",
+  "labelColor": "#00838f",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,148 @@
+{
+  "id": 2801,
+  "name": "ЖК Герцен-Парк",
+  "type": "new_building",
+  "pricesUpdateTime": "24.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "5": {},
+      "7": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "5": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "7": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5354-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5354-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "ready",
+    "text": "2 кв. 2017 — 2 дом (секция 1)"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Герцена, 32",
+  "subway": {
+    "color": "green",
+    "text": "Дорогожичи — <i class=\"material-icons\">directions_walk<\/i> 14 мин"
+  },
+  "url": "\/жк-герцен-парк-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-герцен-парк-киев#developer_offers",
+    "urlConstruction": "\/жк-герцен-парк-киев\/ход-строительства",
+    "urlPlans": "\/жк-герцен-парк-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">19&nbsp;950<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 294,
+    "name": "УКРБУД",
+    "site": "http:\/\/gercen.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fgercen.com.ua%2F",
+    "rank": 30,
+    "companyUrl": "\/укрбуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

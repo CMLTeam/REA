@@ -1,0 +1,64 @@
+{
+  "id": 2178,
+  "name": "ЖК Предславинская",
+  "type": "new_building",
+  "pricesUpdateTime": "28.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4552-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4552-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "строится"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Предславинская",
+  "subway": false,
+  "url": "\/жк-предславинская-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жк-предславинская-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": 362,
+    "name": "Mega Line",
+    "site": "http:\/\/megaline.ua\/projects\/%D0%BC%D1%84%D0%BA-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%BB%D0%B0%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F-%D0%B3-%D0%BA%D0%B8%D0%B5%D0%B2-166-000%D0%BC2\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fmegaline.ua%2Fprojects%2F%25D0%25BC%25D1%2584%25D0%25BA-%25D0%25BF%25D1%2580%25D0%25B5%25D0%25B4%25D1%2581%25D0%25BB%25D0%25B0%25D0%25B2%25D0%25B8%25D0%25BD%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F-%25D0%25B3-%25D0%25BA%25D0%25B8%25D0%25B5%25D0%25B2-166-000%25D0%25BC2%2F",
+    "rank": 0,
+    "companyUrl": "\/mega-line"
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

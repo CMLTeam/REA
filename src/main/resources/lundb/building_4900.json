@@ -1,0 +1,67 @@
+{
+  "id": 4900,
+  "name": "ул. Огородная, 10",
+  "type": "new_building",
+  "pricesUpdateTime": "07.11.2016",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/images\/default_building.png",
+    "main_thumb": "\/images\/default_building.png"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "строится"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Огородная, 10",
+  "subway": {
+    "color": "blue",
+    "text": "Олимпийская — <i class=\"material-icons\">directions_walk<\/i> 20 мин"
+  },
+  "url": "\/ул-огородняя-10-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/ул-огородняя-10-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

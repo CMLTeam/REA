@@ -1,0 +1,67 @@
+{
+  "id": 5249,
+  "name": "ул. Деловая, 5а",
+  "type": "new_building",
+  "pricesUpdateTime": "22.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/images\/default_building.png",
+    "main_thumb": "\/images\/default_building.png"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "строится"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Деловая, 5а",
+  "subway": {
+    "color": "blue",
+    "text": "Олимпийская — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/ул-деловая-5а-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

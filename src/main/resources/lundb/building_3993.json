@@ -1,0 +1,161 @@
+{
+  "id": 3993,
+  "name": "Варшавский Микрорайон",
+  "type": "new_building",
+  "pricesUpdateTime": "10.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "4": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5017-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5017-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — 1 очередь (дом 1)"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "просп. Правды \/ ул. Маршала Гречко",
+  "subway": {
+    "color": "green",
+    "text": "Сырец — <i class=\"material-icons\">directions_bus<\/i> 35 мин"
+  },
+  "url": "\/варшавский-микрорайон-киев",
+  "infoLinks": {
+    "urlPrice": "\/варшавский-микрорайон-киев#developer_offers",
+    "urlConstruction": "\/варшавский-микрорайон-киев\/ход-строительства",
+    "urlPlans": "\/варшавский-микрорайон-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">15&nbsp;123<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 59,
+    "name": "Stolitsa Group",
+    "site": "http:\/\/varshavsky.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fvarshavsky.com.ua%2F",
+    "rank": 25,
+    "companyUrl": "\/stolitsa-group"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

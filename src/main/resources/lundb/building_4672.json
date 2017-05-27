@@ -1,0 +1,78 @@
+{
+  "id": 4672,
+  "name": "ЖК Cardinal",
+  "type": "new_building",
+  "pricesUpdateTime": "18.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4953-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4953-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2018 — 1 секция"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Анри Барбюса, 28а",
+  "subway": {
+    "color": "blue",
+    "text": "Дворец Украина — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/жк-cardinal-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-cardinal-киев#developer_offers",
+    "urlConstruction": "\/жк-cardinal-киев\/ход-строительства",
+    "urlPlans": "\/жк-cardinal-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">30&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 328,
+    "name": "GEOS",
+    "site": "http:\/\/cardinal.house\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fcardinal.house%2F",
+    "rank": 28,
+    "companyUrl": "\/geos"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

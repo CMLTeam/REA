@@ -1,0 +1,100 @@
+{
+  "id": 531,
+  "name": "ЖК Smart Plaza Polytech",
+  "type": "new_building",
+  "pricesUpdateTime": "20.04.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "9": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5236-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5236-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "1 кв. 2017 — 2 дом (с2)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "просп. Победы, 26",
+  "subway": {
+    "color": "red",
+    "text": "Политехнический институт — <i class=\"material-icons\">directions_walk<\/i> 4 мин"
+  },
+  "url": "\/жк-smart-plaza-polytech-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-smart-plaza-polytech-киев#developer_offers",
+    "urlConstruction": "\/жк-smart-plaza-polytech-киев\/ход-строительства",
+    "urlPlans": "\/жк-smart-plaza-polytech-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">33&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 20,
+    "name": "UDP",
+    "site": "http:\/\/www.smartplaza.com.ua\/?utm_source=lun.ua&utm_medium=referral&utm_campaign=lun",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.smartplaza.com.ua%2F%3Futm_source%3Dlun.ua%26utm_medium%3Dreferral%26utm_campaign%3Dlun",
+    "rank": 24,
+    "companyUrl": "\/udp"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

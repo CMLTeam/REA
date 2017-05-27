@@ -1,0 +1,75 @@
+{
+  "id": 5229,
+  "name": "ЖК IL Patio",
+  "type": "new_building",
+  "pricesUpdateTime": "15.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16510-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16510-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул. Радужная, 56",
+  "subway": {
+    "color": "red",
+    "text": "Дарница — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-il-patio-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-il-patio-киев#developer_offers",
+    "urlConstruction": "\/жк-il-patio-киев\/ход-строительства",
+    "urlPlans": "\/жк-il-patio-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">14&nbsp;300<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 751,
+    "name": "Район Радужный",
+    "site": "http:\/\/ilpatio.kiev.ua",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Filpatio.kiev.ua",
+    "rank": 1,
+    "companyUrl": "\/район-радужный"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,78 @@
+{
+  "id": 4770,
+  "name": "ЖК Veles Place",
+  "type": "new_building",
+  "pricesUpdateTime": "16.03.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3869-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3869-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2018 — 1 секция"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "Вознесенский спуск, 28",
+  "subway": {
+    "color": "blue",
+    "text": "Контрактовая площадь — <i class=\"material-icons\">directions_walk<\/i> 9 мин"
+  },
+  "url": "\/жк-veles-place-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-veles-place-киев#developer_offers",
+    "urlConstruction": "\/жк-veles-place-киев\/ход-строительства",
+    "urlPlans": "\/жк-veles-place-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">31&nbsp;970<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/veles.place\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fveles.place%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

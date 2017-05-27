@@ -1,0 +1,79 @@
+{
+  "id": 19,
+  "name": "ЖК Изумрудный",
+  "type": "new_building",
+  "pricesUpdateTime": "20.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5057-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5057-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Механизаторов, 2",
+  "subway": {
+    "color": "red",
+    "text": "Вокзальная — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/жк-изумрудный-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-изумрудный-киев#developer_offers",
+    "urlConstruction": "\/",
+    "urlPlans": "\/жк-изумрудный-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">21&nbsp;310<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 58,
+    "name": "НЕСТ",
+    "site": "http:\/\/izumrudniy.com.ua\/?utm_source=lun.ua&utm_medium=referral&utm_campaign=lun",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fizumrudniy.com.ua%2F%3Futm_source%3Dlun.ua%26utm_medium%3Dreferral%26utm_campaign%3Dlun",
+    "rank": 17,
+    "companyUrl": "\/ооо-недвижимость-столицы"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

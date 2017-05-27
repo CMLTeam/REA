@@ -1,0 +1,77 @@
+{
+  "id": 2580,
+  "name": "ул. Теремковская, 3",
+  "type": "new_building",
+  "pricesUpdateTime": "18.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4133-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4133-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Теремковская, 3",
+  "subway": {
+    "color": "blue",
+    "text": "Теремки — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/жк-ул-теремковская-3-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-теремковская-3-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-теремковская-3-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-теремковская-3-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">18&nbsp;800<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 116,
+    "name": "Спецжилфонд",
+    "site": "http:\/\/teremkivska.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fteremkivska.com.ua%2F",
+    "rank": 14,
+    "companyUrl": "\/кп-спецжитлофонд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

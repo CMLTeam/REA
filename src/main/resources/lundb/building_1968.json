@@ -1,0 +1,81 @@
+{
+  "id": 1968,
+  "name": "ЖК Tetris Hall",
+  "type": "new_building",
+  "pricesUpdateTime": "17.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5579-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5579-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Деловая (Димитрова) \/ ул. Анри Барбюса, 1\/2",
+  "subway": {
+    "color": "blue",
+    "text": "Олимпийская — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/ул-димитрова-барбюса-1-2-а-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-димитрова-барбюса-1-2-а-киев#developer_offers",
+    "urlConstruction": "\/ул-димитрова-барбюса-1-2-а-киев\/ход-строительства",
+    "urlPlans": "\/ул-димитрова-барбюса-1-2-а-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">57&nbsp;890<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 62,
+    "name": "К.А.Н. Девелопмент",
+    "site": "http:\/\/tetrishall.com.ua\/ru",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Ftetrishall.com.ua%2Fru",
+    "rank": 26,
+    "companyUrl": "\/кан-девелопмент"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

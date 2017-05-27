@@ -1,0 +1,111 @@
+{
+  "id": 3201,
+  "name": "ЖК ObolonSky",
+  "type": "new_building",
+  "pricesUpdateTime": "19.05.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "4": [
+        {}
+      ],
+      "5": [
+        {}
+      ],
+      "6": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16864-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16864-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 5,
+    "name": "Оболонский"
+  },
+  "address": "просп. Оболонский, 1",
+  "subway": {
+    "color": "blue",
+    "text": "Оболонь — <i class=\"material-icons\">directions_walk<\/i> 2 мин"
+  },
+  "url": "\/жк-просп-оболонский-1-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-просп-оболонский-1-киев#developer_offers",
+    "urlConstruction": "\/жк-просп-оболонский-1-киев\/ход-строительства",
+    "urlPlans": "\/жк-просп-оболонский-1-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">29&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 119,
+    "name": "МЖК «Оболонь»",
+    "site": "http:\/\/www.priminvest.ua\/ru\/object-obolonskiy1.html",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.priminvest.ua%2Fru%2Fobject-obolonskiy1.html",
+    "rank": 22,
+    "companyUrl": "\/мжк-оболонь"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}
