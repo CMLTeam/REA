@@ -12,27 +12,27 @@ import org.slf4j.LoggerFactory;
 public class PropertyUtil {
 	private static final Logger log = LoggerFactory.getLogger(PropertyUtil.class);
 
-	public static String loadProperty(String key, String defaultValue) {
+	public static String getProperty(String key, String defaultValue) {
 		// try to load property as is
-		String value = loadProperty(key);
+		String value = getProperty(key);
 
 		// try to load it lowercase, convert SOME_KEY to some-key
 		if(value == null) {
 			key = key.toLowerCase().replaceAll("_", "-");
-			value = loadProperty(key);
+			value = getProperty(key);
 		}
 
 		// try to load it uppercase, convert some-key to SOME_KEY
 		if(value == null) {
 			key = key.toUpperCase().replaceAll("\\-", "_");
-			value = loadProperty(key);
+			value = getProperty(key);
 		}
 
 		// fallback to default value
 		return value == null? defaultValue: value;
 	}
 
-	public static String loadProperty(String key) {
+	public static String getProperty(String key) {
 		// try to load property from JAVA_OPTS like -Dname=value
 		String value = System.getProperty(key);
 
