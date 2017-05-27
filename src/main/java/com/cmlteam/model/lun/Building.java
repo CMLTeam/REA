@@ -4,7 +4,6 @@ import openchat.api.messenger.json.AbstractJson;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.List;
 
 /**
  * @author vgorin
@@ -18,6 +17,8 @@ public class Building extends AbstractJson {
 	public long id;
 	@XmlElement
 	public String state;
+	@XmlElement
+	public String name;
 	@XmlElement
 	public Img img;
 	@XmlElement
@@ -33,7 +34,7 @@ public class Building extends AbstractJson {
 	@XmlElement
 	public String address;
 	@XmlElement
-	public List<Point> polygon;
+	public Point[] polygon;
 	@XmlElement
 	public String analytics;
 }

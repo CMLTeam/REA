@@ -66,10 +66,17 @@
 		</dependency>
 
 		<!-- Chatbot API from OpenChat Platform -->
+		<!--
 		<dependency>
 			<groupId>openchat</groupId>
 			<artifactId>chatbot-api</artifactId>
 			<version>0.1-SNAPSHOT</version>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>com.github.vgorin</groupId>
+			<artifactId>chatbot-api</artifactId>
+			<version>eb5c8e328653e605eac0a1dde798db3e9209d247</version>
 		</dependency>
 
 		<!-- Apache Commons -->
@@ -92,4 +99,10 @@
 	</build>
 
 
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 </project>
