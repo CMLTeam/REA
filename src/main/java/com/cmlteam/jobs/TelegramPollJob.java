@@ -51,9 +51,8 @@ public class TelegramPollJob {
                     Building building = LunUtil.getClosestBuilding(text);
                     if (building != null) {
                         String result = String.format(
-                                "Результат перевірки %s за адресою %s:\nВстановив рейтинг: %s",
-                                building.name,
-                                building.address,
+                                "Результат перевірки за адресою %s:\nВстановив рейтинг: %s",
+                                building.formattedAddress,
                                 "9/10");
                         if (false) {
 
