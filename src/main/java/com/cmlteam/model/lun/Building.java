@@ -39,4 +39,6 @@ public class Building extends AbstractJson {
 	public Point[] polygon;
 	@XmlElement
 	public String analytics;
+
+	public String formattedAddress;
 }

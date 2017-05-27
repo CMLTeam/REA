@@ -40,7 +40,9 @@ public class LunUtil {
 		GeocodingResult result = AddressUtil.geocodeAddress(address);
 		if(result != null) {
 			LatLng latLng = result.geometry.location;
-			return GeoUtil.getClosestBuilding(MODEL, latLng);
+			Building building = GeoUtil.getClosestBuilding(MODEL, latLng);
+			building.formattedAddress = result.formattedAddress;
+			return building;
 		}
 		return null;
 	}
