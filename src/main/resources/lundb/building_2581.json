@@ -1,0 +1,77 @@
+{
+  "id": 2581,
+  "name": "ЖК Silver House",
+  "type": "new_building",
+  "pricesUpdateTime": "25.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "9": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3299-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3299-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "просп. Голосеевский, 74",
+  "subway": {
+    "color": "blue",
+    "text": "Голосеевская — <i class=\"material-icons\">directions_walk<\/i> 1 мин"
+  },
+  "url": "\/просп-голосеевский-74-киев",
+  "infoLinks": {
+    "urlPrice": "\/просп-голосеевский-74-киев#developer_offers",
+    "urlConstruction": "\/просп-голосеевский-74-киев\/ход-строительства",
+    "urlPlans": "\/просп-голосеевский-74-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">22&nbsp;050<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 116,
+    "name": "Спецжилфонд",
+    "site": "http:\/\/sgf.kiev.ua\/ru\/objects\/zhiloy-dom-po-pros-40-letiya-oktyabrya-74-u-goloseevskom-rayone",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fsgf.kiev.ua%2Fru%2Fobjects%2Fzhiloy-dom-po-pros-40-letiya-oktyabrya-74-u-goloseevskom-rayone",
+    "rank": 14,
+    "companyUrl": "\/кп-спецжитлофонд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

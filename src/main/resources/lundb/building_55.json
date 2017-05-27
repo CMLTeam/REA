@@ -1,0 +1,79 @@
+{
+  "id": 55,
+  "name": "ЖК Альпийский городок",
+  "type": "new_building",
+  "pricesUpdateTime": "18.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4063-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4063-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Протасов Яр, 8",
+  "subway": {
+    "color": "blue",
+    "text": "Олимпийская — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-альпийский-городок-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-альпийский-городок-киев#developer_offers",
+    "urlConstruction": "\/",
+    "urlPlans": "\/жк-альпийский-городок-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">35&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 202,
+    "name": "Жилстрой",
+    "site": "http:\/\/alpiyskiygorodok.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Falpiyskiygorodok.com.ua%2F",
+    "rank": 1,
+    "companyUrl": "\/ск-жилстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

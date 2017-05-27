@@ -1,0 +1,148 @@
+{
+  "id": 3042,
+  "name": "ЖК Академ Парк",
+  "type": "new_building",
+  "pricesUpdateTime": "24.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "9": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4994-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4994-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 1 дом (секция 4)"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 8,
+    "name": "Святошинский"
+  },
+  "address": "бул. Академика Вернадского, 24",
+  "subway": {
+    "color": "red",
+    "text": "Житомирская — <i class=\"material-icons\">directions_walk<\/i> 15 мин"
+  },
+  "url": "\/жк-академ-парк-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-академ-парк-киев#developer_offers",
+    "urlConstruction": "\/жк-академ-парк-киев\/ход-строительства",
+    "urlPlans": "\/жк-академ-парк-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">14&nbsp;725<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 294,
+    "name": "УКРБУД",
+    "site": "http:\/\/akadem-park.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fakadem-park.com.ua%2F",
+    "rank": 30,
+    "companyUrl": "\/укрбуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

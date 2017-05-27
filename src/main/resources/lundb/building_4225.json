@@ -1,0 +1,72 @@
+{
+  "id": 4225,
+  "name": "ул. Милославская, 18",
+  "type": "new_building",
+  "pricesUpdateTime": "24.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3742-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3742-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 3,
+    "name": "Деснянский"
+  },
+  "address": "ул. Милославская, 18",
+  "subway": false,
+  "url": "\/ул-милославская-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-милославская-киев#developer_offers",
+    "urlConstruction": "\/ул-милославская-киев\/ход-строительства",
+    "urlPlans": "\/ул-милославская-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">15&nbsp;300<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 100,
+    "name": "Житло-Инвест",
+    "site": "http:\/\/investbud.kiev.ua\/vul-miloslavska",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Finvestbud.kiev.ua%2Fvul-miloslavska",
+    "rank": 10,
+    "companyUrl": "\/финансовая-компания-житло-инвест"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

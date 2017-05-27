@@ -1,0 +1,81 @@
+{
+  "id": 482,
+  "name": "ЖК Crystal Park",
+  "type": "new_building",
+  "pricesUpdateTime": "06.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4357-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4357-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "просп. Победы, 42",
+  "subway": {
+    "color": "red",
+    "text": "Шулявская — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/жк-crystal-park-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-crystal-park-киев#developer_offers",
+    "urlConstruction": "\/жк-crystal-park-киев\/ход-строительства",
+    "urlPlans": "\/жк-crystal-park-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">48&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 159,
+    "name": "St Sophia Homes",
+    "site": "http:\/\/stsophia.ua\/ru\/project\/crystal-park",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fstsophia.ua%2Fru%2Fproject%2Fcrystal-park",
+    "rank": 30,
+    "companyUrl": "\/st-sophia-homes"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

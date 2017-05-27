@@ -1,0 +1,76 @@
+{
+  "id": 2858,
+  "name": "ул. Володи Дубинина, 5\/15, 7\/14",
+  "type": "new_building",
+  "pricesUpdateTime": "04.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4872-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4872-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "4 кв. 2015 — ул. дубинина, 5\/15"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Володи Дубинина, 5\/15, 7\/14",
+  "subway": {
+    "color": "blue",
+    "text": "Васильковская — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/ул-володи-дубинина-7-14-5-15-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-володи-дубинина-7-14-5-15-киев#developer_offers",
+    "urlConstruction": "\/ул-володи-дубинина-7-14-5-15-киев\/ход-строительства",
+    "urlPlans": "\/ул-володи-дубинина-7-14-5-15-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">25&nbsp;170<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 41,
+    "name": "Киевгорстрой",
+    "site": "https:\/\/kmb.ua\/ru\/objects\/19-zhk-vul-dubinina-5-15\/1-type",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkmb.ua%2Fru%2Fobjects%2F19-zhk-vul-dubinina-5-15%2F1-type",
+    "rank": 27,
+    "companyUrl": "\/киевгорстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

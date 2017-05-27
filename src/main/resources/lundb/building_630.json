@@ -1,0 +1,80 @@
+{
+  "id": 630,
+  "name": "ЖК Central Park",
+  "type": "new_building",
+  "pricesUpdateTime": "17.05.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5637-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5637-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "ready",
+    "text": "2 кв. 2015 — 1 очередь (дома 1-3)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Ивана Кудри, 7",
+  "subway": {
+    "color": "blue",
+    "text": "Лыбедская — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/жк-central-park-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-central-park-киев#developer_offers",
+    "urlConstruction": "\/жк-central-park-киев\/ход-строительства",
+    "urlPlans": "\/жк-central-park-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">48&nbsp;610<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 62,
+    "name": "К.А.Н. Девелопмент",
+    "site": "http:\/\/centralpark.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fcentralpark.com.ua%2F",
+    "rank": 26,
+    "companyUrl": "\/кан-девелопмент"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

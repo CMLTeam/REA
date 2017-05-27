@@ -1,0 +1,99 @@
+{
+  "id": 2183,
+  "name": "ЖК Панорама",
+  "type": "new_building",
+  "pricesUpdateTime": "17.05.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {}
+      ],
+      "3": [
+        {}
+      ],
+      "9": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3227-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3227-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2018 — 6 секция"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Майкопская, 1а",
+  "subway": {
+    "color": "blue",
+    "text": "Голосеевская — <i class=\"material-icons\">directions_walk<\/i> 14 мин"
+  },
+  "url": "\/жк-панорама-киев-демеевка",
+  "infoLinks": {
+    "urlPrice": "\/жк-панорама-киев-демеевка#developer_offers",
+    "urlConstruction": "\/жк-панорама-киев-демеевка\/ход-строительства",
+    "urlPlans": "\/жк-панорама-киев-демеевка\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">20&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 300,
+    "name": "Сан Девелопмент",
+    "site": "http:\/\/panorama-home.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fpanorama-home.com.ua%2F",
+    "rank": 1,
+    "companyUrl": "\/группа-компаний-сан-девелопмент"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

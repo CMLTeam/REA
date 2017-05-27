@@ -1,0 +1,67 @@
+{
+  "id": 3030,
+  "name": "ЖК Renaissance Residence",
+  "type": "new_building",
+  "pricesUpdateTime": "06.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4260-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4260-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Новоселицкая, 7, 9, 10, ул. Добролюбова, 4",
+  "subway": {
+    "color": "green",
+    "text": "Выдубичи — <i class=\"material-icons\">directions_walk<\/i> 13 мин"
+  },
+  "url": "\/жк-renaissance-residence-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/жк-renaissance-residence-киев\/ход-строительства",
+    "urlPlans": "\/жк-renaissance-residence-киев\/планировки"
+  },
+  "prices": [],
+  "price": "Цена не указана",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "http:\/\/renaissance-residence.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Frenaissance-residence.com.ua%2F",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

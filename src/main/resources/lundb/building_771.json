@@ -1,0 +1,79 @@
+{
+  "id": 771,
+  "name": "ЖК Воздвиженка",
+  "type": "new_building",
+  "pricesUpdateTime": "18.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4085-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4085-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "ул. Воздвиженская, 9-19, 22, 48, 50, ул. Дегтярная, 5, ул. Кожемяцкая, 12в, 14б, 14в, 16б, 20в, 20г",
+  "subway": {
+    "color": "blue",
+    "text": "Контрактовая площадь — <i class=\"material-icons\">directions_walk<\/i> 13 мин"
+  },
+  "url": "\/жк-воздвиженка-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-воздвиженка-киев#developer_offers",
+    "urlConstruction": "\/",
+    "urlPlans": "\/жк-воздвиженка-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">42&nbsp;100<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,100 @@
+{
+  "id": 36,
+  "name": "ЖК Park Avenue VIP",
+  "type": "new_building",
+  "pricesUpdateTime": "19.05.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5603-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5603-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2018 — 4 дом"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "просп. Голосеевский, 58а",
+  "subway": {
+    "color": "blue",
+    "text": "Демеевская — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/жк-парк-авеню-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-парк-авеню-киев#developer_offers",
+    "urlConstruction": "\/жк-парк-авеню-киев\/ход-строительства",
+    "urlPlans": "\/жк-парк-авеню-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">56&nbsp;280<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 19,
+    "name": "Seven Hills",
+    "site": "http:\/\/parkavenuevip.com.ua\/?utm_source=lun.ua&utm_medium=referral&utm_campaign=lun",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fparkavenuevip.com.ua%2F%3Futm_source%3Dlun.ua%26utm_medium%3Dreferral%26utm_campaign%3Dlun",
+    "rank": 2,
+    "companyUrl": "\/seven-hills"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,75 @@
+{
+  "id": 4078,
+  "name": "ЖК Троицкий",
+  "type": "new_building",
+  "pricesUpdateTime": "26.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3705-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3705-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "пер. Армянский, 17",
+  "subway": {
+    "color": "green",
+    "text": "Вырлица — <i class=\"material-icons\">directions_walk<\/i> 14 мин"
+  },
+  "url": "\/жк-троицкий-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-троицкий-киев#developer_offers",
+    "urlConstruction": "\/жк-троицкий-киев\/ход-строительства",
+    "urlPlans": "\/жк-троицкий-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">19&nbsp;600<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 596,
+    "name": "Лига ЮгСтрой",
+    "site": "http:\/\/liga-stroy.com.ua\/project-about.php?id=11",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fliga-stroy.com.ua%2Fproject-about.php%3Fid%3D11",
+    "rank": 1,
+    "companyUrl": "\/лига-югстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

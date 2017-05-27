@@ -1,0 +1,67 @@
+{
+  "id": 5161,
+  "name": "ул. Обсерваторная, 4",
+  "type": "new_building",
+  "pricesUpdateTime": "04.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/images\/default_building.png",
+    "main_thumb": "\/images\/default_building.png"
+  },
+  "state": {
+    "stateType": "in_design",
+    "constant": "in_design",
+    "text": "в проекте"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Обсерваторная, 4",
+  "subway": {
+    "color": "red",
+    "text": "Университет — <i class=\"material-icons\">directions_walk<\/i> 17 мин"
+  },
+  "url": "\/ул-обсерваторная-4-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/ул-обсерваторная-4-киев\/ход-строительства",
+    "urlPlans": "\/"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

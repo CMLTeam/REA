@@ -1,0 +1,77 @@
+{
+  "id": 4985,
+  "name": "ЖК Orange City",
+  "type": "new_building",
+  "pricesUpdateTime": "23.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16428-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16428-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2019 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "Лысогорский спуск, 26а",
+  "subway": {
+    "color": "blue",
+    "text": "Демеевская — <i class=\"material-icons\">directions_bus<\/i> 30 мин"
+  },
+  "url": "\/жк-orange-city-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-orange-city-киев#developer_offers",
+    "urlConstruction": "\/жк-orange-city-киев\/ход-строительства",
+    "urlPlans": "\/жк-orange-city-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">12&nbsp;900<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 328,
+    "name": "GEOS",
+    "site": "https:\/\/orange.geos.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Forange.geos.ua%2F",
+    "rank": 28,
+    "companyUrl": "\/geos"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

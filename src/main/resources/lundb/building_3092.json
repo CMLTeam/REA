@@ -1,0 +1,78 @@
+{
+  "id": 3092,
+  "name": "ЖК Печерск Плаза",
+  "type": "new_building",
+  "pricesUpdateTime": "07.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4966-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4966-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — 1 очередь"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Киквидзе, 17",
+  "subway": {
+    "color": "green",
+    "text": "Дружбы народов — <i class=\"material-icons\">directions_walk<\/i> 12 мин"
+  },
+  "url": "\/жк-печерск-плаза-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-печерск-плаза-киев#developer_offers",
+    "urlConstruction": "\/",
+    "urlPlans": "\/жк-печерск-плаза-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">41&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 224,
+    "name": "Энергополь-Украина",
+    "site": "http:\/\/pecherskplaza.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fpecherskplaza.ua%2F",
+    "rank": 15,
+    "companyUrl": "\/энергополь-украина"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

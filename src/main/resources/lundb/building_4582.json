@@ -1,0 +1,75 @@
+{
+  "id": 4582,
+  "name": "ЖК The Garden",
+  "type": "new_building",
+  "pricesUpdateTime": "12.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    {
+      "3": {},
+      "4": {},
+      "5": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3790-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3790-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Бусловская, 15",
+  "subway": {
+    "color": "green",
+    "text": "Выдубичи — <i class=\"material-icons\">directions_walk<\/i> 11 мин"
+  },
+  "url": "\/жк-the-garden-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-the-garden-киев#developer_offers",
+    "urlConstruction": "\/жк-the-garden-киев\/ход-строительства",
+    "urlPlans": "\/жк-the-garden-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">47&nbsp;610<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 491,
+    "name": "Княгиня Ярославна",
+    "site": "http:\/\/the-garden.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fthe-garden.com.ua%2F",
+    "rank": 1,
+    "companyUrl": "\/княгиня-ярославна"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

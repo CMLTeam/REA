@@ -1,0 +1,133 @@
+{
+  "id": 874,
+  "name": "ЖК Грюнвальд",
+  "type": "new_building",
+  "pricesUpdateTime": "22.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "9": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {}
+      ],
+      "4": [
+        {}
+      ],
+      "9": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3031-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3031-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — 6 дом"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 8,
+    "name": "Святошинский"
+  },
+  "address": "ул. Клавдиевская, 40а, 40б, 40в, 40г",
+  "subway": {
+    "color": "red",
+    "text": "Академгородок — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-грюнвальд-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-грюнвальд-киев#developer_offers",
+    "urlConstruction": "\/жк-грюнвальд-киев\/ход-строительства",
+    "urlPlans": "\/жк-грюнвальд-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">18&nbsp;500<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 630,
+    "name": "Украинская строительная компания",
+    "site": "http:\/\/grunvald.com.ua",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fgrunvald.com.ua",
+    "rank": 1,
+    "companyUrl": "\/украинская-строительная-компания"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

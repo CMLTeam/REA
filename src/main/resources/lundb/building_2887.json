@@ -1,0 +1,140 @@
+{
+  "id": 2887,
+  "name": "ЖК Заречный",
+  "type": "new_building",
+  "pricesUpdateTime": "06.04.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "9": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4833-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4833-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2018 — 6 дом"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Заречная, 1б, 1в, 1г, ул. Николая Бажана, 1а",
+  "subway": {
+    "color": "green",
+    "text": "Славутич — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/жк-заречный-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-заречный-киев#developer_offers",
+    "urlConstruction": "\/жк-заречный-киев\/ход-строительства",
+    "urlPlans": "\/жк-заречный-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">20&nbsp;788<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 459,
+    "name": "IB Alliance",
+    "site": "http:\/\/zarichna.com\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fzarichna.com%2F",
+    "rank": 0,
+    "companyUrl": "\/ib-alliance"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

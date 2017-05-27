@@ -1,0 +1,79 @@
+{
+  "id": 1224,
+  "name": "ARCH House",
+  "type": "new_building",
+  "pricesUpdateTime": "13.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "2": {},
+      "3": {},
+      "4": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3145-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3145-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Николая Пирогова \/ ул. Богдана Хмельницкого, 2\/37б",
+  "subway": {
+    "color": "red",
+    "text": "Университет — <i class=\"material-icons\">directions_walk<\/i> 6 мин"
+  },
+  "url": "\/жк-arch-house-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-arch-house-киев#developer_offers",
+    "urlConstruction": "\/жк-arch-house-киев\/ход-строительства",
+    "urlPlans": "\/жк-arch-house-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">56&nbsp;490<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 517,
+    "name": "Укрбудинвест и Ко",
+    "site": "http:\/\/archhouse.com.ua\/ru\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Farchhouse.com.ua%2Fru%2F",
+    "rank": 1,
+    "companyUrl": "\/убико"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

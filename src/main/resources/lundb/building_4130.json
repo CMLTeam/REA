@@ -1,0 +1,77 @@
+{
+  "id": 4130,
+  "name": "ул. Петра Калнышевского (Майорова), 6",
+  "type": "new_building",
+  "pricesUpdateTime": "20.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3730-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3730-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 5,
+    "name": "Оболонский"
+  },
+  "address": "ул. Петра Калнышевского (Майорова), 6",
+  "subway": {
+    "color": "blue",
+    "text": "Минская — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/ул-майорова-6-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-майорова-6-киев#developer_offers",
+    "urlConstruction": "\/ул-майорова-6-киев\/ход-строительства",
+    "urlPlans": "\/ул-майорова-6-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">19&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 486,
+    "name": "Фундамент",
+    "site": "http:\/\/fundament.ua\/ua\/projects\/list\/1152\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Ffundament.ua%2Fua%2Fprojects%2Flist%2F1152%2F",
+    "rank": 2,
+    "companyUrl": "\/фундамент"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

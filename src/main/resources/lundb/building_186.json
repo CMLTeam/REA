@@ -1,0 +1,77 @@
+{
+  "id": 186,
+  "name": "ул. Каунасская, 2а",
+  "type": "new_building",
+  "pricesUpdateTime": "21.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4316-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4316-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул. Каунасская, 2а",
+  "subway": {
+    "color": "red",
+    "text": "Левобережная — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-ул-каунасская-2а-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-каунасская-2а-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-каунасская-2а-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-каунасская-2а-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">15&nbsp;600<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 40,
+    "name": "Укрреставрация",
+    "site": "http:\/\/sv-it.com.ua\/shcho-my-robymo\/kyanska-ukr.html",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fsv-it.com.ua%2Fshcho-my-robymo%2Fkyanska-ukr.html",
+    "rank": 0,
+    "companyUrl": "\/укрреставрация"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

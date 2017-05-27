@@ -1,0 +1,79 @@
+{
+  "id": 2976,
+  "name": "ЖК Panorama",
+  "type": "new_building",
+  "pricesUpdateTime": "18.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5525-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5525-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Киквидзе, 41-43",
+  "subway": {
+    "color": "green",
+    "text": "Выдубичи — <i class=\"material-icons\">directions_walk<\/i> 9 мин"
+  },
+  "url": "\/жк-panorama-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-panorama-киев#developer_offers",
+    "urlConstruction": "\/жк-panorama-киев\/ход-строительства",
+    "urlPlans": "\/жк-panorama-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">24&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 556,
+    "name": "bUd development",
+    "site": "http:\/\/www.bud-panorama.com\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.bud-panorama.com%2F",
+    "rank": 24,
+    "companyUrl": "\/bud-development"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

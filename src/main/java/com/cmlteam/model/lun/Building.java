@@ -1,5 +1,6 @@
 package com.cmlteam.model.lun;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import openchat.api.messenger.json.AbstractJson;
 
 import javax.xml.bind.annotation.XmlElement;
@@ -37,4 +38,7 @@ public class Building extends AbstractJson {
 	public Point[] polygon;
 	@XmlElement
 	public String analytics;
+
+	@XmlElement
+	public Developer developers;
 }

@@ -1,0 +1,126 @@
+{
+  "id": 2294,
+  "name": "ул. Евгена Маланюка (Сагайдака), 101",
+  "type": "new_building",
+  "pricesUpdateTime": "27.04.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3243-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3243-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — дом 30"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул. Евгена Маланюка (Сагайдака), 101",
+  "subway": {
+    "color": "red",
+    "text": "Левобережная — <i class=\"material-icons\">directions_walk<\/i> 18 мин"
+  },
+  "url": "\/жк-ул-сагайдака-101-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-сагайдака-101-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-сагайдака-101-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-сагайдака-101-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">17&nbsp;030<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 100,
+    "name": "Житло-Инвест",
+    "site": "http:\/\/www.zhitlo-invest.kiev.ua\/objects\/zhitloviy-budinok-na-vul-sagaydaka-101--u-dnprovskomu-rayon-v-m-kiv",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.zhitlo-invest.kiev.ua%2Fobjects%2Fzhitloviy-budinok-na-vul-sagaydaka-101--u-dnprovskomu-rayon-v-m-kiv",
+    "rank": 10,
+    "companyUrl": "\/финансовая-компания-житло-инвест"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

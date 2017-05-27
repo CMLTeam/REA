@@ -1,0 +1,81 @@
+{
+  "id": 1970,
+  "name": "ЖК Берестейский",
+  "type": "new_building",
+  "pricesUpdateTime": "26.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3185-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3185-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "4 кв. 2017 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "просп. Победы, 55",
+  "subway": {
+    "color": "red",
+    "text": "Берестейская — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/жк-берестейский-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-берестейский-киев#developer_offers",
+    "urlConstruction": "\/жк-берестейский-киев\/ход-строительства",
+    "urlPlans": "\/жк-берестейский-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">28&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 236,
+    "name": "Энергобудлизинг",
+    "site": "http:\/\/ebl.com.ua\/beresteyskiy\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Febl.com.ua%2Fberesteyskiy%2F",
+    "rank": 1,
+    "companyUrl": "\/энергобудлизинг"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

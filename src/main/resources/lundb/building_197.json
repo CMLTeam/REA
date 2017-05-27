@@ -1,0 +1,77 @@
+{
+  "id": 197,
+  "name": "ЖК Тридцать восьмая жемчужина",
+  "type": "new_building",
+  "pricesUpdateTime": "20.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/2871-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/2871-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2019 — сдача"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Жилянская, 68",
+  "subway": {
+    "color": "blue",
+    "text": "Олимпийская — <i class=\"material-icons\">directions_walk<\/i> 16 мин"
+  },
+  "url": "\/жк-тридцать-восьмая-жемчужина-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-тридцать-восьмая-жемчужина-киев#developer_offers",
+    "urlConstruction": "\/жк-тридцать-восьмая-жемчужина-киев\/ход-строительства",
+    "urlPlans": "\/жк-тридцать-восьмая-жемчужина-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">22&nbsp;210<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 229,
+    "name": "Kadorr Group",
+    "site": "https:\/\/kadorrgroup.com\/tridcat-vosmaya-zhemchuzhina",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fkadorrgroup.com%2Ftridcat-vosmaya-zhemchuzhina",
+    "rank": 4,
+    "companyUrl": "\/kadorr-group"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

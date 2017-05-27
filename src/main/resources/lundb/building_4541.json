@@ -1,0 +1,80 @@
+{
+  "id": 4541,
+  "name": "ЖК Рідне місто",
+  "type": "new_building",
+  "pricesUpdateTime": "19.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "9": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5157-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5157-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2018 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "ул. Качалова, 40",
+  "subway": {
+    "color": "red",
+    "text": "Берестейская — <i class=\"material-icons\">directions_bus<\/i> 20 мин"
+  },
+  "url": "\/ул-качалова-40-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-качалова-40-киев#developer_offers",
+    "urlConstruction": "\/ул-качалова-40-киев\/ход-строительства",
+    "urlPlans": "\/ул-качалова-40-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">14&nbsp;900<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 116,
+    "name": "Спецжилфонд",
+    "site": "http:\/\/ridnemisto.kiev.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fridnemisto.kiev.ua%2F",
+    "rank": 14,
+    "companyUrl": "\/кп-спецжитлофонд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

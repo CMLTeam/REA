@@ -1,0 +1,76 @@
+{
+  "id": 3394,
+  "name": "ЖК Метрополия",
+  "type": "new_building",
+  "pricesUpdateTime": "07.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5595-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5595-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2018 — 1 дом"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 2,
+    "name": "Дарницкий"
+  },
+  "address": "ул. Днепродзержинская, 128-130",
+  "subway": {
+    "color": "green",
+    "text": "Вырлица — <i class=\"material-icons\">directions_walk<\/i> 5 мин"
+  },
+  "url": "\/жк-метрополия-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-метрополия-киев#developer_offers",
+    "urlConstruction": "\/жк-метрополия-киев\/ход-строительства",
+    "urlPlans": "\/жк-метрополия-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">16&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 158,
+    "name": "Контакт-Инвест",
+    "site": "http:\/\/metropoliya.kiev.ua\/ru\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fmetropoliya.kiev.ua%2Fru%2F",
+    "rank": 1,
+    "companyUrl": "\/контакт-инвест"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

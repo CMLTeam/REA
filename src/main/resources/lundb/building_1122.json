@@ -1,0 +1,115 @@
+{
+  "id": 1122,
+  "name": "ЖК Яскравый",
+  "type": "new_building",
+  "pricesUpdateTime": "18.05.2017",
+  "queuesWithPrices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу межбанка на 26.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4990-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4990-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "2 кв. 2017 — 4 дом (ул. дегтяренко, 31а)"
+  },
+  "buildingClass": {
+    "id": 4,
+    "text": "комфорт"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 5,
+    "name": "Оболонский"
+  },
+  "address": "ул. Семьи Кульженков (Петра Дегтяренко), 31а, 33, 35, ул. Петра Калнышевского (Майорова), 8",
+  "subway": {
+    "color": "blue",
+    "text": "Минская — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-яскравий-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-яскравий-киев#developer_offers",
+    "urlConstruction": "\/жк-яскравий-киев\/ход-строительства",
+    "urlPlans": "\/жк-яскравий-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">18&nbsp;600<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 156,
+    "name": "Интергал-Буд",
+    "site": "http:\/\/www.yaskraviy.com\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.yaskraviy.com%2F",
+    "rank": 29,
+    "companyUrl": "\/интергал-буд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

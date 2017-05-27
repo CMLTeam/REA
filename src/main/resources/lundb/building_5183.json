@@ -1,0 +1,67 @@
+{
+  "id": 5183,
+  "name": "Клубный дом «Как во Львове»",
+  "type": "new_building",
+  "pricesUpdateTime": "14.04.2017",
+  "queuesWithPrices": [],
+  "minNonEmptyPrices": [
+    [],
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16252-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16252-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "строится"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "ул. Петропавловская, 38б",
+  "subway": {
+    "color": "green",
+    "text": "Дорогожичи — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/клубный-дом-как-во-львове-киев",
+  "infoLinks": {
+    "urlPrice": "\/",
+    "urlConstruction": "\/клубный-дом-как-во-львове-киев\/ход-строительства",
+    "urlPlans": "\/клубный-дом-как-во-львове-киев\/планировки"
+  },
+  "prices": [],
+  "price": "Продажи не начались",
+  "developers": {
+    "companyId": false,
+    "name": false,
+    "site": "",
+    "redirect_site": "",
+    "rank": false,
+    "companyUrl": false
+  },
+  "developerOffer": "not_started",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

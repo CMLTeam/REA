@@ -1,0 +1,77 @@
+{
+  "id": 2953,
+  "name": "ул. Евгения Коновальца (Щорса), 36е",
+  "type": "new_building",
+  "pricesUpdateTime": "26.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3422-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3422-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 6,
+    "name": "Печерский"
+  },
+  "address": "ул. Евгения Коновальца (Щорса), 36е",
+  "subway": {
+    "color": "green",
+    "text": "Печерская — <i class=\"material-icons\">directions_walk<\/i> 8 мин"
+  },
+  "url": "\/жк-ул-щорса-36д-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-ул-щорса-36д-киев#developer_offers",
+    "urlConstruction": "\/жк-ул-щорса-36д-киев\/ход-строительства",
+    "urlPlans": "\/жк-ул-щорса-36д-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">26&nbsp;310<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 202,
+    "name": "Жилстрой",
+    "site": "http:\/\/www.zhytlobud.com\/buildings\/kiev\/schorsa36g-copy\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.zhytlobud.com%2Fbuildings%2Fkiev%2Fschorsa36g-copy%2F",
+    "rank": 1,
+    "companyUrl": "\/ск-жилстрой"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

@@ -1,0 +1,79 @@
+{
+  "id": 50,
+  "name": "ЖК Воскресенский",
+  "type": "new_building",
+  "pricesUpdateTime": "24.02.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4272-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4272-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 4,
+    "name": "Днепровский"
+  },
+  "address": "ул. Петра Запорожца, 26а",
+  "subway": {
+    "color": "red",
+    "text": "Черниговская — <i class=\"material-icons\">directions_bus<\/i> 15 мин"
+  },
+  "url": "\/жк-воскресенский-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-воскресенский-киев#developer_offers",
+    "urlConstruction": "\/жк-воскресенский-киев\/ход-строительства",
+    "urlPlans": "\/жк-воскресенский-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">19&nbsp;710<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 42,
+    "name": "НГБ-ПромЦивильБуд",
+    "site": "",
+    "redirect_site": "",
+    "rank": 0,
+    "companyUrl": "\/нгб-промцивильбуд"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

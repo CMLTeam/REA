@@ -1,0 +1,79 @@
+{
+  "id": 802,
+  "name": "Клубный дом «Арт Холл»",
+  "type": "new_building",
+  "pricesUpdateTime": "18.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "2": {},
+      "3": {},
+      "4": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3015-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3015-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Бульварно-Кудрявская (Воровского), 21",
+  "subway": {
+    "color": "red",
+    "text": "Университет — <i class=\"material-icons\">directions_walk<\/i> 15 мин"
+  },
+  "url": "\/клубный-дом-арт-холл-киев",
+  "infoLinks": {
+    "urlPrice": "\/клубный-дом-арт-холл-киев#developer_offers",
+    "urlConstruction": "\/клубный-дом-арт-холл-киев\/ход-строительства",
+    "urlPlans": "\/клубный-дом-арт-холл-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">52&nbsp;550<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 234,
+    "name": "Independence",
+    "site": "https:\/\/www.arthall.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=https%3A%2F%2Fwww.arthall.ua%2F",
+    "rank": 23,
+    "companyUrl": "\/independence"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

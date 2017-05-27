@@ -1,0 +1,80 @@
+{
+  "id": 20,
+  "name": "ЖК Парковый город",
+  "type": "new_building",
+  "pricesUpdateTime": "11.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "11": {}
+    },
+    []
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по курсу НБУ на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5169-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/5169-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "1 кв. 2015 — 3 очередь"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 7,
+    "name": "Подольский"
+  },
+  "address": "ул. Вышгородская, 45а\/2, 45а\/4, 45а\/5, 45а\/6, 45б\/1, 45б\/3, 45\/б4",
+  "subway": false,
+  "url": "\/жк-парковый-город-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-парковый-город-киев#developer_offers",
+    "urlConstruction": "\/жк-парковый-город-киев\/ход-строительства",
+    "urlPlans": "\/жк-парковый-город-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">35&nbsp;470<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 20,
+    "name": "UDP",
+    "site": "http:\/\/www.parkovemisto.com\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.parkovemisto.com%2F",
+    "rank": 24,
+    "companyUrl": "\/udp"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

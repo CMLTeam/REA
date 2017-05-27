@@ -1,0 +1,72 @@
+{
+  "id": 3535,
+  "name": "Жилой дом-5, Выгуровщина-20",
+  "type": "new_building",
+  "pricesUpdateTime": "25.04.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3632-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3632-360x360.jpg"
+  },
+  "state": {
+    "stateType": "ready",
+    "constant": "ready",
+    "text": "сдан в эксплуатацию"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 3,
+    "name": "Деснянский"
+  },
+  "address": "ул. Николая Закревского, 101",
+  "subway": false,
+  "url": "\/ул-николая-закревского-101-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-николая-закревского-101-киев#developer_offers",
+    "urlConstruction": "\/ул-николая-закревского-101-киев\/ход-строительства",
+    "urlPlans": "\/ул-николая-закревского-101-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">18&nbsp;350<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 528,
+    "name": "Столица",
+    "site": "http:\/\/5dom.com.ua",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2F5dom.com.ua",
+    "rank": 1,
+    "companyUrl": "\/столица"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

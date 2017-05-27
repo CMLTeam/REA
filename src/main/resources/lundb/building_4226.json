@@ -1,0 +1,77 @@
+{
+  "id": 4226,
+  "name": "пер. Платоновский, 6",
+  "type": "new_building",
+  "pricesUpdateTime": "12.05.2017",
+  "queuesWithPrices": [
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    []
+  ],
+  "queues": [
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3743-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3743-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2018 — сдача"
+  },
+  "buildingClass": {
+    "id": 1,
+    "text": "эконом"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 9,
+    "name": "Соломенский"
+  },
+  "address": "пер. Платоновский, 6",
+  "subway": {
+    "color": "red",
+    "text": "Вокзальная — <i class=\"material-icons\">directions_walk<\/i> 12 мин"
+  },
+  "url": "\/пер-платоновский-киев",
+  "infoLinks": {
+    "urlPrice": "\/пер-платоновский-киев#developer_offers",
+    "urlConstruction": "\/пер-платоновский-киев\/ход-строительства",
+    "urlPlans": "\/пер-платоновский-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">20&nbsp;370<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 100,
+    "name": "Житло-Инвест",
+    "site": "http:\/\/www.zhitlo-invest.kiev.ua\/objects\/zhitloviy-budinok-po-prov-platonvskiy-6-u-solomyanskomu-rayon-m-kiv",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.zhitlo-invest.kiev.ua%2Fobjects%2Fzhitloviy-budinok-po-prov-platonvskiy-6-u-solomyanskomu-rayon-m-kiv",
+    "rank": 10,
+    "companyUrl": "\/финансовая-компания-житло-инвест"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

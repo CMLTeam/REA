@@ -1,0 +1,112 @@
+{
+  "id": 1173,
+  "name": "ул. Казимира Малевича (Боженко) \/ ул. Лабораторная",
+  "type": "new_building",
+  "pricesUpdateTime": "18.05.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "11": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "4": [
+        {}
+      ],
+      "5": [
+        {}
+      ],
+      "6": [
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16877-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/16877-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "3 кв. 2017 — 1 дом (секция 6)"
+  },
+  "buildingClass": {
+    "id": 2,
+    "text": "бизнес"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 1,
+    "name": "Голосеевский"
+  },
+  "address": "ул. Казимира Малевича (Боженко) \/ ул. Лабораторная",
+  "subway": {
+    "color": "blue",
+    "text": "Дворец Украина — <i class=\"material-icons\">directions_walk<\/i> 10 мин"
+  },
+  "url": "\/ул-боженко-ул-лабораторная-киев",
+  "infoLinks": {
+    "urlPrice": "\/ул-боженко-ул-лабораторная-киев#developer_offers",
+    "urlConstruction": "\/ул-боженко-ул-лабораторная-киев\/ход-строительства",
+    "urlPlans": "\/ул-боженко-ул-лабораторная-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">45&nbsp;000<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 119,
+    "name": "МЖК «Оболонь»",
+    "site": "http:\/\/www.priminvest.ua\/ru\/object-bojenko.html",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.priminvest.ua%2Fru%2Fobject-bojenko.html",
+    "rank": 22,
+    "companyUrl": "\/мжк-оболонь"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "premium",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

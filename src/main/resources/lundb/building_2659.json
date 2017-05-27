@@ -1,0 +1,108 @@
+{
+  "id": 2659,
+  "name": "ЖК Obolon Residences",
+  "type": "new_building",
+  "pricesUpdateTime": "03.04.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "9": {}
+    },
+    {
+      "1": [
+        {},
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ],
+      "4": [
+        {}
+      ],
+      "9": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": null,
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3335-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/3335-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "ready",
+    "text": "1 кв. 2017 — 2 секция"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 5,
+    "name": "Оболонский"
+  },
+  "address": "просп. Оболонский, 26",
+  "subway": {
+    "color": "blue",
+    "text": "Минская — <i class=\"material-icons\">directions_walk<\/i> 1 мин"
+  },
+  "url": "\/жк-obolon-residences-киев",
+  "infoLinks": {
+    "urlPrice": "\/жк-obolon-residences-киев#developer_offers",
+    "urlConstruction": "\/жк-obolon-residences-киев\/ход-строительства",
+    "urlPlans": "\/жк-obolon-residences-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">59&nbsp;579<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 380,
+    "name": "DUPD",
+    "site": "http:\/\/o-r.com.ua\/uk?utm_source=lun.ua&utm_medium=referral&utm_campaign=lun",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fo-r.com.ua%2Fuk%3Futm_source%3Dlun.ua%26utm_medium%3Dreferral%26utm_campaign%3Dlun",
+    "rank": 1,
+    "companyUrl": "\/dragon-ukrainian-properties-development"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}

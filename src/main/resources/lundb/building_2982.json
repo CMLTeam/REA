@@ -1,0 +1,93 @@
+{
+  "id": 2982,
+  "name": "Клубный дом «InCo Home на Подоле»",
+  "type": "new_building",
+  "pricesUpdateTime": "27.04.2017",
+  "queuesWithPrices": [
+    {},
+    {}
+  ],
+  "minNonEmptyPrices": [
+    {
+      "1": {},
+      "2": {},
+      "3": {}
+    },
+    {
+      "1": [
+        {}
+      ],
+      "2": [
+        {},
+        {}
+      ],
+      "3": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "queues": [
+    {},
+    {}
+  ],
+  "currencyExchangeMessage": "Цена пересчитана по коммерческому курсу на 27.05.2017",
+  "currency": "грн",
+  "img": {
+    "big": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4170-728x546.jpg",
+    "main_thumb": "\/\/storage.googleapis.com\/bd-ua-01\/building-origin-image\/4170-360x360.jpg"
+  },
+  "state": {
+    "stateType": "under_construct",
+    "constant": "under_construct",
+    "text": "1 кв. 2017 — секция а"
+  },
+  "buildingClass": {
+    "id": 3,
+    "text": "элит"
+  },
+  "city": {
+    "id": 1,
+    "name": "Киев"
+  },
+  "regionId": 10,
+  "district": {
+    "id": 10,
+    "name": "Шевченковский"
+  },
+  "address": "ул. Лукьяновская, 14а",
+  "subway": {
+    "color": "blue",
+    "text": "Контрактовая площадь — <i class=\"material-icons\">directions_walk<\/i> 11 мин"
+  },
+  "url": "\/клубный-дом-inco-home-на-подоле-киев",
+  "infoLinks": {
+    "urlPrice": "\/клубный-дом-inco-home-на-подоле-киев#developer_offers",
+    "urlConstruction": "\/клубный-дом-inco-home-на-подоле-киев\/ход-строительства",
+    "urlPlans": "\/клубный-дом-inco-home-на-подоле-киев\/планировки"
+  },
+  "prices": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "price": "от&nbsp;<span class=\"price__numbers\">60&nbsp;520<\/span>&nbsp;грн\/м²",
+  "developers": {
+    "companyId": 314,
+    "name": "InCo Home",
+    "site": "http:\/\/dom-inco.com.ua\/",
+    "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fdom-inco.com.ua%2F",
+    "rank": 0,
+    "companyUrl": "\/inco-home"
+  },
+  "developerOffer": "available",
+  "hidePrice": "no",
+  "status": "basic",
+  "isRisky": "no",
+  "labelText": "",
+  "labelColor": "",
+  "buildingMapMailUrl": "\/message#map",
+  "basicUrl": "\/новостройки-киева-на-карте"
+}
