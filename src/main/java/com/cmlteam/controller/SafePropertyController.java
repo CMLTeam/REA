@@ -19,6 +19,7 @@ import java.util.TimeZone;
 import java.util.logging.Logger;
 
 @Controller
+@Deprecated
 public class SafePropertyController {
     private static final Logger log = Logger.getLogger(SafePropertyController.class.getName());
 
