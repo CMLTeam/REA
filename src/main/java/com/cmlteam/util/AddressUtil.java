@@ -14,7 +14,7 @@ import java.io.IOException;
 
 
 public class AddressUtil {
-	private static final GeoApiContext CTX = new GeoApiContext().setApiKey(PropertyUtil.loadProperty("GEO_API_KEY"));
+	private static final GeoApiContext CTX = new GeoApiContext().setApiKey(PropertyUtil.getProperty("GEO_API_KEY"));
 
 	public static String resolveAddress(String address) throws IOException {
 		try {
