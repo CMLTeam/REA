@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 
 
-class AddressUtil {
+public class AddressUtil {
 	private static final GeoApiContext CTX;
 
 	static {
@@ -24,7 +24,7 @@ class AddressUtil {
 		CTX = new GeoApiContext().setApiKey(apiKey);
 	}
 
-	static GeocodingResult resolveAddress(String address) throws IOException {
+	static GeocodingResult geocodeAddress(String address) throws IOException {
 		try {
 			GeocodingResult[] results = GeocodingApi.geocode(CTX, address).await();
 			if(results != null && results.length > 0) {
@@ -36,4 +36,10 @@ class AddressUtil {
 			throw new IOException(e);
 		}
 	}
+
+	public static String resolveAddress(String address) throws IOException {
+		GeocodingResult result = geocodeAddress(address);
+		return result == null? null: result.formattedAddress;
+	}
+
 }

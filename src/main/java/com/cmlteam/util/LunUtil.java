@@ -1,7 +1,6 @@
 package com.cmlteam.util;
 
 import com.cmlteam.model.lun.Building;
-import com.cmlteam.model.lun.ExtendedBuilding;
 import com.cmlteam.model.lun.LunModel;
 import com.google.maps.model.GeocodingResult;
 import com.google.maps.model.LatLng;
@@ -38,7 +37,7 @@ public class LunUtil {
 	}
 
 	public static Building getClosestBuilding(String address) throws IOException {
-		GeocodingResult result = AddressUtil.resolveAddress(address);
+		GeocodingResult result = AddressUtil.geocodeAddress(address);
 		if(result != null) {
 			LatLng latLng = result.geometry.location;
 			return GeoUtil.getClosestBuilding(MODEL, latLng);
