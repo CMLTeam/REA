@@ -16,26 +16,22 @@ import java.io.IOException;
 public class AddressUtil {
 	private static final GeoApiContext CTX = new GeoApiContext().setApiKey(PropertyUtil.loadProperty("GEO_API_KEY"));
 
-	public static String resolveAddress(String address) {
+	public static String resolveAddress(String address) throws IOException {
 		try {
 			GeocodingResult[] results = GeocodingApi.geocode(CTX, address).await();
-			System.out.println(results);
-			return results[0].toString();
+			if(results != null && results.length > 0) {
+				return results[0].formattedAddress;
+			}
+			return null;
 		}
-		catch(ApiException e) {
-			e.printStackTrace();
+		catch(ApiException | InterruptedException | IOException e) {
+			throw new IOException(e);
 		}
-		catch(InterruptedException e) {
-			e.printStackTrace();
-		}
-		catch(IOException e) {
-			e.printStackTrace();
-		}
-		return null;
 	}
 
-	public static void main(String[] args) {
-		resolveAddress("ЖК Голосеевский");
+	public static void main(String[] args) throws IOException {
+		System.out.println(resolveAddress("ЖК Голосеевский"));
+		System.out.println(resolveAddress("ЖК Комфорт Таун"));
 	}
 
 }
