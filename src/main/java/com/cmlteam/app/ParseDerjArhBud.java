@@ -19,8 +19,8 @@ import java.util.List;
 import java.util.Map;
 
 public class ParseDerjArhBud {
-    //    static int[] years = {2015, 2016, 2017};
-    static int[] years = {2017};
+        static int[] years = {2015, 2016, 2017};
+//    static int[] years = {2017};
     private static final String KYIV_OBL_REGION_ID = "10";
 
     public static void main(String[] args) throws IOException {
@@ -71,6 +71,8 @@ public class ParseDerjArhBud {
                         }
 
                         DabRecord dabRecord = new DabRecord(
+                                year,
+                                month,
                                 row.get(0),
                                 row.get(1),
                                 row.get(2),
@@ -91,8 +93,12 @@ public class ParseDerjArhBud {
                     }
 
                     if (lastPage == -1) {
-                        lastPage = Integer.parseInt(document
-                                .select("#pages > a:last-of-type")
+                        Elements select = document.select("#pages > a:last-of-type");
+                        if (elements.size() == 0) {
+                            System.out.println("END!");
+                            return;
+                        }
+                        lastPage = Integer.parseInt(select
                                 .attr("href")
                                 .split("page=")[1]);
 
@@ -102,6 +108,8 @@ public class ParseDerjArhBud {
 
                     pageNo++;
                 }
+
+                printWriter.flush();
             }
         }
     }

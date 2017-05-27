@@ -35,7 +35,7 @@ public enum DabCategory {
 
     public  static DabCategory of(String catNo) {
         for (DabCategory category : values()) {
-            if (Objects.equals(catNo, category.catNo))
+            if (Objects.equals(catNo, category.catNo) || Objects.equals("0" + catNo, category.catNo))
                 return category;
         }
         return null;

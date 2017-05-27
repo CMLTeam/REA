@@ -18,7 +18,9 @@ public class DabRecord {
     public DabRecord() {
     }
 
-    public DabRecord(String number, String idabk, String document, String object, DabCategory category, String zamovnyk, String tehNaglyad, String proektuvalnyk, String authorNaglyad, String pidryadnyk, String information) {
+    public DabRecord(int year, int month, String number, String idabk, String document, String object, DabCategory category, String zamovnyk, String tehNaglyad, String proektuvalnyk, String authorNaglyad, String pidryadnyk, String information) {
+        this.year = year;
+        this.month = month;
         this.number = number;
         this.idabk = idabk;
         this.document = document;
