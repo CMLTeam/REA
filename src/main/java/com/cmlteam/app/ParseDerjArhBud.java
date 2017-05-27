@@ -1,6 +1,8 @@
 package com.cmlteam.app;
 
 import com.cmlteam.util.HttpUtil;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 import java.io.File;
 import java.util.HashMap;
@@ -25,17 +27,35 @@ public class ParseDerjArhBud {
 
         for (int year : years) {
             for (int month = 1; month <= 12; month++) {
-                System.out.println();
-                System.out.println("Processing " + year + "...");
-                System.out.println();
+                int lastPage = -1;
+                int pageNo = 1;
 
-                Map<String, String> params = new HashMap<>();
-                params.put("filter[regob]", KYIV_OBL_REGION_ID);
-                params.put("filter[date]", "" + year);
-                params.put("filter[date2]", prepZeroes(month));
+                while (lastPage == -1 || pageNo <= lastPage) {
+                    System.out.println();
+                    System.out.println("Processing " + year + "...");
+                    System.out.println();
 
-                String page = HttpUtil.fetchPlainTextViaPost(url, params);
-                System.out.println(page);
+                    Map<String, String> params = new HashMap<>();
+                    params.put("filter[regob]", KYIV_OBL_REGION_ID);
+                    params.put("filter[date]", "" + year);
+                    params.put("filter[date2]", prepZeroes(month));
+
+                    String page = HttpUtil.fetchPlainTextViaPost(url + "&page=" + pageNo, params);
+//                    System.out.println(page);
+
+                    Document document = Jsoup.parse(page);
+                    if (lastPage == -1) {
+                        lastPage = Integer.parseInt(document
+                                .select("#pages > a:last-of-type")
+                                .attr("href")
+                                .split("page=")[1]);
+
+                        System.out.println("Last page= " + lastPage);
+                        break;// TODO
+                    }
+
+                    pageNo++;
+                }
             }
         }
     }
