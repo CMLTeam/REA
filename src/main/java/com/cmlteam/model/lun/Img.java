@@ -15,4 +15,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Img extends AbstractJson {
 	@XmlElement
 	public String small;
+
+	@XmlElement
+	public String big;
+	@XmlElement(name = "main_thumb")
+	public String mainThumb;
+
 }

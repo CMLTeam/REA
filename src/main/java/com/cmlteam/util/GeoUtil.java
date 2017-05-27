@@ -42,7 +42,7 @@ class GeoUtil {
 	 */
 	private static double distance(double lat1, double lng1, double el1, double lat2, double lng2, double el2) {
 
-		final int R = 6371; // Radius of the earth
+		final int R = 6371; // Radius of the Earth
 
 		double latDistance = Math.toRadians(lat2 - lat1);
 		double lonDistance = Math.toRadians(lng2 - lng1);
