@@ -1,6 +1,7 @@
 package com.cmlteam.util;
 
 import com.cmlteam.model.lun.Building;
+import com.cmlteam.model.lun.ExtendedBuilding;
 import com.cmlteam.model.lun.LunModel;
 import com.google.maps.model.GeocodingResult;
 import com.google.maps.model.LatLng;
@@ -20,8 +21,16 @@ public class LunUtil {
 
 	static {
 		try {
-			String json = new String(Files.readAllBytes(Paths.get(ClassLoader.getSystemResource("lundb_1.json").toURI())));
-			MODEL = openchat.util.JsonUtil.parseJson(json, LunModel.class);
+			String shortJson = new String(Files.readAllBytes(Paths.get(ClassLoader.getSystemResource("lundb_1.json").toURI())));
+			MODEL = JsonUtil.parseJson(shortJson, LunModel.class);
+
+			/*
+			for(int i = 0; i < MODEL.buildings.length; i++) {
+				long id = MODEL.buildings[i].id;
+				String extendedJson = new String(Files.readAllBytes(Paths.get(ClassLoader.getSystemResource(String.format("lundb/building_%d.json", id)).toURI())));
+				MODEL.buildings[i] = JsonUtil.parseJson(extendedJson, ExtendedBuilding.class);
+			}
+			*/
 		}
 		catch(Exception e) {
 			throw new RuntimeException(e);
