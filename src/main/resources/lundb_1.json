@@ -1,5 +1,5 @@
-{
-  "19": {
+[
+  {
     "id": 19,
     "state": "ready",
     "name": "ЖК Изумрудный",
@@ -95,7 +95,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "20": {
+  {
     "id": 20,
     "state": "ready",
     "name": "ЖК Парковый город",
@@ -191,7 +191,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "22": {
+  {
     "id": 22,
     "state": "under_construct",
     "name": "ЖК Престиж Холл",
@@ -259,7 +259,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "24": {
+  {
     "id": 24,
     "state": "ready",
     "name": "ЖК Триумф",
@@ -387,7 +387,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "25": {
+  {
     "id": 25,
     "state": "under_construct",
     "name": "ЖК Сонячна брама",
@@ -451,7 +451,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "28": {
+  {
     "id": 28,
     "state": "under_construct",
     "name": "ЖК 4 сезона",
@@ -523,7 +523,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "35": {
+  {
     "id": 35,
     "state": "under_construct",
     "name": "ЖК Новопечерские Липки",
@@ -595,7 +595,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "36": {
+  {
     "id": 36,
     "state": "under_construct",
     "name": "ЖК Park Avenue VIP",
@@ -691,7 +691,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "41": {
+  {
     "id": 41,
     "state": "under_construct",
     "name": "ЖК Покровский посад",
@@ -747,7 +747,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "45": {
+  {
     "id": 45,
     "state": "under_construct",
     "name": "ЖК Парковые озера",
@@ -903,7 +903,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "49": {
+  {
     "id": 49,
     "state": "ready",
     "name": "ЖК Виктория",
@@ -971,7 +971,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "50": {
+  {
     "id": 50,
     "state": "ready",
     "name": "ЖК Воскресенский",
@@ -1007,7 +1007,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "52": {
+  {
     "id": 52,
     "state": "ready",
     "name": "ЖК Голосеево",
@@ -1079,7 +1079,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "55": {
+  {
     "id": 55,
     "state": "ready",
     "name": "ЖК Альпийский городок",
@@ -1163,7 +1163,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "56": {
+  {
     "id": 56,
     "state": "under_construct",
     "name": "ЖК Перлина Кадетського Гаю",
@@ -1211,7 +1211,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "60": {
+  {
     "id": 60,
     "state": "under_construct",
     "name": "ЖК Лико-Град 3",
@@ -1259,7 +1259,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "74": {
+  {
     "id": 74,
     "state": "ready",
     "name": "ЖК PecherSKY",
@@ -1331,7 +1331,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "87": {
+  {
     "id": 87,
     "state": "under_construct",
     "name": "ЖК Henesi House",
@@ -1367,7 +1367,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "143": {
+  {
     "id": 143,
     "state": "under_construct",
     "name": "ЖК Комфорт Таун",
@@ -1439,7 +1439,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "186": {
+  {
     "id": 186,
     "state": "under_construct",
     "name": "ул. Каунасская, 2а",
@@ -1503,7 +1503,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "197": {
+  {
     "id": 197,
     "state": "under_construct",
     "name": "ЖК Тридцать восьмая жемчужина",
@@ -1539,7 +1539,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "246": {
+  {
     "id": 246,
     "state": "under_construct",
     "name": "ул. Евгения Харченка (Ленина), 47-59",
@@ -1579,7 +1579,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "276": {
+  {
     "id": 276,
     "state": "under_construct",
     "name": "ЖК Richmond",
@@ -1623,7 +1623,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "278": {
+  {
     "id": 278,
     "state": "ready",
     "name": "ЖК Срібна Вежа",
@@ -1687,7 +1687,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "323": {
+  {
     "id": 323,
     "state": "ready",
     "name": "бул. Леси Украинки, 7б",
@@ -1779,7 +1779,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "324": {
+  {
     "id": 324,
     "state": "ready",
     "name": "ЖК Ревуцкого, 9",
@@ -1823,7 +1823,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "344": {
+  {
     "id": 344,
     "state": "ready",
     "name": "Клубный Дом «На Мичурина»",
@@ -1867,7 +1867,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "482": {
+  {
     "id": 482,
     "state": "ready",
     "name": "ЖК Crystal Park",
@@ -1923,7 +1923,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "531": {
+  {
     "id": 531,
     "state": "ready",
     "name": "ЖК Smart Plaza Polytech",
@@ -2039,7 +2039,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "533": {
+  {
     "id": 533,
     "state": "ready",
     "name": "ЖК Адмирал",
@@ -2075,7 +2075,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "561": {
+  {
     "id": 561,
     "state": "ready",
     "name": "ЖК Липинка",
@@ -2163,7 +2163,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "562": {
+  {
     "id": 562,
     "state": "under_construct",
     "name": "ЖК РиверСтоун",
@@ -2291,7 +2291,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "630": {
+  {
     "id": 630,
     "state": "under_construct",
     "name": "ЖК Central Park",
@@ -2347,7 +2347,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "639": {
+  {
     "id": 639,
     "state": "ready",
     "name": "Кловский спуск, 7",
@@ -2383,7 +2383,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "746": {
+  {
     "id": 746,
     "state": "under_construct",
     "name": "ЖК Министерский",
@@ -2475,7 +2475,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "771": {
+  {
     "id": 771,
     "state": "ready",
     "name": "ЖК Воздвиженка",
@@ -2583,7 +2583,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "802": {
+  {
     "id": 802,
     "state": "ready",
     "name": "Клубный дом «Арт Холл»",
@@ -2619,7 +2619,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "822": {
+  {
     "id": 822,
     "state": "under_construct",
     "name": "ЖК Новодарницкий",
@@ -2663,7 +2663,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "836": {
+  {
     "id": 836,
     "state": "under_construct",
     "name": "ЖК Парк Стоун",
@@ -2727,7 +2727,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "856": {
+  {
     "id": 856,
     "state": "under_construct",
     "name": "ЖК Бульвар Фонтанов",
@@ -2791,7 +2791,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "857": {
+  {
     "id": 857,
     "state": "under_construct",
     "name": "ЖК Кришталеві джерела",
@@ -3015,7 +3015,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "874": {
+  {
     "id": 874,
     "state": "under_construct",
     "name": "ЖК Грюнвальд",
@@ -3051,7 +3051,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "974": {
+  {
     "id": 974,
     "state": "under_construct",
     "name": "ЖК Полесский",
@@ -3087,7 +3087,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1012": {
+  {
     "id": 1012,
     "state": "ready",
     "name": "ЖК Татарский",
@@ -3143,7 +3143,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1066": {
+  {
     "id": 1066,
     "state": "under_construct",
     "name": "ЖК Славгородский",
@@ -3179,7 +3179,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1113": {
+  {
     "id": 1113,
     "state": "ready",
     "name": "ЖК Академика Глушкова, 92б",
@@ -3223,7 +3223,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1116": {
+  {
     "id": 1116,
     "state": "ready",
     "name": "ЖК Воссоединения, 21в",
@@ -3287,7 +3287,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1122": {
+  {
     "id": 1122,
     "state": "under_construct",
     "name": "ЖК Яскравый",
@@ -3343,7 +3343,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1172": {
+  {
     "id": 1172,
     "state": "under_construct",
     "name": "Місто Квітів. Парковий квартал",
@@ -3387,7 +3387,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1173": {
+  {
     "id": 1173,
     "state": "under_construct",
     "name": "ул. Казимира Малевича (Боженко) \/ ул. Лабораторная",
@@ -3447,7 +3447,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1175": {
+  {
     "id": 1175,
     "state": "ready",
     "name": "ЖК Златоуст",
@@ -3483,7 +3483,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1195": {
+  {
     "id": 1195,
     "state": "under_construct",
     "name": "ЖК Венеция",
@@ -3571,7 +3571,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1224": {
+  {
     "id": 1224,
     "state": "ready",
     "name": "ARCH House",
@@ -3623,7 +3623,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1865": {
+  {
     "id": 1865,
     "state": "ready",
     "name": "ЖК Сырецкий Бояр",
@@ -3663,7 +3663,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1906": {
+  {
     "id": 1906,
     "state": "ready",
     "name": "ЖК Курортный",
@@ -3699,7 +3699,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1923": {
+  {
     "id": 1923,
     "state": "under_construct",
     "name": "ЖК Патриарх Холл",
@@ -3751,7 +3751,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1925": {
+  {
     "id": 1925,
     "state": "ready",
     "name": "ЖК Solo Park",
@@ -3787,7 +3787,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1930": {
+  {
     "id": 1930,
     "state": "ready",
     "name": "ЖК Royal Tower",
@@ -3895,7 +3895,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1933": {
+  {
     "id": 1933,
     "state": "ready",
     "name": "ЖК Садовый",
@@ -3931,7 +3931,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1936": {
+  {
     "id": 1936,
     "state": "ready",
     "name": "ЖК Энергия плюс",
@@ -3963,7 +3963,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1968": {
+  {
     "id": 1968,
     "state": "ready",
     "name": "ЖК Tetris Hall",
@@ -4015,7 +4015,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1970": {
+  {
     "id": 1970,
     "state": "under_construct",
     "name": "ЖК Берестейский",
@@ -4059,7 +4059,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "1983": {
+  {
     "id": 1983,
     "state": "under_construct",
     "name": "ул. Иоанна Павла ІІ (Патриса Лумумбы), 12",
@@ -4123,7 +4123,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2051": {
+  {
     "id": 2051,
     "state": "under_construct",
     "name": "ЖК Alter Ego",
@@ -4179,7 +4179,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2052": {
+  {
     "id": 2052,
     "state": "under_construct",
     "name": "ЖК Малахит",
@@ -4231,7 +4231,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2070": {
+  {
     "id": 2070,
     "state": "ready",
     "name": "ЖК Статус Град",
@@ -4299,7 +4299,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2071": {
+  {
     "id": 2071,
     "state": "under_construct",
     "name": "ЖК Власна квартира",
@@ -4379,7 +4379,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2101": {
+  {
     "id": 2101,
     "state": "under_construct",
     "name": "ЖК Святобор",
@@ -4431,7 +4431,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2129": {
+  {
     "id": 2129,
     "state": "ready",
     "name": "ЖК Андерсен",
@@ -4467,7 +4467,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2174": {
+  {
     "id": 2174,
     "state": "ready",
     "name": "ЖК Гарматная, 39г",
@@ -4507,7 +4507,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2178": {
+  {
     "id": 2178,
     "state": "under_construct",
     "name": "ЖК Предславинская",
@@ -4591,7 +4591,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2183": {
+  {
     "id": 2183,
     "state": "under_construct",
     "name": "ЖК Панорама",
@@ -4635,7 +4635,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2222": {
+  {
     "id": 2222,
     "state": "under_construct",
     "name": "ЖК Обуховская, 135а",
@@ -4695,7 +4695,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2241": {
+  {
     "id": 2241,
     "state": "ready",
     "name": "ЖК Артемовский",
@@ -4735,7 +4735,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2252": {
+  {
     "id": 2252,
     "state": "under_construct",
     "name": "ЖК Подол Престиж",
@@ -4791,7 +4791,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2253": {
+  {
     "id": 2253,
     "state": "ready",
     "name": "ЖК Дом на Бестужева",
@@ -4827,7 +4827,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2262": {
+  {
     "id": 2262,
     "state": "ready",
     "name": "ЖК Столичные каштаны",
@@ -4863,7 +4863,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2264": {
+  {
     "id": 2264,
     "state": "ready",
     "name": "ЖК Французский квартал",
@@ -4907,7 +4907,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2294": {
+  {
     "id": 2294,
     "state": "under_construct",
     "name": "ул. Евгена Маланюка (Сагайдака), 101",
@@ -4999,7 +4999,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2331": {
+  {
     "id": 2331,
     "state": "under_construct",
     "name": "ЖК Козацкий",
@@ -5035,7 +5035,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2351": {
+  {
     "id": 2351,
     "state": "ready",
     "name": "ЖК Академгородок",
@@ -5119,7 +5119,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2355": {
+  {
     "id": 2355,
     "state": "ready",
     "name": "ЖК Старокиевский",
@@ -5159,7 +5159,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2367": {
+  {
     "id": 2367,
     "state": "under_construct",
     "name": "ЖК Кассиопея",
@@ -5263,7 +5263,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2450": {
+  {
     "id": 2450,
     "state": "under_construct",
     "name": "ЖК Чемпион. Голосеево",
@@ -5299,7 +5299,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2475": {
+  {
     "id": 2475,
     "state": "under_construct",
     "name": "ЖК Оболонский бриз",
@@ -5463,7 +5463,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2479": {
+  {
     "id": 2479,
     "state": "ready",
     "name": "ЖК Оболонь Тауэр",
@@ -5507,7 +5507,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2486": {
+  {
     "id": 2486,
     "state": "under_construct",
     "name": "ЖК Сказка",
@@ -5571,7 +5571,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2526": {
+  {
     "id": 2526,
     "state": "under_construct",
     "name": "ЖК Британский квартал",
@@ -5615,7 +5615,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2553": {
+  {
     "id": 2553,
     "state": "ready",
     "name": "ЖК Никитская слобода",
@@ -5651,7 +5651,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2578": {
+  {
     "id": 2578,
     "state": "under_construct",
     "name": "ул. Подвысоцкого, 4в",
@@ -5687,7 +5687,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2580": {
+  {
     "id": 2580,
     "state": "under_construct",
     "name": "ул. Теремковская, 3",
@@ -5759,7 +5759,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2581": {
+  {
     "id": 2581,
     "state": "under_construct",
     "name": "ЖК Silver House",
@@ -5815,7 +5815,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2623": {
+  {
     "id": 2623,
     "state": "ready",
     "name": "ЖК Бруклин",
@@ -5851,7 +5851,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2628": {
+  {
     "id": 2628,
     "state": "ready",
     "name": "ЖК Stoletof",
@@ -5911,7 +5911,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2659": {
+  {
     "id": 2659,
     "state": "under_construct",
     "name": "ЖК Obolon Residences",
@@ -5959,7 +5959,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2665": {
+  {
     "id": 2665,
     "state": "ready",
     "name": "ЖК Concept Holl",
@@ -6035,7 +6035,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2721": {
+  {
     "id": 2721,
     "state": "ready",
     "name": "ЖК Дом на Клименко",
@@ -6071,7 +6071,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2780": {
+  {
     "id": 2780,
     "state": "under_construct",
     "name": "ЖК Квартет",
@@ -6115,7 +6115,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2784": {
+  {
     "id": 2784,
     "state": "under_construct",
     "name": "ЖК Шевченковский",
@@ -6163,7 +6163,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2801": {
+  {
     "id": 2801,
     "state": "under_construct",
     "name": "ЖК Герцен-Парк",
@@ -6207,7 +6207,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2803": {
+  {
     "id": 2803,
     "state": "under_construct",
     "name": "ЖК Аристократ",
@@ -6291,7 +6291,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2815": {
+  {
     "id": 2815,
     "state": "ready",
     "name": "ЖК Александрия",
@@ -6327,7 +6327,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2824": {
+  {
     "id": 2824,
     "state": "under_construct",
     "name": "ЖК Комфорт Сити",
@@ -6367,7 +6367,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2827": {
+  {
     "id": 2827,
     "state": "ready",
     "name": "ЖД Ушакова, 1д",
@@ -6403,7 +6403,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2828": {
+  {
     "id": 2828,
     "state": "ready",
     "name": "ЖК Позняки-4а",
@@ -6439,7 +6439,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2834": {
+  {
     "id": 2834,
     "state": "under_construct",
     "name": "ЖК Освіти",
@@ -6491,7 +6491,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2837": {
+  {
     "id": 2837,
     "state": "ready",
     "name": "ЖК Skyline",
@@ -6555,7 +6555,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2841": {
+  {
     "id": 2841,
     "state": "under_construct",
     "name": "ЖК Демеевка",
@@ -6611,7 +6611,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2843": {
+  {
     "id": 2843,
     "state": "under_construct",
     "name": "ЖК Gloria Park",
@@ -6663,7 +6663,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2846": {
+  {
     "id": 2846,
     "state": "in_design",
     "name": "ЖК Cosmos",
@@ -6703,7 +6703,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2858": {
+  {
     "id": 2858,
     "state": "ready",
     "name": "ул. Володи Дубинина, 5\/15, 7\/14",
@@ -6771,7 +6771,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2859": {
+  {
     "id": 2859,
     "state": "ready",
     "name": "ул. Гмыри, 17",
@@ -6815,7 +6815,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2878": {
+  {
     "id": 2878,
     "state": "ready",
     "name": "ЖК Паркова Вежа",
@@ -6867,7 +6867,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2885": {
+  {
     "id": 2885,
     "state": "under_construct",
     "name": "ЖК SOHO residence",
@@ -6935,7 +6935,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2887": {
+  {
     "id": 2887,
     "state": "under_construct",
     "name": "ЖК Заречный",
@@ -7027,7 +7027,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2888": {
+  {
     "id": 2888,
     "state": "ready",
     "name": "ЖК «Royal Hill»",
@@ -7087,7 +7087,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2902": {
+  {
     "id": 2902,
     "state": "ready",
     "name": "просп. Валерия Лобановского (Краснозвездный), 15\/7",
@@ -7123,7 +7123,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2906": {
+  {
     "id": 2906,
     "state": "under_construct",
     "name": "ЖК Амурский",
@@ -7195,7 +7195,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2929": {
+  {
     "id": 2929,
     "state": "under_construct",
     "name": "ЖК Подол Градъ",
@@ -7279,7 +7279,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2953": {
+  {
     "id": 2953,
     "state": "ready",
     "name": "ул. Евгения Коновальца (Щорса), 36е",
@@ -7339,7 +7339,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2957": {
+  {
     "id": 2957,
     "state": "ready",
     "name": "ЖК Geneva",
@@ -7383,7 +7383,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2959": {
+  {
     "id": 2959,
     "state": "under_construct",
     "name": "ЖК Лесная сказка",
@@ -7419,7 +7419,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2976": {
+  {
     "id": 2976,
     "state": "under_construct",
     "name": "ЖК Panorama",
@@ -7535,7 +7535,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2977": {
+  {
     "id": 2977,
     "state": "under_construct",
     "name": "ЖМ Патриотика",
@@ -7611,7 +7611,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2981": {
+  {
     "id": 2981,
     "state": "under_construct",
     "name": "ЖК Енисейская усадьба",
@@ -7691,7 +7691,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2982": {
+  {
     "id": 2982,
     "state": "under_construct",
     "name": "Клубный дом «InCo Home на Подоле»",
@@ -7739,7 +7739,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "2984": {
+  {
     "id": 2984,
     "state": "under_construct",
     "name": "ЖК Традиция",
@@ -7855,7 +7855,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3001": {
+  {
     "id": 3001,
     "state": "ready",
     "name": "ул. Ивана Франко, 11",
@@ -7891,7 +7891,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3003": {
+  {
     "id": 3003,
     "state": "under_construct",
     "name": "ЖК Жуляны",
@@ -7947,7 +7947,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3005": {
+  {
     "id": 3005,
     "state": "under_construct",
     "name": "ЖК Солнечная Ривьера",
@@ -7991,7 +7991,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3013": {
+  {
     "id": 3013,
     "state": "under_construct",
     "name": "ул. Крушельницкой, 11, 15, 15а, 15б, 15в",
@@ -8075,7 +8075,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3021": {
+  {
     "id": 3021,
     "state": "under_construct",
     "name": "ЖК Liberty Estate",
@@ -8119,7 +8119,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3027": {
+  {
     "id": 3027,
     "state": "under_construct",
     "name": "ЖК Lake House",
@@ -8155,7 +8155,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3028": {
+  {
     "id": 3028,
     "state": "under_construct",
     "name": "ЖК Гармония",
@@ -8191,7 +8191,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3030": {
+  {
     "id": 3030,
     "state": "ready",
     "name": "ЖК Renaissance Residence",
@@ -8271,7 +8271,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3032": {
+  {
     "id": 3032,
     "state": "under_construct",
     "name": "пер. Моторный, 11",
@@ -8327,7 +8327,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3033": {
+  {
     "id": 3033,
     "state": "under_construct",
     "name": "ул. Казимира Малевича (Боженко), 75-77",
@@ -8383,7 +8383,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3035": {
+  {
     "id": 3035,
     "state": "ready",
     "name": "ЖК Garden City Residence",
@@ -8431,7 +8431,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3042": {
+  {
     "id": 3042,
     "state": "under_construct",
     "name": "ЖК Академ Парк",
@@ -8467,7 +8467,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3067": {
+  {
     "id": 3067,
     "state": "ready",
     "name": "Клубный дом «Чорногория»",
@@ -8507,7 +8507,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3073": {
+  {
     "id": 3073,
     "state": "ready",
     "name": "ЖК Pechersk Hills Residence",
@@ -8547,7 +8547,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3082": {
+  {
     "id": 3082,
     "state": "ready",
     "name": "ул. Гоголевская, 43",
@@ -8583,7 +8583,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3089": {
+  {
     "id": 3089,
     "state": "under_construct",
     "name": "ЖК Нивки-Парк",
@@ -8663,7 +8663,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3092": {
+  {
     "id": 3092,
     "state": "under_construct",
     "name": "ЖК Печерск Плаза",
@@ -8775,7 +8775,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3093": {
+  {
     "id": 3093,
     "state": "under_construct",
     "name": "ЖК Lemonade",
@@ -8847,7 +8847,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3115": {
+  {
     "id": 3115,
     "state": "ready",
     "name": "ЖК Вильямс Авеню",
@@ -8891,7 +8891,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3128": {
+  {
     "id": 3128,
     "state": "ready",
     "name": "бул. Чоколовский, 27б",
@@ -8927,7 +8927,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3136": {
+  {
     "id": 3136,
     "state": "under_construct",
     "name": "ул. Редутная, 67",
@@ -8963,7 +8963,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3140": {
+  {
     "id": 3140,
     "state": "under_construct",
     "name": "ЖК Соломенская, 20А",
@@ -9007,7 +9007,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3151": {
+  {
     "id": 3151,
     "state": "under_construct",
     "name": "Elyseum home space",
@@ -9043,7 +9043,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3163": {
+  {
     "id": 3163,
     "state": "ready",
     "name": "ЖК L-квартал",
@@ -9083,7 +9083,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3201": {
+  {
     "id": 3201,
     "state": "under_construct",
     "name": "ЖК ObolonSky",
@@ -9147,7 +9147,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3203": {
+  {
     "id": 3203,
     "state": "ready",
     "name": "ЖК Саксаганский",
@@ -9183,7 +9183,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3208": {
+  {
     "id": 3208,
     "state": "under_construct",
     "name": "ЖК Green Yard",
@@ -9219,7 +9219,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3216": {
+  {
     "id": 3216,
     "state": "ready",
     "name": "ЖК Голосеевский квартал",
@@ -9255,7 +9255,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3222": {
+  {
     "id": 3222,
     "state": "ready",
     "name": "ЖК Наш будинок",
@@ -9307,7 +9307,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3228": {
+  {
     "id": 3228,
     "state": "under_construct",
     "name": "ЖК Новомостицкий",
@@ -9359,7 +9359,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3242": {
+  {
     "id": 3242,
     "state": "ready",
     "name": "Клубный дом «New York»",
@@ -9395,7 +9395,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3361": {
+  {
     "id": 3361,
     "state": "under_construct",
     "name": "ЖК Edelweiss House",
@@ -9459,7 +9459,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3381": {
+  {
     "id": 3381,
     "state": "under_construct",
     "name": "ЖК Ясногорский",
@@ -9503,7 +9503,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3382": {
+  {
     "id": 3382,
     "state": "under_construct",
     "name": "ЖК Козацкий Гай",
@@ -9539,7 +9539,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3390": {
+  {
     "id": 3390,
     "state": "under_construct",
     "name": "ул. Иоанна Павла ІІ (Патриса Лумумбы), 11",
@@ -9575,7 +9575,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3394": {
+  {
     "id": 3394,
     "state": "under_construct",
     "name": "ЖК Метрополия",
@@ -9615,7 +9615,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3400": {
+  {
     "id": 3400,
     "state": "under_construct",
     "name": "ЖК Автограф",
@@ -9651,7 +9651,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3403": {
+  {
     "id": 3403,
     "state": "under_construct",
     "name": "ЖК Busov Hill",
@@ -9687,7 +9687,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3454": {
+  {
     "id": 3454,
     "state": "ready",
     "name": "Клубный дом «Гоголевская, 47»",
@@ -9723,7 +9723,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3486": {
+  {
     "id": 3486,
     "state": "under_construct",
     "name": "ЖК PARKLAND",
@@ -9799,7 +9799,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3494": {
+  {
     "id": 3494,
     "state": "under_construct",
     "name": "ЖК Львовский квартал",
@@ -9883,7 +9883,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3501": {
+  {
     "id": 3501,
     "state": "under_construct",
     "name": "ЖК Кристер Град",
@@ -9955,7 +9955,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3526": {
+  {
     "id": 3526,
     "state": "ready",
     "name": "Андреевский спуск, 30-34в",
@@ -9991,7 +9991,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3534": {
+  {
     "id": 3534,
     "state": "under_construct",
     "name": "ЖК Верховина",
@@ -10035,7 +10035,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3535": {
+  {
     "id": 3535,
     "state": "ready",
     "name": "Жилой дом-5, Выгуровщина-20",
@@ -10071,7 +10071,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3538": {
+  {
     "id": 3538,
     "state": "under_construct",
     "name": "ЖК Замковецкая, Новомостицкая",
@@ -10171,7 +10171,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3539": {
+  {
     "id": 3539,
     "state": "under_construct",
     "name": "ЖК Ярославов Град",
@@ -10215,7 +10215,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3540": {
+  {
     "id": 3540,
     "state": "under_construct",
     "name": "ЖК Эврика",
@@ -10499,7 +10499,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3550": {
+  {
     "id": 3550,
     "state": "under_construct",
     "name": "ЖК Jack House",
@@ -10567,7 +10567,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3557": {
+  {
     "id": 3557,
     "state": "under_construct",
     "name": "ул. Лейпцигская, 13",
@@ -10611,7 +10611,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3707": {
+  {
     "id": 3707,
     "state": "under_construct",
     "name": "ЖК Дом на Строителей",
@@ -10663,7 +10663,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3918": {
+  {
     "id": 3918,
     "state": "under_construct",
     "name": "ЖК Delmar",
@@ -10699,7 +10699,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3967": {
+  {
     "id": 3967,
     "state": "ready",
     "name": "ЖК Ярославский на Подоле",
@@ -10735,7 +10735,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3979": {
+  {
     "id": 3979,
     "state": "under_construct",
     "name": "ЖК Голосеевские сады",
@@ -10771,7 +10771,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3987": {
+  {
     "id": 3987,
     "state": "under_construct",
     "name": "ЖК Эко Таун",
@@ -10807,7 +10807,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3988": {
+  {
     "id": 3988,
     "state": "under_construct",
     "name": "ЖК Воздухофлотский квартал",
@@ -10855,7 +10855,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3989": {
+  {
     "id": 3989,
     "state": "under_construct",
     "name": "ЖК Французский квартал 2",
@@ -10923,7 +10923,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3990": {
+  {
     "id": 3990,
     "state": "under_construct",
     "name": "ЖК Victory V",
@@ -10959,7 +10959,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3992": {
+  {
     "id": 3992,
     "state": "under_construct",
     "name": "ул. Краковская, 27а",
@@ -10995,7 +10995,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "3993": {
+  {
     "id": 3993,
     "state": "under_construct",
     "name": "Варшавский Микрорайон",
@@ -11063,7 +11063,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4007": {
+  {
     "id": 4007,
     "state": "under_construct",
     "name": "ЖД На Левадной",
@@ -11099,7 +11099,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4029": {
+  {
     "id": 4029,
     "state": "ready",
     "name": "ул. Армянская, 6",
@@ -11151,7 +11151,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4044": {
+  {
     "id": 4044,
     "state": "in_design",
     "name": "просп. Академика Глушкова",
@@ -11191,7 +11191,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4058": {
+  {
     "id": 4058,
     "state": "under_construct",
     "name": "ЖК Галактика",
@@ -11251,7 +11251,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4062": {
+  {
     "id": 4062,
     "state": "under_construct",
     "name": "ЖК Signature",
@@ -11287,7 +11287,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4078": {
+  {
     "id": 4078,
     "state": "ready",
     "name": "ЖК Троицкий",
@@ -11323,7 +11323,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4126": {
+  {
     "id": 4126,
     "state": "under_construct",
     "name": "просп. Отрадный, 2 (просп. Комарова, 1)",
@@ -11363,7 +11363,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4130": {
+  {
     "id": 4130,
     "state": "under_construct",
     "name": "ул. Петра Калнышевского (Майорова), 6",
@@ -11399,7 +11399,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4151": {
+  {
     "id": 4151,
     "state": "under_construct",
     "name": "ЖК Харьковский",
@@ -11447,7 +11447,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4197": {
+  {
     "id": 4197,
     "state": "under_construct",
     "name": "ЖК Славутич",
@@ -11511,7 +11511,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4203": {
+  {
     "id": 4203,
     "state": "under_construct",
     "name": "ЖК Вышиванка",
@@ -11547,7 +11547,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4219": {
+  {
     "id": 4219,
     "state": "under_construct",
     "name": "ЖК Adamant",
@@ -11583,7 +11583,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4222": {
+  {
     "id": 4222,
     "state": "under_construct",
     "name": "ЖК Парковая долина",
@@ -11683,7 +11683,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4225": {
+  {
     "id": 4225,
     "state": "under_construct",
     "name": "ул. Милославская, 18",
@@ -11719,7 +11719,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4226": {
+  {
     "id": 4226,
     "state": "under_construct",
     "name": "пер. Платоновский, 6",
@@ -11755,7 +11755,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4242": {
+  {
     "id": 4242,
     "state": "under_construct",
     "name": "ЖК ИТТФ",
@@ -11791,7 +11791,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4250": {
+  {
     "id": 4250,
     "state": "under_construct",
     "name": "ул. Панельная, 2",
@@ -11827,7 +11827,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4251": {
+  {
     "id": 4251,
     "state": "under_construct",
     "name": "ул. Драгоманова, 35",
@@ -11863,7 +11863,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4257": {
+  {
     "id": 4257,
     "state": "under_construct",
     "name": "ЖК Ривьера",
@@ -11911,7 +11911,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4261": {
+  {
     "id": 4261,
     "state": "under_construct",
     "name": "ЖК Smart House",
@@ -11955,7 +11955,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4263": {
+  {
     "id": 4263,
     "state": "under_construct",
     "name": "ул. Горловская, 215а, 215б, 215в",
@@ -11991,7 +11991,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4305": {
+  {
     "id": 4305,
     "state": "under_construct",
     "name": "Жилой дом-3, Выгуровщина-20",
@@ -12027,7 +12027,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4315": {
+  {
     "id": 4315,
     "state": "under_construct",
     "name": "ЖК New York Concept House",
@@ -12063,7 +12063,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4319": {
+  {
     "id": 4319,
     "state": "under_construct",
     "name": "ЖК Campus",
@@ -12115,7 +12115,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4322": {
+  {
     "id": 4322,
     "state": "under_construct",
     "name": "ул. Володи Дубинина, 2а",
@@ -12171,7 +12171,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4370": {
+  {
     "id": 4370,
     "state": "under_construct",
     "name": "ЖК West House",
@@ -12207,7 +12207,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4400": {
+  {
     "id": 4400,
     "state": "under_construct",
     "name": "ЖК Камертон",
@@ -12243,7 +12243,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4402": {
+  {
     "id": 4402,
     "state": "under_construct",
     "name": "ЖК Bristol Comfort House",
@@ -12279,7 +12279,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4410": {
+  {
     "id": 4410,
     "state": "under_construct",
     "name": "ЖК Кирилловский Гай",
@@ -12347,7 +12347,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4414": {
+  {
     "id": 4414,
     "state": "under_construct",
     "name": "ЖК Новопечерский Квартал №5",
@@ -12511,7 +12511,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4421": {
+  {
     "id": 4421,
     "state": "under_construct",
     "name": "ЖК Гвардейский",
@@ -12579,7 +12579,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4424": {
+  {
     "id": 4424,
     "state": "under_construct",
     "name": "ЖК Пектораль",
@@ -12631,7 +12631,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4444": {
+  {
     "id": 4444,
     "state": "under_construct",
     "name": "ЖК Маєток «Желань»",
@@ -12667,7 +12667,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4446": {
+  {
     "id": 4446,
     "state": "under_construct",
     "name": "ул. Драгоманова, 10",
@@ -12703,7 +12703,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4461": {
+  {
     "id": 4461,
     "state": "under_construct",
     "name": "ЖК Лико-Град 4",
@@ -12775,7 +12775,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4464": {
+  {
     "id": 4464,
     "state": "under_construct",
     "name": "ЖК Династия",
@@ -12835,7 +12835,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4466": {
+  {
     "id": 4466,
     "state": "under_construct",
     "name": "ЖК Злагода",
@@ -12887,7 +12887,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4471": {
+  {
     "id": 4471,
     "state": "under_construct",
     "name": "Арт квартал «Співоче»",
@@ -12979,7 +12979,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4515": {
+  {
     "id": 4515,
     "state": "under_construct",
     "name": "ЖК Новая Англия",
@@ -13039,7 +13039,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4516": {
+  {
     "id": 4516,
     "state": "under_construct",
     "name": "ЖК Покрова",
@@ -13099,7 +13099,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4541": {
+  {
     "id": 4541,
     "state": "under_construct",
     "name": "ЖК Рідне місто",
@@ -13139,7 +13139,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4555": {
+  {
     "id": 4555,
     "state": "in_design",
     "name": "ул. Майбороды, 25б",
@@ -13183,7 +13183,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4562": {
+  {
     "id": 4562,
     "state": "under_construct",
     "name": "ул. Дмитриевская, 60\/19",
@@ -13231,7 +13231,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4579": {
+  {
     "id": 4579,
     "state": "under_construct",
     "name": "ЖК Акцент",
@@ -13275,7 +13275,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4582": {
+  {
     "id": 4582,
     "state": "under_construct",
     "name": "ЖК The Garden",
@@ -13311,7 +13311,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4637": {
+  {
     "id": 4637,
     "state": "under_construct",
     "name": "ЖК Podil Plaza & Residence",
@@ -13375,7 +13375,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4646": {
+  {
     "id": 4646,
     "state": "under_construct",
     "name": "Клубный дом «Тихая гавань»",
@@ -13427,7 +13427,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4649": {
+  {
     "id": 4649,
     "state": "under_construct",
     "name": "ЖК RichHouse",
@@ -13467,7 +13467,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4663": {
+  {
     "id": 4663,
     "state": "under_construct",
     "name": "ЖК Отрадный",
@@ -13519,7 +13519,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4672": {
+  {
     "id": 4672,
     "state": "under_construct",
     "name": "ЖК Cardinal",
@@ -13579,7 +13579,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4678": {
+  {
     "id": 4678,
     "state": "under_construct",
     "name": "ЖК На Ревуцкого",
@@ -13619,7 +13619,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4686": {
+  {
     "id": 4686,
     "state": "under_construct",
     "name": "ЖК Чарівне місто",
@@ -13667,7 +13667,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4687": {
+  {
     "id": 4687,
     "state": "under_construct",
     "name": "ЖК Manhattan city",
@@ -13731,7 +13731,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4694": {
+  {
     "id": 4694,
     "state": "under_construct",
     "name": "ЖК Каховская, 60",
@@ -13775,7 +13775,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4709": {
+  {
     "id": 4709,
     "state": "in_design",
     "name": "Клубный дом «Печерский»",
@@ -13811,7 +13811,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4727": {
+  {
     "id": 4727,
     "state": "under_construct",
     "name": "ЖК Spas Sky",
@@ -13847,7 +13847,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4728": {
+  {
     "id": 4728,
     "state": "under_construct",
     "name": "ЖК Обериг-2",
@@ -13919,7 +13919,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4740": {
+  {
     "id": 4740,
     "state": "under_construct",
     "name": "ЖК Дипломат",
@@ -13955,7 +13955,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4746": {
+  {
     "id": 4746,
     "state": "under_construct",
     "name": "ЖК Chicago Central House",
@@ -13991,7 +13991,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4748": {
+  {
     "id": 4748,
     "state": "under_construct",
     "name": "ЖК Freedom",
@@ -14043,7 +14043,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4755": {
+  {
     "id": 4755,
     "state": "under_construct",
     "name": "ЖК AuRoom",
@@ -14091,7 +14091,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4756": {
+  {
     "id": 4756,
     "state": "under_construct",
     "name": "ул. Академика Туполева, 5а",
@@ -14127,7 +14127,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4770": {
+  {
     "id": 4770,
     "state": "under_construct",
     "name": "ЖК Veles Place",
@@ -14163,7 +14163,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4773": {
+  {
     "id": 4773,
     "state": "under_construct",
     "name": "ул. Ревуцкого",
@@ -14182,7 +14182,7 @@
     "polygon": [],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4774": {
+  {
     "id": 4774,
     "state": "under_construct",
     "name": "ЖК V Квартал (Пятый квартал)",
@@ -14218,7 +14218,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4785": {
+  {
     "id": 4785,
     "state": "under_construct",
     "name": "ЖК Time",
@@ -14270,7 +14270,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4797": {
+  {
     "id": 4797,
     "state": "under_construct",
     "name": "ЖК Seven",
@@ -14334,7 +14334,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4804": {
+  {
     "id": 4804,
     "state": "under_construct",
     "name": "ЖК Crystal House",
@@ -14378,7 +14378,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4810": {
+  {
     "id": 4810,
     "state": "ready",
     "name": "ЖК Дом на Бориспольской",
@@ -14418,7 +14418,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4815": {
+  {
     "id": 4815,
     "state": "under_construct",
     "name": "ЖК Вудстория",
@@ -14462,7 +14462,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4820": {
+  {
     "id": 4820,
     "state": "under_construct",
     "name": "ЖК Einstein Concept House",
@@ -14498,7 +14498,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4830": {
+  {
     "id": 4830,
     "state": "ready",
     "name": "Клубный дом «Struetinsky»",
@@ -14542,7 +14542,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4853": {
+  {
     "id": 4853,
     "state": "under_construct",
     "name": "ЖК Karaway Tower",
@@ -14578,7 +14578,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4857": {
+  {
     "id": 4857,
     "state": "under_construct",
     "name": "ЖК Петра Радченко, 27-29",
@@ -14614,7 +14614,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4866": {
+  {
     "id": 4866,
     "state": "under_construct",
     "name": "ЖК А52",
@@ -14650,7 +14650,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4868": {
+  {
     "id": 4868,
     "state": "under_construct",
     "name": "Жилой район Rybalsky",
@@ -14686,7 +14686,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4888": {
+  {
     "id": 4888,
     "state": "under_construct",
     "name": "ЖК Smart Plaza Obolon",
@@ -14730,7 +14730,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4889": {
+  {
     "id": 4889,
     "state": "under_construct",
     "name": "ул. Драгоманова, 35\/55",
@@ -14766,7 +14766,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4892": {
+  {
     "id": 4892,
     "state": "under_construct",
     "name": "ЖК Успешный",
@@ -14802,7 +14802,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4893": {
+  {
     "id": 4893,
     "state": "under_construct",
     "name": "ул. Успешная, 9\/3",
@@ -14838,7 +14838,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4900": {
+  {
     "id": 4900,
     "state": "under_construct",
     "name": "ул. Огородная, 10",
@@ -14874,7 +14874,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4921": {
+  {
     "id": 4921,
     "state": "under_construct",
     "name": "ЖК The Lakes",
@@ -14918,7 +14918,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4949": {
+  {
     "id": 4949,
     "state": "in_design",
     "name": "ЖК Crystal Towers",
@@ -14954,7 +14954,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4951": {
+  {
     "id": 4951,
     "state": "under_construct",
     "name": "ул. Глубочицкая, 43",
@@ -14994,7 +14994,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4957": {
+  {
     "id": 4957,
     "state": "under_construct",
     "name": "ул. Мичурина, 21",
@@ -15030,7 +15030,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4958": {
+  {
     "id": 4958,
     "state": "under_construct",
     "name": "ЖК Теремки",
@@ -15094,7 +15094,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4965": {
+  {
     "id": 4965,
     "state": "under_construct",
     "name": "ЖК Friendly House",
@@ -15130,7 +15130,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4985": {
+  {
     "id": 4985,
     "state": "under_construct",
     "name": "ЖК Orange City",
@@ -15198,7 +15198,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4988": {
+  {
     "id": 4988,
     "state": "under_construct",
     "name": "ЖК Славутич 2.0",
@@ -15242,7 +15242,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4989": {
+  {
     "id": 4989,
     "state": "frozen",
     "name": "ул. Академика Глушкова, 5",
@@ -15278,7 +15278,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4990": {
+  {
     "id": 4990,
     "state": "under_construct",
     "name": "ЖК Twin House",
@@ -15322,7 +15322,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4991": {
+  {
     "id": 4991,
     "state": "under_construct",
     "name": "ул. Народная, 54а",
@@ -15358,7 +15358,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4992": {
+  {
     "id": 4992,
     "state": "under_construct",
     "name": "ЖК Solo House",
@@ -15394,7 +15394,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "4994": {
+  {
     "id": 4994,
     "state": "under_construct",
     "name": "ул. Зверинецкая, 96",
@@ -15434,7 +15434,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5022": {
+  {
     "id": 5022,
     "state": "in_design",
     "name": "ул. Кудряшова, 14а",
@@ -15453,7 +15453,7 @@
     "polygon": [],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5047": {
+  {
     "id": 5047,
     "state": "under_construct",
     "name": "Клубный дом «HillSide»",
@@ -15505,7 +15505,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5052": {
+  {
     "id": 5052,
     "state": "under_construct",
     "name": "ЖК Файна Таун",
@@ -15573,7 +15573,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5063": {
+  {
     "id": 5063,
     "state": "under_construct",
     "name": "ул. Докучаевская, 5а",
@@ -15609,7 +15609,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5072": {
+  {
     "id": 5072,
     "state": "under_construct",
     "name": "ул. Евгения Харченка (Ленина), 55",
@@ -15645,7 +15645,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5073": {
+  {
     "id": 5073,
     "state": "under_construct",
     "name": "ЖК Караваевы Дачи",
@@ -15681,7 +15681,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5078": {
+  {
     "id": 5078,
     "state": "under_construct",
     "name": "ул. Кирилловская, 37",
@@ -15717,7 +15717,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5081": {
+  {
     "id": 5081,
     "state": "under_construct",
     "name": "ул. Старицкого, ул. Данченко",
@@ -15769,7 +15769,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5082": {
+  {
     "id": 5082,
     "state": "under_construct",
     "name": "Клубный дом «Brownie House»",
@@ -15805,7 +15805,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5085": {
+  {
     "id": 5085,
     "state": "under_construct",
     "name": "Клубный дом «M31 Park House»",
@@ -15841,7 +15841,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5093": {
+  {
     "id": 5093,
     "state": "under_construct",
     "name": "ЖК Мандарин",
@@ -15881,7 +15881,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5105": {
+  {
     "id": 5105,
     "state": "under_construct",
     "name": "ул. Гетьмана, 27 (ул. Индустриальная, Борщаговская)",
@@ -15917,7 +15917,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5139": {
+  {
     "id": 5139,
     "state": "under_construct",
     "name": "ул. Академика Вильямса \/ ул. Сергея Колоса",
@@ -15953,7 +15953,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5150": {
+  {
     "id": 5150,
     "state": "under_construct",
     "name": "ЖК Comfort Club",
@@ -15993,7 +15993,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5158": {
+  {
     "id": 5158,
     "state": "in_design",
     "name": "ул. Макаровская, 2",
@@ -16029,7 +16029,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5160": {
+  {
     "id": 5160,
     "state": "under_construct",
     "name": "ул. Сечевых Стрельцов (Артема), 25",
@@ -16085,7 +16085,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5161": {
+  {
     "id": 5161,
     "state": "in_design",
     "name": "ул. Обсерваторная, 4",
@@ -16117,7 +16117,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5162": {
+  {
     "id": 5162,
     "state": "under_construct",
     "name": "ЖК Баггоутовский",
@@ -16161,7 +16161,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5163": {
+  {
     "id": 5163,
     "state": "under_construct",
     "name": "ЖК Бережанский",
@@ -16209,7 +16209,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5165": {
+  {
     "id": 5165,
     "state": "under_construct",
     "name": "ул. Мичурина, 44",
@@ -16245,7 +16245,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5169": {
+  {
     "id": 5169,
     "state": "under_construct",
     "name": "ЖК Sky Hill",
@@ -16281,7 +16281,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5183": {
+  {
     "id": 5183,
     "state": "under_construct",
     "name": "Клубный дом «Как во Львове»",
@@ -16333,7 +16333,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5192": {
+  {
     "id": 5192,
     "state": "under_construct",
     "name": "Жилой дом-2, Выгуровщина-20",
@@ -16369,7 +16369,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5216": {
+  {
     "id": 5216,
     "state": "under_construct",
     "name": "ЖК Лесная сказка 2",
@@ -16429,7 +16429,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5229": {
+  {
     "id": 5229,
     "state": "under_construct",
     "name": "ЖК IL Patio",
@@ -16465,7 +16465,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5231": {
+  {
     "id": 5231,
     "state": "under_construct",
     "name": "ул. Николая Соловцова",
@@ -16505,7 +16505,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5237": {
+  {
     "id": 5237,
     "state": "under_construct",
     "name": "ул. Межевая",
@@ -16541,7 +16541,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5240": {
+  {
     "id": 5240,
     "state": "in_design",
     "name": "ул. Дегтяревская, 17-19",
@@ -16577,7 +16577,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5247": {
+  {
     "id": 5247,
     "state": "unknown",
     "name": "ул. Нововокзальная, 69-75",
@@ -16596,7 +16596,7 @@
     "polygon": [],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5249": {
+  {
     "id": 5249,
     "state": "under_construct",
     "name": "ул. Деловая, 5а",
@@ -16640,7 +16640,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5253": {
+  {
     "id": 5253,
     "state": "under_construct",
     "name": "Клубный дом «На Радистов»",
@@ -16676,7 +16676,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5255": {
+  {
     "id": 5255,
     "state": "under_construct",
     "name": "ул. Ярослава Галана \/ ул. Карьерная",
@@ -16732,7 +16732,7 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   },
-  "5268": {
+  {
     "id": 5268,
     "state": "in_design",
     "name": "Клубный дом «M29 Park House»",
@@ -16768,4 +16768,4 @@
     ],
     "analytics": "map-search-input-autocomplete_building"
   }
-}
+]
