@@ -1,5 +1,6 @@
 package com.cmlteam.model.lun;
 
+import com.google.maps.model.LatLng;
 import openchat.api.messenger.json.AbstractJson;
 
 import javax.xml.bind.annotation.XmlElement;
@@ -17,4 +18,15 @@ public class Point extends AbstractJson {
 	public double lat;
 	@XmlElement
 	public double lng;
+
+	public LatLng toLatLng() {
+		return new LatLng(lat, lng);
+	}
+
+	public static Point fromLatLng(LatLng latLng) {
+		Point p = new Point();
+		p.lat = latLng.lat;
+		p.lng = latLng.lng;
+		return p;
+	}
 }

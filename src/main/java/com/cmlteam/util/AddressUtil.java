@@ -13,14 +13,22 @@ import java.io.IOException;
  */
 
 
-public class AddressUtil {
-	private static final GeoApiContext CTX = new GeoApiContext().setApiKey(PropertyUtil.getProperty("GEO_API_KEY"));
+class AddressUtil {
+	private static final GeoApiContext CTX;
 
-	public static String resolveAddress(String address) throws IOException {
+	static {
+		String apiKey = PropertyUtil.getProperty("GEO_API_KEY");
+		if(apiKey == null) {
+			throw new RuntimeException("please set the GEO_API_KEY");
+		}
+		CTX = new GeoApiContext().setApiKey(apiKey);
+	}
+
+	static GeocodingResult resolveAddress(String address) throws IOException {
 		try {
 			GeocodingResult[] results = GeocodingApi.geocode(CTX, address).await();
 			if(results != null && results.length > 0) {
-				return results[0].formattedAddress;
+				return results[0];
 			}
 			return null;
 		}
@@ -28,10 +36,4 @@ public class AddressUtil {
 			throw new IOException(e);
 		}
 	}
-
-	public static void main(String[] args) throws IOException {
-		System.out.println(resolveAddress("ЖК Голосеевский"));
-		System.out.println(resolveAddress("ЖК Комфорт Таун"));
-	}
-
 }
