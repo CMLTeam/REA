@@ -64,6 +64,11 @@
 			<artifactId>google-maps-services</artifactId>
 			<version>0.1.20</version>
 		</dependency>
+		<dependency>
+			<groupId>openchat</groupId>
+			<artifactId>chatbot-api</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 
