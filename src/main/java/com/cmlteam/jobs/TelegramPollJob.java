@@ -65,7 +65,10 @@ public class TelegramPollJob {
             }
             else if (text.contains(" ") || text.contains(",")) {
                 try {
-//                    Building building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
+//                    Building building = LunUtil.getClosestBuilding(text);
+                    if(building == null || !StringUtils.contains(building.formattedAddress, "Kyiv")) {
+                        building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
+                    }
 //                    if (building != null) {
                         /*String result = String.format(
                             "Результат перевірки за вашим запитом:\n\n" +
@@ -95,6 +98,10 @@ public class TelegramPollJob {
                             "є суттєві ризики"
                         );
                         /*if (building.img != null) {
+                        if(building.developers.rank < LunUtil.RATING_NORMALIZER / 2) {
+                            sendFraudAlert(chatId);
+                        }
+                        else if (building.img != null) {
                             String img = building.img.small;
                             if (StringUtils.isEmpty(img))
                                 img = building.img.mainThumb;
@@ -142,7 +149,8 @@ public class TelegramPollJob {
                                 "https://media4.giphy.com/media/yoJC2NhEwhBSQhu6WY/200.mp4",
                                 "https://media1.giphy.com/media/ORUfXNGgFVy2Q/200.mp4",
                                 "https://media3.giphy.com/media/ABoaCMjkoqmIg/200.mp4",
-                                "https://media1.giphy.com/media/WFJwD9IWisMQE/200.mp4"
+                                "https://media1.giphy.com/media/WFJwD9IWisMQE/200.mp4",
+                                "https://media1.giphy.com/media/Ub8XEam5vXbMY/200.mp4"
                         )
                 )
         );
