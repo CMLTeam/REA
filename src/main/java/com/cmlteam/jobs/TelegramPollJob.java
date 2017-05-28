@@ -129,7 +129,8 @@ public class TelegramPollJob {
                                 "https://media4.giphy.com/media/yoJC2NhEwhBSQhu6WY/200.mp4",
                                 "https://media1.giphy.com/media/ORUfXNGgFVy2Q/200.mp4",
                                 "https://media3.giphy.com/media/ABoaCMjkoqmIg/200.mp4",
-                                "https://media1.giphy.com/media/WFJwD9IWisMQE/200.mp4"
+                                "https://media1.giphy.com/media/WFJwD9IWisMQE/200.mp4",
+                                "https://media1.giphy.com/media/Ub8XEam5vXbMY/200.mp4"
                         )
                 )
         );
