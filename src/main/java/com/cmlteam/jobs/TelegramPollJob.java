@@ -50,20 +50,56 @@ public class TelegramPollJob {
     public void mainLoop() {
         GetUpdatesResponse updatesResponse = bot.execute(new GetUpdates().offset(offset));
         List<Update> updates = updatesResponse.updates();
-        for(Update update: updates) {
+        for (Update update : updates) {
             offset = Math.max(offset, update.updateId() + 1);
             Message message = update.message();
             String text = StringUtils.trimToEmpty(message.text());
             System.out.println(text);
             long chatId = message.chat().id();
-            if(isGreeting(text)) {
+            if (isGreeting(text)) {
                 bot.execute(new SendMessage(chatId, oneOf(
-                    "Привіт, введи адресу об'єкту або назву ЖК",
-                    "Вітаю, будь ласка, введіть адресу або назву об'єкту"
+                        "Привіт, введи адресу об'єкту або назву ЖК",
+                        "Вітаю, будь ласка, введіть адресу або назву об'єкту"
                 )));
                 sendFraudAlert(chatId);
-            }
-            else if (text.contains(" ") || text.contains(",") || text.toLowerCase().contains("freedom")) {
+            } else if ("Судові рішення".equals(text)) {
+                bot.execute(new SendMessage(chatId, "Судові рішення").parseMode(ParseMode.HTML)
+                        .replyMarkup(horizontalKeyboardFrom(
+                                "Судові рішення по замовнику",
+                                "Судові рішення по підряднику",
+                                "Судові рішення по адресі"
+                        )));
+            } else if (text.startsWith("Судові рішення по")) {
+                bot.execute(new SendMessage(chatId, "<b>Дніпровський районний суд міста Києва</b>\n" +
+                        "Дата: 20.03.2017\n" +
+                        "Тип: Ухвала\n" +
+                        "Справа: 755/14485/16-к\n" +
+                        "Форма: Кримінальне\n" +
+                        "\n" +
+                        "<b>Дніпровський районний суд міста Києва</b>\n" +
+                        "Дата: 25.01.2017\n" +
+                        "Тип: Ухвала\n" +
+                        "Справа: 755/1256/17\n" +
+                        "Форма: Кримінальне\n" +
+                        "\n" +
+                        "<b>Дніпровський районний суд міста Києва</b>\n" +
+                        "Дата: 25.01.2017\n" +
+                        "Тип: Ухвала\n" +
+                        "Справа: 755/1256/17\n" +
+                        "Форма: Кримінальне\n" +
+                        "\n" +
+                        "<b>Дніпровський районний суд міста Києва</b>\n" +
+                        "Дата: 25.01.2017\n" +
+                        "Тип: Ухвала\n" +
+                        "Справа: 755/1256/17\n" +
+                        "Форма: Кримінальне\n" +
+                        "\n" +
+                        "<b>Дніпровський районний суд міста Києва</b>\n" +
+                        "Дата: 25.01.2017\n" +
+                        "Тип: Ухвала\n" +
+                        "Справа: 755/1256/17\n" +
+                        "Форма: Кримінальне").parseMode(ParseMode.HTML));
+            } else if (text.contains(" ") || text.contains(",") || text.toLowerCase().contains("freedom")) {
                 try {
 //                    Building building = LunUtil.getClosestBuilding(text);
 //                    if(building == null || !StringUtils.contains(building.formattedAddress, "Kyiv")) {
@@ -90,13 +126,13 @@ public class TelegramPollJob {
                             building.developers.rank,
                             LunUtil.RATING_NORMALIZER
                         );*/
-                        String result = String.format(
+                    String result = String.format(
                             "Результат перевірки за вашим запитом:\n\n" +
-                                "<b>Адреса:</b> %s\n" +
-                                "<b>Висновок:</b> %s\n",
+                                    "<b>Адреса:</b> %s\n" +
+                                    "<b>Висновок:</b> %s\n",
                             "перетин проспектів Броварського та Визволителів у Дніпровському районі міста Києва",
                             "є суттєві ризики"
-                        );
+                    );
                         /*if (building.img != null) {
                         if(building.developers.rank < (LunUtil.RATING_NORMALIZER / 2 - 1)) {
                             sendFraudAlert(chatId);
@@ -110,22 +146,20 @@ public class TelegramPollJob {
                             bot.execute(new SendPhoto(chatId, img));
                         }*/
                     bot.execute(new SendPhoto(chatId, "http://jk-freedom.com.ua/Media/images/renders/projects_big/beefc0111101056383a36babb0ec05d2.jpg"));
-                        SendResponse response = bot.execute(new SendMessage(chatId, result).parseMode(ParseMode.HTML)
-                                .replyMarkup(horizontalKeyboardFrom("Детальніше...")));
-                        if (!response.isOk()) {
-                            log.error(response.description());
-                        }
+                    SendResponse response = bot.execute(new SendMessage(chatId, result).parseMode(ParseMode.HTML)
+                            .replyMarkup(horizontalKeyboardFrom("Детальніше...")));
+                    if (!response.isOk()) {
+                        log.error(response.description());
+                    }
 //                    }
 //                    else {
 //                        wrongAddress(chatId);
 //                    }
-                }
-                catch (Exception e) {
+                } catch (Exception e) {
                     log.warn("", e);
                     wrongAddress(chatId);
                 }
-            }
-            else if ("Детальніше...".equals(text)) {
+            } else if ("Детальніше...".equals(text)) {
                 bot.execute(new SendMessage(chatId, "<b>Інформація з відкртих державних реєстрів про обєкт ЖК Freedom.</b>\n\n" +
                         "<b>Замовник:</b> ТОВ \"КОМПАНІЯ \"МЕТРОПОЛІС\", 32587652\n" +
                         "<b>Підрядник:</b> ТОВ \"СПЕЦБУД-ПЛЮС\", 36590344, ліцензія АЕ289010\n" +
@@ -147,18 +181,19 @@ public class TelegramPollJob {
                         "<b>Стан замовника:</b>\n" +
                         "не перебуває в стадії припинення\n").parseMode(ParseMode.HTML)
                         .replyMarkup(horizontalKeyboardFrom("Судові рішення", "Поглиблений пошук")));
-            }
-            else {
+            } else {
                 bot.execute(new SendMessage(chatId, oneOf(
-                    "Введіть адресу об'єкту або назву ЖК:",
-                    "Будь ласка, введіть адресу або назву об'єкту:"
+                        "Введіть адресу об'єкту або назву ЖК:",
+                        "Будь ласка, введіть адресу або назву об'єкту:"
                 )));
             }
         }
     }
+
     private static Keyboard horizontalKeyboardFrom(String... keys) {
         return new ReplyKeyboardMarkup(keys).oneTimeKeyboard(true).resizeKeyboard(true).selective(true);
     }
+
     private void wrongAddress(long chatId) {
         bot.execute(new SendMessage(chatId, oneOf("Назва введена невірно, будь ласка спробуйте ще раз:")));
     }
