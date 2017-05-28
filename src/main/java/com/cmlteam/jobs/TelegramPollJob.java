@@ -53,8 +53,8 @@ public class TelegramPollJob {
             long chatId = message.chat().id();
             if(isGreeting(text)) {
                 bot.execute(new SendMessage(chatId, oneOf(
-                    "Привіт, введи адресу об'єкту або назву ЖК:",
-                    "Здрастуйте, будь ласка, введіть адресу або назву об'єкту:"
+                    "Привіт, введи адресу об'єкту або назву ЖК",
+                    "Вітаю, будь ласка, введіть адресу або назву об'єкту"
                 )));
             }
             else if (text.contains(" ") || text.contains(",")) {
@@ -62,12 +62,23 @@ public class TelegramPollJob {
                     Building building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
                     if (building != null) {
                         String result = String.format(
-                                oneOf("Результат перевірки за адресою %s:\nВстановив рейтинг: %s"),
+                                "Результат перевірки за вашим запитом:\n" +
+                                        "Адреса: %s\n" +
+                                        "Замовник будівництва: %s\n" +
+                                        "Генпідрядник: %s\n" +
+                                        "Строк введення в експлуатацію: %s\n" +
+                                        "Дозвільні документи: %s\n" +
+                                        "Статус землі: %s\n" +
+                                        "Виявлені ризики: %s\n" +
+                                        "Рейтинг: %s",
                                 building.formattedAddress,
+                                "ZAMOV",
+                                "GEN",
+                                "STROK",
+                                "DOCS",
+                                "STATUS",
+                                "RISKS",
                                 "9/10");
-                        if (false) {
-
-                        }
                         if (building.img != null) {
                             String img = building.img.small;
                             if (StringUtils.isEmpty(img))
