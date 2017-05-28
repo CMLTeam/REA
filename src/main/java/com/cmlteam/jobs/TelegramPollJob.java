@@ -9,7 +9,9 @@ import com.pengrad.telegrambot.model.Message;
 import com.pengrad.telegrambot.model.Update;
 import com.pengrad.telegrambot.request.GetUpdates;
 import com.pengrad.telegrambot.request.SendMessage;
+import com.pengrad.telegrambot.request.SendPhoto;
 import com.pengrad.telegrambot.response.GetUpdatesResponse;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -56,6 +58,14 @@ public class TelegramPollJob {
                                 "9/10");
                         if (false) {
 
+                        }
+                        if (building.img != null) {
+                            String img = building.img.small;
+                            if (StringUtils.isEmpty(img))
+                                img = building.img.mainThumb;
+                            if (img.startsWith("//"))
+                                img = "https:" + img;
+                            bot.execute(new SendPhoto(chatId, img));
                         }
                         bot.execute(new SendMessage(chatId, result));
                     } else {
