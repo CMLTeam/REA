@@ -118,7 +118,7 @@ public class TelegramPollJob {
 										"<b>Адреса:</b> %s\n" +
 										"<b>Висновок:</b> %s\n",
 								"перетин проспектів Броварського та Визволителів у Дніпровському районі міста Києва",
-								"є суттєві ризики"
+								"є суттєві ризики через оспорювання права користування земельною ділянкою"
 						);
 						bot.execute(new SendPhoto(chatId, "http://jk-freedom.com.ua/Media/images/renders/projects_big/beefc0111101056383a36babb0ec05d2.jpg"));
 						SendResponse response = bot.execute(new SendMessage(chatId, result).parseMode(ParseMode.HTML)
