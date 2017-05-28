@@ -63,7 +63,10 @@ public class TelegramPollJob {
             }
             else if (text.contains(" ") || text.contains(",")) {
                 try {
-                    Building building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
+                    Building building = LunUtil.getClosestBuilding(text);
+                    if(building == null || !StringUtils.contains(building.formattedAddress, "Kyiv")) {
+                        building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
+                    }
                     if (building != null) {
                         String result = String.format(
                             "Результат перевірки за вашим запитом:\n\n" +
@@ -85,7 +88,10 @@ public class TelegramPollJob {
                             building.developers.rank,
                             LunUtil.RATING_NORMALIZER
                         );
-                        if (building.img != null) {
+                        if(building.developers.rank < LunUtil.RATING_NORMALIZER / 2) {
+                            sendFraudAlert(chatId);
+                        }
+                        else if (building.img != null) {
                             String img = building.img.small;
                             if (StringUtils.isEmpty(img))
                                 img = building.img.mainThumb;
