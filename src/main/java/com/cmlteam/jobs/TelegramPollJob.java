@@ -21,6 +21,9 @@ import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.util.List;
 
+import static com.cmlteam.util.MessageUtil.isGreeting;
+import static com.cmlteam.util.MessageUtil.oneOf;
+
 /**
  * Created by Oleksandr Shchetynin on 5/27/2017.
  */
@@ -45,15 +48,21 @@ public class TelegramPollJob {
         for(Update update: updates) {
             offset = Math.max(offset, update.updateId() + 1);
             Message message = update.message();
-            String text = message.text();
+            String text = StringUtils.trimToEmpty(message.text());
             System.out.println(text);
             long chatId = message.chat().id();
+            if(isGreeting(text)) {
+                bot.execute(new SendMessage(chatId, oneOf(
+                    "Привіт, введи адресу об'єкту або назву ЖК",
+                    "Здрастуйте, будь ласка, введіть адресу або назву об'єкту"
+                )));
+            }
             if (text.contains(" ") || text.contains(",")) {
                 try {
                     Building building = LunUtil.getClosestBuilding(text);
                     if (building != null) {
                         String result = String.format(
-                                "Результат перевірки за адресою %s:\nВстановив рейтинг: %s",
+                                oneOf("Результат перевірки за адресою %s:\nВстановив рейтинг: %s"),
                                 building.formattedAddress,
                                 "9/10");
                         if (false) {
@@ -75,14 +84,18 @@ public class TelegramPollJob {
                     log.warn("", e);
                     shitHappens(chatId);
                 }
-            } else {
-                bot.execute(new SendMessage(chatId, "Введіть адресу об'єкту або назву ЖК"));
+            }
+            else {
+                bot.execute(new SendMessage(chatId, oneOf(
+                    "Введіть адресу об'єкту або назву ЖК",
+                    "Будь ласка, введіть адресу або назву об'єкту"
+                )));
             }
         }
     }
 
     private void shitHappens(long chatId) {
-        bot.execute(new SendMessage(chatId, "Назва введена невірно, будь ласка спробуйте ще раз"));
+        bot.execute(new SendMessage(chatId, oneOf("Назва введена невірно, будь ласка спробуйте ще раз")));
     }
 
 }
