@@ -134,10 +134,11 @@ public class TelegramPollJob {
                         );*/
                     String result = String.format(
                             "Результат перевірки за вашим запитом:\n\n" +
+                                    "<b>ЖК FreeDom</b>\n\n" +
                                     "<b>Адреса:</b> %s\n" +
                                     "<b>Висновок:</b> %s\n",
                             "перетин проспектів Броварського та Визволителів у Дніпровському районі міста Києва",
-                            "є суттєві ризики через оспорювання права користування земельною ділянкою"
+                            "є суттєві ризики"
                     );
                         /*if (building.img != null) {
                         if(building.developers.rank < (LunUtil.RATING_NORMALIZER / 2 - 1)) {
@@ -185,7 +186,10 @@ public class TelegramPollJob {
                         "<b>Стан підрядника:</b>\n" +
                         "не перебуває в стадії припинення\n" +
                         "<b>Стан замовника:</b>\n" +
-                        "не перебуває в стадії припинення\n").parseMode(ParseMode.HTML)
+                        "не перебуває в стадії припинення\n" +
+                        "<b>Судові ризики:</b>\n" +
+                        "Оспорюється право користування земельною ділянку\n"
+                ).parseMode(ParseMode.HTML)
                         .replyMarkup(horizontalKeyboardFrom("Судові рішення", "Поглиблений пошук")));
             } else {
                 bot.execute(new SendMessage(chatId, oneOf(
