@@ -88,7 +88,7 @@ public class TelegramPollJob {
                             building.developers.rank,
                             LunUtil.RATING_NORMALIZER
                         );
-                        if(building.developers.rank < LunUtil.RATING_NORMALIZER / 2) {
+                        if(building.developers.rank < (LunUtil.RATING_NORMALIZER / 2 - 1)) {
                             sendFraudAlert(chatId);
                         }
                         else if (building.img != null) {
