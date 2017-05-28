@@ -76,13 +76,13 @@ public class TelegramPollJob {
                     shitHappens(chatId);
                 }
             } else {
-                bot.execute(new SendMessage(chatId, "Введите адрес объекта"));
+                bot.execute(new SendMessage(chatId, "Введіть адресу об'єкту або назву ЖК"));
             }
         }
     }
 
     private void shitHappens(long chatId) {
-        bot.execute(new SendMessage(chatId, "Введите адрес объекта еще раз"));
+        bot.execute(new SendMessage(chatId, "Назва введена невірно, будь ласка спробуйте ще раз"));
     }
 
 }

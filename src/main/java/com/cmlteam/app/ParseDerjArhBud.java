@@ -4,6 +4,7 @@ import com.cmlteam.derj_arh_bud.DabCategory;
 import com.cmlteam.derj_arh_bud.DabRecord;
 import com.cmlteam.util.HttpUtil;
 import com.cmlteam.util.JsonUtil;
+import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -19,9 +20,9 @@ import java.util.List;
 import java.util.Map;
 
 public class ParseDerjArhBud {
-        static int[] years = {2015, 2016, 2017};
+        static int[] years = {2014, 2015, 2016, 2017};
 //    static int[] years = {2017};
-    private static final String KYIV_OBL_REGION_ID = "10";
+    private static final String KYIV_OBL_REGION_ID = "26";
 
     public static void main(String[] args) throws IOException {
         String folder = args[0];
@@ -93,13 +94,13 @@ public class ParseDerjArhBud {
                     }
 
                     if (lastPage == -1) {
-                        Elements select = document.select("#pages > a:last-of-type");
-                        if (elements.size() == 0) {
-                            System.out.println("END!");
+                        String href = document.select("#pages > a:last-of-type")
+                                .attr("href");
+                        if (StringUtils.isBlank(href)) {
+                            System.out.println("That's all, folks");
                             return;
                         }
-                        lastPage = Integer.parseInt(select
-                                .attr("href")
+                        lastPage = Integer.parseInt(href
                                 .split("page=")[1]);
 
                         System.out.println("Last page= " + lastPage);
