@@ -69,7 +69,6 @@ public class TelegramPollJob {
 						"Привіт, введи адресу об'єкту або назву ЖК",
 						"Вітаю, будь ласка, введіть адресу або назву об'єкту"
 				)));
-				sendFraudAlert(chatId);
 			}
 			else if("Судові рішення".equals(text)) {
 				bot.execute(new SendMessage(chatId, "Судові рішення").parseMode(ParseMode.HTML)
