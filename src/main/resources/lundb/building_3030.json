@@ -49,12 +49,12 @@
   "prices": [],
   "price": "Цена не указана",
   "developers": {
-    "companyId": false,
-    "name": false,
+    "companyId": -1,
+    "name": "",
     "site": "http:\/\/renaissance-residence.com.ua\/",
     "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Frenaissance-residence.com.ua%2F",
-    "rank": false,
-    "companyUrl": false
+    "rank": -1,
+    "companyUrl": ""
   },
   "developerOffer": "available",
   "hidePrice": "no",

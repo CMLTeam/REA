@@ -1,6 +1,11 @@
 package com.cmlteam.util;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair;
+import com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector;
+import com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -17,6 +22,12 @@ public class JsonUtil {
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
         df.setTimeZone(TimeZone.getTimeZone("GMT"));
         objectMapper.setDateFormat(df);
+        // exclude null and empty values from output XML/JSON
+        objectMapper.setSerializationInclusion(JsonInclude.Include.NON_EMPTY);
+        // allow reading of JSON values without quotes
+        objectMapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_FIELD_NAMES, true);
+        // support both Jackson and JAXB annotations
+        objectMapper.setAnnotationIntrospector(new AnnotationIntrospectorPair(new JacksonAnnotationIntrospector(), new JaxbAnnotationIntrospector()));
         return objectMapper;
     }
 

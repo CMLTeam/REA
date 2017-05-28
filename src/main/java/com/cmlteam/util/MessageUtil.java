@@ -40,7 +40,7 @@ public class MessageUtil {
 		);
 	}
 
-	private static boolean containsMultiple(String text, String... search) {
+	public static boolean containsMultiple(String text, String... search) {
 		if(search.length > 0) {
 			for(String s : search) {
 				if(StringUtils.contains(text, s)) {

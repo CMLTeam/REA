@@ -48,12 +48,12 @@
   "prices": [],
   "price": "Все квартиры проданы",
   "developers": {
-    "companyId": false,
-    "name": false,
+    "companyId": -1,
+    "name": "",
     "site": "http:\/\/ecotown.kiev.ua\/",
     "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fecotown.kiev.ua%2F",
-    "rank": false,
-    "companyUrl": false
+    "rank": -1,
+    "companyUrl": ""
   },
   "developerOffer": "all_sold",
   "hidePrice": "no",

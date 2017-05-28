@@ -59,12 +59,12 @@
   ],
   "price": "от&nbsp;<span class=\"price__numbers\">37&nbsp;180<\/span>&nbsp;грн\/м²",
   "developers": {
-    "companyId": false,
-    "name": false,
+    "companyId": -1,
+    "name": "",
     "site": "",
     "redirect_site": "",
-    "rank": false,
-    "companyUrl": false
+    "rank": -1,
+    "companyUrl": ""
   },
   "developerOffer": "available",
   "hidePrice": "no",

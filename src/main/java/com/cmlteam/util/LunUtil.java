@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
 
 public class LunUtil {
 	private static final LunModel MODEL;
-	private static final Pattern RANK_PATTERN = Pattern.compile("\"rank\": (\\d+),");
+	private static final Pattern DEVELOPERS_PATTERN = Pattern.compile("\"developers\": (\\{.+\\})", Pattern.DOTALL);
 
 	private static final Logger log = LoggerFactory.getLogger(LunUtil.class);
 
@@ -39,16 +39,10 @@ public class LunUtil {
 				long id = MODEL.buildings[i].id;
 				MODEL.buildings[i].developers = new Developer();
 				String extendedJson = new String(Files.readAllBytes(Paths.get(ClassLoader.getSystemResource(String.format("lundb/building_%d.json", id)).toURI())));
-				Matcher m = RANK_PATTERN.matcher(extendedJson);
-				if(m.find() && m.groupCount() > 0) {
-					try {
-						MODEL.buildings[i].developers.rank = Long.parseLong(m.group(1)) + 1;
-					}
-					catch(Exception e) {
-						log.warn("", e);
-						MODEL.buildings[i].developers.rank = -1;
-					}
-					if(MODEL.buildings[i].developers.rank > maxRank) {
+				Matcher devMatcher = DEVELOPERS_PATTERN.matcher(extendedJson);
+				if(devMatcher.find() && devMatcher.groupCount() > 0) {
+					MODEL.buildings[i].developers = JsonUtil.parseJson(devMatcher.group(1), Developer.class);
+					if(maxRank < MODEL.buildings[i].developers.rank) {
 						maxRank = MODEL.buildings[i].developers.rank;
 					}
 				}
