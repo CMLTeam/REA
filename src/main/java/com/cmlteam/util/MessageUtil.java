@@ -11,6 +11,7 @@ import org.apache.commons.lang3.StringUtils;
 public class MessageUtil {
 	/**
 	 * Returns one of the strings passed randomly
+	 *
 	 * @param messages input string to choose randomly from
 	 * @return one of the strings passed randomly
 	 */
@@ -25,12 +26,23 @@ public class MessageUtil {
 		text = StringUtils.trimToEmpty(text);
 		text = StringUtils.lowerCase(text);
 		return "hi".equalsIgnoreCase(text)
-				|| containsMultiple(text, "привет", "привіт", "здоров", "здравств", "как дела", "hello", "what's up", "whats up");
+				|| containsMultiple(text,
+				"привет",
+				"привіт",
+				"здоров",
+				"здравств",
+				"как дела",
+				"hello",
+				"what's up",
+				"whats up",
+				"start",
+				"как "
+		);
 	}
 
-	static boolean containsMultiple(String text, String... search) {
+	private static boolean containsMultiple(String text, String... search) {
 		if(search.length > 0) {
-			for(String s: search) {
+			for(String s : search) {
 				if(StringUtils.contains(text, s)) {
 					return true;
 				}
