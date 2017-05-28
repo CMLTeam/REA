@@ -4,7 +4,6 @@ import com.cmlteam.derj_arh_bud.DabCategory;
 import com.cmlteam.derj_arh_bud.DabRecord;
 import com.cmlteam.util.HttpUtil;
 import com.cmlteam.util.JsonUtil;
-import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -20,8 +19,8 @@ import java.util.List;
 import java.util.Map;
 
 public class ParseDerjArhBud {
-        static int[] years = {2014, 2015, 2016, 2017};
-//    static int[] years = {2017};
+    static int[] years = {2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017};
+    //    static int[] years = {2017};
     private static final String KYIV_OBL_REGION_ID = "26";
 
     public static void main(String[] args) throws IOException {
@@ -96,12 +95,17 @@ public class ParseDerjArhBud {
                     if (lastPage == -1) {
                         String href = document.select("#pages > a:last-of-type")
                                 .attr("href");
-                        if (StringUtils.isBlank(href)) {
-                            System.out.println("That's all, folks");
-                            return;
+//                        if (StringUtils.isBlank(href)) {
+//                            System.out.println("That's all, folks");
+//                            return;
+//                        }
+                        try {
+                            lastPage = Integer.parseInt(href
+                                    .split("page=")[1]);
+                        } catch (Exception ex) {
+                            System.out.println(ex);
+                            break;
                         }
-                        lastPage = Integer.parseInt(href
-                                .split("page=")[1]);
 
                         System.out.println("Last page= " + lastPage);
 //                        break;// TODO
