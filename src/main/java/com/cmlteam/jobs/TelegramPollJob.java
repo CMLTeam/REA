@@ -98,7 +98,7 @@ public class TelegramPollJob {
                             "є суттєві ризики"
                         );
                         /*if (building.img != null) {
-                        if(building.developers.rank < LunUtil.RATING_NORMALIZER / 2) {
+                        if(building.developers.rank < (LunUtil.RATING_NORMALIZER / 2 - 1)) {
                             sendFraudAlert(chatId);
                         }
                         else if (building.img != null) {
