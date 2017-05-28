@@ -59,6 +59,7 @@ public class TelegramPollJob {
                     "Привіт, введи адресу об'єкту або назву ЖК",
                     "Вітаю, будь ласка, введіть адресу або назву об'єкту"
                 )));
+                sendFraudAlert(chatId);
             }
             else if (text.contains(" ") || text.contains(",")) {
                 try {
@@ -118,6 +119,17 @@ public class TelegramPollJob {
     }
 
     private void sendFraudAlert(long chatId) {
-        bot.execute(new SendVideo(chatId, "https://media1.giphy.com/media/hgjNPEmAmpCMM/200.mp4"));
+        bot.execute(
+                new SendVideo(
+                        chatId,
+                        oneOf(
+                                "https://media1.giphy.com/media/hgjNPEmAmpCMM/200.mp4",
+                                "https://media4.giphy.com/media/yoJC2NhEwhBSQhu6WY/200.mp4",
+                                "https://media1.giphy.com/media/ORUfXNGgFVy2Q/200.mp4",
+                                "https://media3.giphy.com/media/ABoaCMjkoqmIg/200.mp4",
+                                "https://media1.giphy.com/media/WFJwD9IWisMQE/200.mp4"
+                        )
+                )
+        );
     }
 }
