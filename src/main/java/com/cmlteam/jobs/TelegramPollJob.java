@@ -7,7 +7,9 @@ import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.TelegramBotAdapter;
 import com.pengrad.telegrambot.model.Message;
 import com.pengrad.telegrambot.model.Update;
+import com.pengrad.telegrambot.model.request.Keyboard;
 import com.pengrad.telegrambot.model.request.ParseMode;
+import com.pengrad.telegrambot.model.request.ReplyKeyboardMarkup;
 import com.pengrad.telegrambot.request.GetUpdates;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.request.SendPhoto;
@@ -63,9 +65,9 @@ public class TelegramPollJob {
             }
             else if (text.contains(" ") || text.contains(",")) {
                 try {
-                    Building building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
-                    if (building != null) {
-                        String result = String.format(
+//                    Building building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
+//                    if (building != null) {
+                        /*String result = String.format(
                             "Результат перевірки за вашим запитом:\n\n" +
                                 "<b>Адреса:</b> %s\n" +
                                 "<b>Замовник будівництва:</b> %s\n" +
@@ -84,25 +86,34 @@ public class TelegramPollJob {
                             "RISKS",
                             building.developers.rank,
                             LunUtil.RATING_NORMALIZER
+                        );*/
+                        String result = String.format(
+                            "Результат перевірки за вашим запитом:\n\n" +
+                                "<b>Адреса:</b> %s\n" +
+                                "<b>Висновок:</b> %s\n",
+                            "перетин проспектів Броварського та Визволителів у Дніпровському районі міста Києва",
+                            "є суттєві ризики"
                         );
-                        if (building.img != null) {
+                        /*if (building.img != null) {
                             String img = building.img.small;
                             if (StringUtils.isEmpty(img))
                                 img = building.img.mainThumb;
                             if (img.startsWith("//"))
                                 img = "https:" + img;
                             bot.execute(new SendPhoto(chatId, img));
-                        }
-                        SendResponse response = bot.execute(new SendMessage(chatId, result).parseMode(ParseMode.HTML));
+                        }*/
+                    bot.execute(new SendPhoto(chatId, "http://jk-freedom.com.ua/Media/images/renders/projects_big/beefc0111101056383a36babb0ec05d2.jpg"));
+                        SendResponse response = bot.execute(new SendMessage(chatId, result).parseMode(ParseMode.HTML)
+                                .replyMarkup(horizontalKeyboardFrom("Детальніше...")));
                         if (!response.isOk()) {
                             log.error(response.description());
                         }
-                    }
-                    else {
-                        wrongAddress(chatId);
-                    }
+//                    }
+//                    else {
+//                        wrongAddress(chatId);
+//                    }
                 }
-                catch (IOException e) {
+                catch (Exception e) {
                     log.warn("", e);
                     wrongAddress(chatId);
                 }
@@ -115,7 +126,9 @@ public class TelegramPollJob {
             }
         }
     }
-
+    private static Keyboard horizontalKeyboardFrom(String... keys) {
+        return new ReplyKeyboardMarkup(keys).oneTimeKeyboard(true).resizeKeyboard(true).selective(true);
+    }
     private void wrongAddress(long chatId) {
         bot.execute(new SendMessage(chatId, oneOf("Назва введена невірно, будь ласка спробуйте ще раз:")));
     }
