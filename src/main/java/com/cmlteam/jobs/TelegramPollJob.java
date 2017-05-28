@@ -10,6 +10,7 @@ import com.pengrad.telegrambot.model.Update;
 import com.pengrad.telegrambot.request.GetUpdates;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.request.SendPhoto;
+import com.pengrad.telegrambot.request.SendVideo;
 import com.pengrad.telegrambot.response.GetUpdatesResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -111,4 +112,7 @@ public class TelegramPollJob {
         bot.execute(new SendMessage(chatId, oneOf("Назва введена невірно, будь ласка спробуйте ще раз:")));
     }
 
+    private void sendFraudAlert(long chatId) {
+        bot.execute(new SendVideo(chatId, "https://media1.giphy.com/media/hgjNPEmAmpCMM/200.mp4"));
+    }
 }
