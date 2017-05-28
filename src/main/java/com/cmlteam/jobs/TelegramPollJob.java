@@ -63,12 +63,12 @@ public class TelegramPollJob {
                 )));
                 sendFraudAlert(chatId);
             }
-            else if (text.contains(" ") || text.contains(",")) {
+            else if (text.contains(" ") || text.contains(",") || text.toLowerCase().contains("freedom")) {
                 try {
 //                    Building building = LunUtil.getClosestBuilding(text);
-                    if(building == null || !StringUtils.contains(building.formattedAddress, "Kyiv")) {
-                        building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
-                    }
+//                    if(building == null || !StringUtils.contains(building.formattedAddress, "Kyiv")) {
+//                        building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
+//                    }
 //                    if (building != null) {
                         /*String result = String.format(
                             "Результат перевірки за вашим запитом:\n\n" +
@@ -124,6 +124,29 @@ public class TelegramPollJob {
                     log.warn("", e);
                     wrongAddress(chatId);
                 }
+            }
+            else if ("Детальніше...".equals(text)) {
+                bot.execute(new SendMessage(chatId, "<b>Інформація з відкртих державних реєстрів про обєкт ЖК Freedom.</b>\n\n" +
+                        "<b>Замовник:</b> ТОВ \"КОМПАНІЯ \"МЕТРОПОЛІС\", 32587652\n" +
+                        "<b>Підрядник:</b> ТОВ \"СПЕЦБУД-ПЛЮС\", 36590344, ліцензія АЕ289010\n" +
+                        "<b>Кадастровий номер - цільове призначення:</b> \n" +
+                        "8000000000:66:174:0002 - Для розміщення та експлуатації основних, підсобних і допоміжних будівель та споруд підприємств переробної, машинобудівної та іншої промисловості\n" +
+                        "8000000000:66:264:0039 - Іншої комерційної діяльності\n" +
+                        " 8000000000:66:264:0044 - Автотехобслуговування\n" +
+                        "8000000000:66:264:0036 - Автотехобслуговування\n" +
+                        "<b>Дозвільний документ:</b>\n" +
+                        "Дозвіл на виконання будівельних робіт - 29.08.2016 ІУ115162422185\n" +
+                        "Введення в експлуатацію:\n" +
+                        "2 кв. 2019\n" +
+                        "<b>Податковий борг підрядника:</b>\n" +
+                        "відсутній\n" +
+                        "<b>Податковий борг замовника:</b>\n" +
+                        "відсутній\n" +
+                        "<b>Стан підрядника:</b>\n" +
+                        "не перебуває в стадії припинення\n" +
+                        "<b>Стан замовника:</b>\n" +
+                        "не перебуває в стадії припинення\n").parseMode(ParseMode.HTML)
+                        .replyMarkup(horizontalKeyboardFrom("Судові рішення", "Поглиблений пошук")));
             }
             else {
                 bot.execute(new SendMessage(chatId, oneOf(
