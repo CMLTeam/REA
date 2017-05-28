@@ -204,7 +204,10 @@ public class TelegramPollJob {
                         "<b>Судові ризики:</b>\n" +
                         "Оспорюється право користування земельною ділянку\n"
                 ).parseMode(ParseMode.HTML)
-						.replyMarkup(horizontalKeyboardFrom("Судові рішення", "Поглиблений пошук")));
+						.replyMarkup(verticalKeyboardFrom(
+								"Судові рішення",
+								"Відправити на мейл",
+								"Поглиблений пошук")));
 			}
 			else {
 				bot.execute(new SendMessage(chatId, oneOf(
@@ -222,6 +225,15 @@ public class TelegramPollJob {
 		}
 		return new InlineKeyboardMarkup(buttons);
 	}
+
+	private static Keyboard verticalKeyboardFrom(String... keys) {
+		InlineKeyboardButton[][] buttons = new InlineKeyboardButton[keys.length][];
+		for(int i = 0; i < keys.length; i++) {
+			buttons[i] = new InlineKeyboardButton[]{new InlineKeyboardButton(keys[i]).callbackData(keys[i])};
+		}
+		return new InlineKeyboardMarkup(buttons);
+	}
+
 
 	private void wrongAddress(long chatId) {
 		bot.execute(new SendMessage(chatId, oneOf("Назва введена невірно, будь ласка спробуйте ще раз:")));
