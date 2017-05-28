@@ -56,12 +56,12 @@
   ],
   "price": "от&nbsp;<span class=\"price__numbers\">19&nbsp;740<\/span>&nbsp;грн\/м²",
   "developers": {
-    "companyId": false,
-    "name": false,
+    "companyId": -1,
+    "name": "",
     "site": "http:\/\/www.uspishny-kvartal.kiev.ua\/",
     "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2Fwww.uspishny-kvartal.kiev.ua%2F",
-    "rank": false,
-    "companyUrl": false
+    "rank": -1,
+    "companyUrl": ""
   },
   "developerOffer": "available",
   "hidePrice": "no",

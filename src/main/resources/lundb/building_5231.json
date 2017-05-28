@@ -49,12 +49,12 @@
   "prices": [],
   "price": "Продажи не начались",
   "developers": {
-    "companyId": false,
-    "name": false,
+    "companyId": -1,
+    "name": "",
     "site": "",
     "redirect_site": "",
-    "rank": false,
-    "companyUrl": false
+    "rank": -1,
+    "companyUrl": ""
   },
   "developerOffer": "not_started",
   "hidePrice": "no",

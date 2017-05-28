@@ -64,12 +64,12 @@
   ],
   "price": "от&nbsp;<span class=\"price__numbers\">27&nbsp;030<\/span>&nbsp;грн\/м²",
   "developers": {
-    "companyId": false,
-    "name": false,
+    "companyId": -1,
+    "name": "",
     "site": "http:\/\/смартхаус.com",
     "redirect_site": "https:\/\/novostroyki.lun.ua\/go?category=click_building&action=company_map&to=http%3A%2F%2F%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%85%D0%B0%D1%83%D1%81.com",
-    "rank": false,
-    "companyUrl": false
+    "rank": -1,
+    "companyUrl": ""
   },
   "developerOffer": "available",
   "hidePrice": "no",
