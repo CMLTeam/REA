@@ -7,10 +7,12 @@ import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.TelegramBotAdapter;
 import com.pengrad.telegrambot.model.Message;
 import com.pengrad.telegrambot.model.Update;
+import com.pengrad.telegrambot.model.request.ParseMode;
 import com.pengrad.telegrambot.request.GetUpdates;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.request.SendPhoto;
 import com.pengrad.telegrambot.response.GetUpdatesResponse;
+import com.pengrad.telegrambot.response.SendResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -62,15 +64,15 @@ public class TelegramPollJob {
                     Building building = LunUtil.getClosestBuilding(text);
                     if (building != null) {
                         String result = String.format(
-                                "Результат перевірки за вашим запитом:\n" +
-                                        "Адреса: %s\n" +
-                                        "Замовник будівництва: %s\n" +
-                                        "Генпідрядник: %s\n" +
-                                        "Строк введення в експлуатацію: %s\n" +
-                                        "Дозвільні документи: %s\n" +
-                                        "Статус землі: %s\n" +
-                                        "Виявлені ризики: %s\n" +
-                                        "Рейтинг: %s",
+                                "Результат перевірки за вашим запитом:\n\n" +
+                                        "<b>Адреса:</b> %s\n" +
+                                        "<b>Замовник будівництва:</b> %s\n" +
+                                        "<b>Генпідрядник:</b> %s\n" +
+                                        "<b>Строк введення в експлуатацію:</b> %s\n" +
+                                        "<b>Дозвільні документи:</b> %s\n" +
+                                        "<b>Статус землі:</b> %s\n" +
+                                        "<b>Виявлені ризики:</b> %s\n" +
+                                        "<b>Рейтинг: %s</b>",
                                 building.formattedAddress,
                                 "ZAMOV",
                                 "GEN",
@@ -87,7 +89,10 @@ public class TelegramPollJob {
                                 img = "https:" + img;
                             bot.execute(new SendPhoto(chatId, img));
                         }
-                        bot.execute(new SendMessage(chatId, result));
+                        SendResponse response = bot.execute(new SendMessage(chatId, result).parseMode(ParseMode.HTML));
+                        if (!response.isOk()) {
+                            log.error(response.description());
+                        }
                     } else {
                         shitHappens(chatId);
                     }
