@@ -66,23 +66,25 @@ public class TelegramPollJob {
                     Building building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
                     if (building != null) {
                         String result = String.format(
-                                "Результат перевірки за вашим запитом:\n\n" +
-                                        "<b>Адреса:</b> %s\n" +
-                                        "<b>Замовник будівництва:</b> %s\n" +
-                                        "<b>Генпідрядник:</b> %s\n" +
-                                        "<b>Строк введення в експлуатацію:</b> %s\n" +
-                                        "<b>Дозвільні документи:</b> %s\n" +
-                                        "<b>Статус землі:</b> %s\n" +
-                                        "<b>Виявлені ризики:</b> %s\n" +
-                                        "<b>Рейтинг: %s</b>",
-                                building.formattedAddress,
-                                "ZAMOV",
-                                "GEN",
-                                "STROK",
-                                "DOCS",
-                                "STATUS",
-                                "RISKS",
-                                "9/10");
+                            "Результат перевірки за вашим запитом:\n\n" +
+                                "<b>Адреса:</b> %s\n" +
+                                "<b>Замовник будівництва:</b> %s\n" +
+                                "<b>Генпідрядник:</b> %s\n" +
+                                "<b>Строк введення в експлуатацію:</b> %s\n" +
+                                "<b>Дозвільні документи:</b> %s\n" +
+                                "<b>Статус землі:</b> %s\n" +
+                                "<b>Виявлені ризики:</b> %s\n" +
+                                "<b>Рейтинг: %d/%d</b>",
+                            building.formattedAddress,
+                            "ZAMOV",
+                            "GEN",
+                            "STROK",
+                            "DOCS",
+                            "STATUS",
+                            "RISKS",
+                            building.developers.rank,
+                            LunUtil.RATING_NORMALIZER
+                        );
                         if (building.img != null) {
                             String img = building.img.small;
                             if (StringUtils.isEmpty(img))

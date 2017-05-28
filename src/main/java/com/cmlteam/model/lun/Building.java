@@ -12,7 +12,6 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 
 
-@JsonIgnoreProperties
 @XmlRootElement
 public class Building extends AbstractJson {
 	@XmlElement
@@ -39,6 +38,13 @@ public class Building extends AbstractJson {
 	public Point[] polygon;
 	@XmlElement
 	public String analytics;
+
+	@XmlElement
+	public String type;
+	@XmlElement
+	public BuildingClass buildingClass;
+	@XmlElement
+	public Developer developers;
 
 	public String formattedAddress;
 }
