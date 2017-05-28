@@ -54,7 +54,7 @@ public class TelegramPollJob {
             if(isGreeting(text)) {
                 bot.execute(new SendMessage(chatId, oneOf(
                     "Привіт, введи адресу об'єкту або назву ЖК",
-                    "Здрастуйте, будь ласка, введіть адресу або назву об'єкту"
+                    "Вітаю, будь ласка, введіть адресу або назву об'єкту"
                 )));
             }
             if (text.contains(" ") || text.contains(",")) {
