@@ -122,7 +122,7 @@ public class TelegramPollJob {
 						);
 						bot.execute(new SendPhoto(chatId, "http://jk-freedom.com.ua/Media/images/renders/projects_big/beefc0111101056383a36babb0ec05d2.jpg"));
 						SendResponse response = bot.execute(new SendMessage(chatId, result).parseMode(ParseMode.HTML)
-								.replyMarkup(horizontalKeyboardFrom("Детальніше...")));
+								.replyMarkup(horizontalKeyboardFrom("Детальніше...", "Сайт обʼєкта")));
 						if(!response.isOk()) {
 							log.error(response.description());
 						}
@@ -182,7 +182,7 @@ public class TelegramPollJob {
 				}
 			}
 			else if("Детальніше...".equals(text)) {
-				bot.execute(new SendMessage(chatId, "<b>Інформація з відкртих державних реєстрів про обєкт ЖК Freedom.</b>\n\n" +
+				bot.execute(new SendMessage(chatId, "<b>Інформація з відкртих державних реєстрів про обʼєкт ЖК Freedom.</b>\n\n" +
 						"<b>Замовник:</b> ТОВ \"КОМПАНІЯ \"МЕТРОПОЛІС\", 32587652\n" +
 						"<b>Підрядник:</b> ТОВ \"СПЕЦБУД-ПЛЮС\", 36590344, ліцензія АЕ289010\n" +
 						"<b>Кадастровий номер - цільове призначення:</b> \n" +
