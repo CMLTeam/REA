@@ -53,13 +53,13 @@ public class TelegramPollJob {
             long chatId = message.chat().id();
             if(isGreeting(text)) {
                 bot.execute(new SendMessage(chatId, oneOf(
-                    "Привіт, введи адресу об'єкту або назву ЖК",
-                    "Здрастуйте, будь ласка, введіть адресу або назву об'єкту"
+                    "Привіт, введи адресу об'єкту або назву ЖК:",
+                    "Здрастуйте, будь ласка, введіть адресу або назву об'єкту:"
                 )));
             }
-            if (text.contains(" ") || text.contains(",")) {
+            else if (text.contains(" ") || text.contains(",")) {
                 try {
-                    Building building = LunUtil.getClosestBuilding(text);
+                    Building building = LunUtil.getClosestBuilding(String.format("%s, Kyiv, Ukraine", text));
                     if (building != null) {
                         String result = String.format(
                                 oneOf("Результат перевірки за адресою %s:\nВстановив рейтинг: %s"),
@@ -77,25 +77,27 @@ public class TelegramPollJob {
                             bot.execute(new SendPhoto(chatId, img));
                         }
                         bot.execute(new SendMessage(chatId, result));
-                    } else {
-                        shitHappens(chatId);
                     }
-                } catch (IOException e) {
+                    else {
+                        wrongAddress(chatId);
+                    }
+                }
+                catch (IOException e) {
                     log.warn("", e);
-                    shitHappens(chatId);
+                    wrongAddress(chatId);
                 }
             }
             else {
                 bot.execute(new SendMessage(chatId, oneOf(
-                    "Введіть адресу об'єкту або назву ЖК",
-                    "Будь ласка, введіть адресу або назву об'єкту"
+                    "Введіть адресу об'єкту або назву ЖК:",
+                    "Будь ласка, введіть адресу або назву об'єкту:"
                 )));
             }
         }
     }
 
-    private void shitHappens(long chatId) {
-        bot.execute(new SendMessage(chatId, oneOf("Назва введена невірно, будь ласка спробуйте ще раз")));
+    private void wrongAddress(long chatId) {
+        bot.execute(new SendMessage(chatId, oneOf("Назва введена невірно, будь ласка спробуйте ще раз:")));
     }
 
 }
