@@ -7,9 +7,7 @@ import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.TelegramBotAdapter;
 import com.pengrad.telegrambot.model.Message;
 import com.pengrad.telegrambot.model.Update;
-import com.pengrad.telegrambot.model.request.Keyboard;
-import com.pengrad.telegrambot.model.request.ParseMode;
-import com.pengrad.telegrambot.model.request.ReplyKeyboardMarkup;
+import com.pengrad.telegrambot.model.request.*;
 import com.pengrad.telegrambot.request.GetUpdates;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.request.SendPhoto;
@@ -53,9 +51,17 @@ public class TelegramPollJob {
         for (Update update : updates) {
             offset = Math.max(offset, update.updateId() + 1);
             Message message = update.message();
-            String text = StringUtils.trimToEmpty(message.text());
+            String text;
+            long chatId = -1;
+            if (message != null) {
+                text = message.text();
+                chatId = message.chat().id();
+            } else {
+                text = update.callbackQuery().data();
+                chatId = update.callbackQuery().message().chat().id();
+            }
+            text = StringUtils.trimToEmpty(text);
             System.out.println(text);
-            long chatId = message.chat().id();
             if (isGreeting(text)) {
                 bot.execute(new SendMessage(chatId, oneOf(
                         "Привіт, введи адресу об'єкту або назву ЖК",
@@ -191,7 +197,11 @@ public class TelegramPollJob {
     }
 
     private static Keyboard horizontalKeyboardFrom(String... keys) {
-        return new ReplyKeyboardMarkup(keys).oneTimeKeyboard(true).resizeKeyboard(true).selective(true);
+        InlineKeyboardButton[] buttons = new InlineKeyboardButton[keys.length];
+        for (int i = 0; i < keys.length; i++) {
+            buttons[i] = new InlineKeyboardButton(keys[i]).callbackData(keys[i]);
+        }
+        return new InlineKeyboardMarkup(buttons);
     }
 
     private void wrongAddress(long chatId) {
