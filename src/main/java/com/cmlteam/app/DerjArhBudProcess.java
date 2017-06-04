@@ -27,30 +27,37 @@ public class DerjArhBudProcess {
             while ((row = reader.readLine()) != null) {
                 DabRecord dabRecord = JsonUtil.parseJson(row, DabRecord.class);
 
-                // TODO batch
-                jdbcTemplate.update("insert into dabi (year,month,number,idabk,document,object,address," +
-                                "address_city,address_district,address_street,address_streetno,address_flat,category," +
-                                "zamovnyk,teh_naglyad,proektuvalnyk,author_naglyad,pidryadnyk,information) values " +
-                                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-                        dabRecord.getYear(),
-                        dabRecord.getMonth(),
-                        dabRecord.getNumber(),
-                        dabRecord.getIdabk(),
-                        dabRecord.getDocument(),
-                        dabRecord.getObject(),
-                        dabRecord.getAddress(),
-                        dabRecord.getAddressCity(),
-                        dabRecord.getAddressDistrict(),
-                        dabRecord.getAddressStreet(),
-                        dabRecord.getAddressStreetNo(),
-                        dabRecord.getAddressFlatNo(),
-                        dabRecord.getCategory().getNo(),
-                        dabRecord.getZamovnyk(),
-                        dabRecord.getTehNaglyad(),
-                        dabRecord.getProektuvalnyk(),
-                        dabRecord.getAuthorNaglyad(),
-                        dabRecord.getPidryadnyk(),
-                        dabRecord.getInformation());
+                try {
+                    // TODO batch
+                    jdbcTemplate.update("insert into dabi (year,month,number,idabk,document,object,address," +
+                                    "address_city,address_district,address_street,address_streetno,address_flat,category," +
+                                    "zamovnyk,teh_naglyad,proektuvalnyk,author_naglyad,pidryadnyk,information) values " +
+                                    "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                            dabRecord.getYear(),
+                            dabRecord.getMonth(),
+                            dabRecord.getNumber(),
+                            dabRecord.getIdabk(),
+                            dabRecord.getDocument(),
+                            dabRecord.getObject(),
+                            dabRecord.getAddress(),
+                            dabRecord.getAddressCity(),
+                            dabRecord.getAddressDistrict(),
+                            dabRecord.getAddressStreet(),
+                            dabRecord.getAddressStreetNo(),
+                            dabRecord.getAddressFlatNo(),
+                            dabRecord.getCategory().getNo(),
+                            dabRecord.getZamovnyk(),
+                            dabRecord.getTehNaglyad(),
+                            dabRecord.getProektuvalnyk(),
+                            dabRecord.getAuthorNaglyad(),
+                            dabRecord.getPidryadnyk(),
+                            dabRecord.getInformation());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    System.out.println(dabRecord);
+                    return;
+                }
+
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

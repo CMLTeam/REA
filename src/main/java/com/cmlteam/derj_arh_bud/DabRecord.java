@@ -43,6 +43,31 @@ public class DabRecord {
         this.information = information;
     }
 
+    @Override
+    public String toString() {
+        return "DabRecord{" +
+                "year=" + year +
+                ", month=" + month +
+                ", number='" + number + '\'' +
+                ", idabk='" + idabk + '\'' +
+                ", document='" + document + '\'' +
+                ", object='" + object + '\'' +
+                ", category=" + category +
+                ", zamovnyk='" + zamovnyk + '\'' +
+                ", tehNaglyad='" + tehNaglyad + '\'' +
+                ", proektuvalnyk='" + proektuvalnyk + '\'' +
+                ", authorNaglyad='" + authorNaglyad + '\'' +
+                ", pidryadnyk='" + pidryadnyk + '\'' +
+                ", information='" + information + '\'' +
+                ", address='" + address + '\'' +
+                ", addressCity='" + addressCity + '\'' +
+                ", addressDistrict='" + addressDistrict + '\'' +
+                ", addressStreet='" + addressStreet + '\'' +
+                ", addressStreetNo='" + addressStreetNo + '\'' +
+                ", addressFlatNo=" + addressFlatNo +
+                '}';
+    }
+
     public int getYear() {
         return year;
     }
@@ -106,17 +131,23 @@ public class DabRecord {
         String[] addrParts = address.split(",");
 
         addressCity = addrParts[0];
-        if (addrParts.length > 1)
-            addressDistrict = addrParts[1];
-        if (addrParts.length > 2)
-            addressStreet = addrParts[2];
-        if (addrParts.length > 3)
-            addressStreetNo = addrParts[3];
-
         addressCity = addressCity.trim().replace("м.", "").trim();
-        addressStreet = addressStreet.trim();
-        addressStreetNo = addressStreetNo.trim();
+        if (addrParts.length > 1) {
+            addressDistrict = addrParts[1];
+            addressDistrict = addressDistrict.replace("район", "").trim();
+        }
+        if (addrParts.length > 2) {
+            addressStreet = addrParts[2];
+            addressStreet = addressStreet.trim();
+        }
+        if (addrParts.length > 3) {
+            addressStreetNo = addrParts[3];
+            addressStreetNo = addressStreetNo.trim();
+            if (addressStreetNo.length() > 10)
+                addressStreetNo = null; // TODO
+        }
 
+        // TODO parse all cases
         // TODO flat no
     }
 
