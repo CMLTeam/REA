@@ -22,12 +22,35 @@ public class DerjArhBudProcess {
         dataSource.setPassword(DB_PASS);
         JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 
-        try(BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(FILE)))){
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(FILE)))) {
             String row;
-            while((row = reader.readLine()) != null) {
+            while ((row = reader.readLine()) != null) {
                 DabRecord dabRecord = JsonUtil.parseJson(row, DabRecord.class);
 
-                System.out.println(dabRecord);
+                // TODO batch
+                jdbcTemplate.update("insert into dabi (year,month,number,idabk,document,object,address," +
+                                "address_city,address_district,address_street,address_streetno,address_flat,category," +
+                                "zamovnyk,teh_naglyad,proektuvalnyk,author_naglyad,pidryadnyk,information) values " +
+                                "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                        dabRecord.getYear(),
+                        dabRecord.getMonth(),
+                        dabRecord.getNumber(),
+                        dabRecord.getIdabk(),
+                        dabRecord.getDocument(),
+                        dabRecord.getObject(),
+                        dabRecord.getAddress(),
+                        dabRecord.getAddressCity(),
+                        dabRecord.getAddressDistrict(),
+                        dabRecord.getAddressStreet(),
+                        dabRecord.getAddressStreetNo(),
+                        dabRecord.getAddressFlatNo(),
+                        dabRecord.getCategory().getNo(),
+                        dabRecord.getZamovnyk(),
+                        dabRecord.getTehNaglyad(),
+                        dabRecord.getProektuvalnyk(),
+                        dabRecord.getAuthorNaglyad(),
+                        dabRecord.getPidryadnyk(),
+                        dabRecord.getInformation());
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

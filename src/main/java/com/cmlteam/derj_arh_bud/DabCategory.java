@@ -33,7 +33,11 @@ public enum DabCategory {
         this.catDescr = catDescr;
     }
 
-    public  static DabCategory of(String catNo) {
+    public int getNo() {
+        return Integer.parseInt(catNo);
+    }
+
+    public static DabCategory of(String catNo) {
         for (DabCategory category : values()) {
             if (Objects.equals(catNo, category.catNo) || Objects.equals("0" + catNo, category.catNo))
                 return category;

@@ -1,5 +1,7 @@
 package com.cmlteam.derj_arh_bud;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class DabRecord {
     public int year;
     public int month;
@@ -14,6 +16,13 @@ public class DabRecord {
     public String authorNaglyad;
     public String pidryadnyk;
     public String information;
+
+    private String address;
+    private String addressCity;
+    private String addressDistrict;
+    private String addressStreet;
+    private String addressStreetNo;
+    private Integer addressFlatNo;
 
     public DabRecord() {
     }
@@ -80,6 +89,59 @@ public class DabRecord {
 
     public void setObject(String object) {
         this.object = object;
+        parseAddress();
+    }
+
+    private void parseAddress() {
+        String[] parts = object.split(";");
+        if (parts.length < 2)
+            return;
+        address = parts[parts.length - 1];
+        address = address.trim();
+        object = StringUtils.join(parts, ';', 0, parts.length - 1);// split address
+
+        if ("".equals(address))
+            return;
+
+        String[] addrParts = address.split(",");
+
+        addressCity = addrParts[0];
+        if (addrParts.length > 1)
+            addressDistrict = addrParts[1];
+        if (addrParts.length > 2)
+            addressStreet = addrParts[2];
+        if (addrParts.length > 3)
+            addressStreetNo = addrParts[3];
+
+        addressCity = addressCity.trim().replace("м.", "").trim();
+        addressStreet = addressStreet.trim();
+        addressStreetNo = addressStreetNo.trim();
+
+        // TODO flat no
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getAddressCity() {
+        return addressCity;
+    }
+
+    public String getAddressDistrict() {
+        return addressDistrict;
+    }
+
+    public String getAddressStreet() {
+        return addressStreet;
+    }
+
+    public String getAddressStreetNo() {
+        return addressStreetNo;
+    }
+
+    public Integer getAddressFlatNo() {
+        return addressFlatNo;
     }
 
     public DabCategory getCategory() {
