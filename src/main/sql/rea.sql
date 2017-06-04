@@ -1,0 +1,22 @@
+CREATE TABLE dabi (
+  id               BIGINT   NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  year             SMALLINT NOT NULL,
+  month            SMALLINT NOT NULL,
+  number           VARCHAR(100),
+  idabk            VARCHAR(100),
+  document         VARCHAR(255),
+  object           VARCHAR(4000),
+  address          VARCHAR(500),
+  address_city     VARCHAR(50),
+  address_district VARCHAR(50),
+  address_street   VARCHAR(100),
+  address_streetno VARCHAR(10),
+  address_flat     SMALLINT,
+  category         SMALLINT NOT NULL,
+  zamovnyk         VARCHAR(255),
+  teh_naglyad      VARCHAR(255),
+  proektuvalnyk    VARCHAR(255),
+  author_naglyad   VARCHAR(255),
+  pidryadnyk       VARCHAR(255),
+  information      VARCHAR(255)
+);
