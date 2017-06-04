@@ -12,7 +12,7 @@ CREATE TABLE dabi (
   address_street   VARCHAR(100),
   address_streetno VARCHAR(10),
   address_flat     SMALLINT,
-  category         SMALLINT NOT NULL,
+  category         SMALLINT,
   zamovnyk         VARCHAR(255),
   teh_naglyad      VARCHAR(255),
   proektuvalnyk    VARCHAR(255),

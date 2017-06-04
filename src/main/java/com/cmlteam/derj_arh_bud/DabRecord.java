@@ -132,13 +132,19 @@ public class DabRecord {
 
         addressCity = addrParts[0];
         addressCity = addressCity.trim().replace("м.", "").trim();
+        if (addressCity.length() > 50)
+            addressCity = null;
         if (addrParts.length > 1) {
             addressDistrict = addrParts[1];
             addressDistrict = addressDistrict.replace("район", "").trim();
+            if (addressDistrict.length() > 50)
+                addressDistrict = null;
         }
         if (addrParts.length > 2) {
             addressStreet = addrParts[2];
             addressStreet = addressStreet.trim();
+            if (addressStreet.length() > 100)
+                addressStreet = null;
         }
         if (addrParts.length > 3) {
             addressStreetNo = addrParts[3];
