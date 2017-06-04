@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ParseDerjArhBud {
+public class DerjArhBudFetch {
     static int[] years = {2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017};
     //    static int[] years = {2017};
     private static final String KYIV_OBL_REGION_ID = "26";
