@@ -2,8 +2,9 @@ package com.cmlteam.app;
 
 import com.cmlteam.derj_arh_bud.DabRecord;
 import com.cmlteam.util.JsonUtil;
+import org.apache.tomcat.jdbc.pool.DataSource;
+import org.apache.tomcat.jdbc.pool.PoolProperties;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -17,16 +18,20 @@ public class DerjArhBudProcess {
     public static final String FILE = "/home/xonix/proj/REA/src/main/resources/derj_arh_bud.txt";
 
     public static void main(String[] args) {
-        DriverManagerDataSource dataSource = new DriverManagerDataSource(DB_URL);
-        dataSource.setUsername(DB_USER);
-        dataSource.setPassword(DB_PASS);
+        PoolProperties p = new PoolProperties();
+        p.setUrl(DB_URL);
+        p.setDriverClassName("com.mysql.jdbc.Driver");
+        p.setUsername(DB_USER);
+        p.setPassword(DB_PASS);
+        DataSource dataSource = new DataSource(p);
+
         JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 
         long total = 0;
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(FILE)))) {
-            total++;
             String row;
             while ((row = reader.readLine()) != null) {
+                total++;
                 DabRecord dabRecord = JsonUtil.parseJson(row, DabRecord.class);
 
                 try {
